@@ -85,6 +85,9 @@ def kit_demo():
 
 def parts(s,e):
     """Return local-space editable primitive descriptors with stable member IDs."""
+    if e['kind'].startswith('jp_'):
+        from japanese_parts import parts as japanese_parts
+        return japanese_parts(s,e)
     p=e['params'];k=e['kind'];a=[]
     def shape(name,loc,size,role='wood',kind='box',**extra):
         a.append({'id':e['id']+'/'+name,'position':list(loc),'size':list(size),'role':role,'shape':kind,**extra})
@@ -461,10 +464,12 @@ def compile_scene(s):
         colors=palette(s,e)
         colors.update({'mirror':'#cbd5d5','skyline':'#536478' if s['period']=='day' else '#18283b','sea':'#53878d' if s['period']=='day' else '#152c44'})
         for m in parts(s,e):
-            m.update({'entity':e['id'],'room':e['room'],'parent_position':e['position'],'parent_rotation':e['rotation'],'visible':e.get('visible',True),'color':e.get('overrides',{}).get(m['role'],colors[m['role']]),'outside':e['kind']=='landscape'})
+            m.update({'entity':e['id'],'room':e['room'],'parent_position':e['position'],'parent_rotation':e['rotation'],'visible':e.get('visible',True),'color':e.get('overrides',{}).get(m['role'],m.get('color',colors[m['role']])),'outside':e['kind']=='landscape'})
             m['rooms']=e.get('adjacent_rooms',[e['room']])
-            m['architecture']=e['kind']=='wall'
-            m['facade']=e['kind'] in ('window','curtain')
+            m['architecture']=e['kind']=='wall' or e.get('architecture',False)
+            m['roof']=e['kind']=='jp_roof'
+            if m['roof']:m['structural']=True
+            m['facade']=e['kind'] in ('window','curtain') or e.get('facade',False)
             surface=surface_profile(s,e,m['role'])
             if surface:m['surface']=surface
             if e['kind']=='shell':

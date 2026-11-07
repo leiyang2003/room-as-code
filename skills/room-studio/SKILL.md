@@ -14,6 +14,8 @@ Use conversation to author and maintain an editable residential scene. Keep scen
 3. For the bundled residential example, run `python3 <skill>/scripts/room.py init <new-scene.json>`. It creates the current authored residential demonstration with design dimensions; the historical eight-room example remains a separate fixture. For user photos or a different home, read [photo-authoring.md](references/photo-authoring.md), inspect the images, and author/adapt the scene to those references. The demo is not a reconstruction of the user's photos.
 4. Start the preview with `python3 <skill>/scripts/room.py serve <scene> --port <available-port>`. Open the reported loopback address in a real browser when available. The preview has no cloud/model API; language understanding happens in this conversation.
 
+The source checkout also includes `examples/japanese-three-gardens.scene.json` and `preview_samples.py`. The latter creates fresh copies of both residential samples in a new `runs/` directory and serves a sample selector. Keep edits scoped to the selected file. Japanese `jp_*` families use metre-based `w`, `d`, `h` and opening fractions; `jp_joinery` shoji/fusuma opening changes actual panel geometry. For Japanese native export/render, pass `--room engawa` (the apartment's default `living` camera is absent).
+
 ## Make a conversational edit
 
 Read [operations.md](references/operations.md) for the exact transaction contract. Resolve the user's intent to stable entity IDs, SI dimensions, explicit scope, and protected objects. Inspect candidates when "this" or "that" is ambiguous; ask only for information necessary to avoid changing the wrong thing.

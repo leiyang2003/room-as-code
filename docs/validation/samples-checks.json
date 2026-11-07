@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "Current public runtime: two-sample browser integration, 48 Python tests, fresh Japanese native export. No new full Blender render or new host-agent session is claimed.",
+  "browser": {
+    "status": "PASS",
+    "checks": [
+      "unknown IDs and filesystem paths rejected",
+      "Japanese default with 15 room views and three garden shortcuts",
+      "shoji geometry changes only the Japanese file",
+      "Manhattan curtains retained; editing/history isolated across samples",
+      "switch back and reload preserve the selected sample and saved edits",
+      "roof toggle shows actual Japanese roof geometry",
+      "both sample controls fit 390px mobile width",
+      "actual WebGL2 with no page exceptions or GL errors"
+    ],
+    "gl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "error": 0
+    },
+    "pageErrors": []
+  },
+  "native_export": {
+    "revision": 13,
+    "material_version": 3,
+    "glb_surface_mode": "constant PBR fallback; procedural textures not baked",
+    "glb_fallback_materials": 20,
+    "entities": 241,
+    "mesh_count": 3033,
+    "blender": "4.2.23 LTS"
+  },
+  "scene_sha256": "c3d7b412c152568f58445ca6079e4205937c8b5b5576697c4039a88f5348fdbb",
+  "images": {
+    "japanese-engawa.png": "1422ef3b8140c0c9ddefa80c58e2ab5ba4e694ff726e568c9d672f1047d5b836",
+    "japanese-courtyard.png": "8c4873f17a7a73ff30ff2d7b57f7211afb892124fa870d7529a72f1e6b241539",
+    "japanese-overview.png": "e5cba2bc16877e627c462d4c7c5be9cfaee10bcef3bf41cb9982a120348abf9f"
+  }
+}

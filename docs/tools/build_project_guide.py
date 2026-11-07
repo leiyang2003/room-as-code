@@ -19,6 +19,9 @@ STEM = 'Room_Studio_Project_Guide_EN'
 SOURCE = DOCS / (STEM + '.md')
 IMAGES = DOCS / 'images'
 LABELS = {
+    'japanese-engawa': 'japanese-engawa.png',
+    'japanese-overview': 'japanese-overview.png',
+    'japanese-courtyard': 'japanese-courtyard.png',
     'living-day': 'manhattan-living-day.png',
     'living-night': 'manhattan-living-night.png',
     'bedroom-day': 'manhattan-bedroom-day.png',
@@ -44,6 +47,7 @@ code{font: .83em/1.5 var(--mono);overflow-wrap:anywhere}pre{padding:17px 19px;ba
 .output-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:28px;align-items:start;margin:28px 0}.output-grid figure,.output-grid .table-wrap{margin:0}.output-grid td:first-child{width:30%}
 @media(max-width:780px){.output-grid{grid-template-columns:1fr;gap:18px}.output-grid table{min-width:0}}
 @media print{h1,h2,h3{font-family:var(--serif);font-weight:500}.cover h1,.cover h2{font-family:var(--serif);font-weight:500}.sheet{font-size:10.5pt;line-height:1.44}.sheet h2{font-family:var(--serif);font-size:30pt}.sheet h3{margin-top:4.5mm}.table-wrap table{font-size:9.2pt}.table-wrap th:first-child{width:25%}.table-wrap th,.table-wrap td{padding-top:2.3mm;padding-bottom:2.3mm}.edit-example p:nth-child(2){font-size:14pt}.output-grid{grid-template-columns:.85fr 1.15fr;gap:5mm;margin:5mm 0;break-inside:avoid}.output-grid figure,.output-grid .table-wrap{margin:0}.output-grid figure img{max-height:none;object-fit:contain}.output-grid table{font-size:9pt}.output-grid th:first-child{width:28%}.output-grid td,.output-grid th{padding-top:2mm;padding-bottom:2mm}.output-grid figcaption{font-size:8pt}.daynight figcaption{font-size:8pt}.sheet figcaption{font-size:8pt}}
+@media print{#japanese>figure img{max-height:76mm;object-fit:contain}#japanese-views>figure img{max-height:72mm;object-fit:contain}#japanese-views{font-size:10pt}}
 '''
 
 

@@ -25,3 +25,6 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: git diff --exit-code -- skills/room-studio/assets/viewer/app.js
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:browser
+      - run: node tests/samples-browser.mjs

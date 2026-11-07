@@ -40,7 +40,7 @@ def main():
     for c in ('inspect','compile','undo','redo'):
         sp=sub.add_parser(c);sp.add_argument('scene')
     sp=sub.add_parser('apply');sp.add_argument('scene');sp.add_argument('patch');sp.add_argument('--dry-run',action='store_true')
-    sp=sub.add_parser('serve');sp.add_argument('scene');sp.add_argument('--port',type=int,default=8765)
+    sp=sub.add_parser('serve');sp.add_argument('scene');sp.add_argument('--port',type=int,default=8765);sp.add_argument('--samples',help='Optional local sample registry JSON')
     sp=sub.add_parser('blender');sp.add_argument('scene');sp.add_argument('--out',required=True);sp.add_argument('--render');sp.add_argument('--room',default='living');sp.add_argument('--samples',type=int,default=32);sp.add_argument('--resolution',type=int,default=1100)
     sp=sub.add_parser('render');sp.add_argument('scene');sp.add_argument('--out',required=True);sp.add_argument('--image',required=True);sp.add_argument('--room',default='living');sp.add_argument('--samples',type=int,default=32);sp.add_argument('--resolution',type=int,default=1100)
     sp=sub.add_parser('render-status');sp.add_argument('scene');sp.add_argument('image')
@@ -68,7 +68,7 @@ def main():
         elif args.command in ('undo','redo'):result=transaction(args.scene,action=args.command)
         elif args.command=='serve':
             from server import serve
-            serve(Path(args.scene).resolve(),args.port);return
+            serve(Path(args.scene).resolve(),args.port,args.samples);return
         elif args.command=='render-status':
             result=render_status(load(args.scene),args.image)
         elif args.command in ('blender','render'):

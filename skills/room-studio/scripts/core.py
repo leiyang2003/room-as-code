@@ -45,6 +45,11 @@ PARAMS = {
  'floorplan':{'points':None,'thickness':(.01,.5)}
 }
 
+# Local Japanese-house authoring families; editable metre-based dimensions.
+for _kind in ('jp_floor','jp_joinery','jp_garden','jp_furniture','jp_roof'):
+    KINDS.add(_kind)
+    PARAMS[_kind]={'w':(.02,40),'d':(.02,40),'h':(.01,8),'openness':(0,1)}
+
 def digest(value):
     return hashlib.sha256(json.dumps(value,sort_keys=True,separators=(',',':'),allow_nan=False).encode()).hexdigest()
 
@@ -110,13 +115,13 @@ def validate(s):
 def palette(s,e):
     style=style_key(s['rooms'][e['room']].get('style') or s['style'])
     colors={**STYLES[style],'ceramic':'#f0ede5','glass':'#c7dde0','leaf':'#647954','soil':'#52473a','paper':'#ede7d8','screen':'#1d282f','white':'#f9f7ef','light':'#ffe2a6'}
-    return {**colors,**e.get('overrides',{})}
+    return {**colors,**s.get('palettes',{}).get(style,{}),**e.get('overrides',{})}
 
 def content(s):
     return {k:copy.deepcopy(v) for k,v in s.items() if k not in ('revision','history','redo')}
 
 def effective(s,e):
-    result={**e,'palette':palette(s,e),'period':s['period'] if e['kind'] in ('cove','landscape') else None,'environment':s['environment'] if e['kind']=='landscape' else None}
+    result={**e,'palette':palette(s,e),'period':s['period'] if e['kind'] in ('cove','landscape') or e.get('detail') in ('andon','toro') else None,'environment':s['environment'] if e['kind']=='landscape' else None}
     surfaces={role:profile for role in STYLES['warm'] if (profile:=surface_profile(s,e,role))}
     if surfaces:result['surfaces']=surfaces
     return result

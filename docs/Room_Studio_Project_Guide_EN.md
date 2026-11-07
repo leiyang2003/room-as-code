@@ -137,6 +137,42 @@ The spatial organization was studied from the published developer plan for **35 
 
 Source: [Developer floor-plan PDF preserved by LX Collection](https://www.lxcollection.com/wp-content/uploads/2022/08/02_75-82.pdf). The third-party drawing is not included in the distributable sample.
 
+<!-- page: japanese | Japanese residence -->
+
+## Three gardens, one quiet home.
+
+**NIWA TO MA** is the second residential sample: a Japanese single-storey house with three open-to-sky gardens and an engawa corridor. Tatami rooms, shoji screens, low furniture and warm timber connect the indoor spaces to planting and gravel.
+
+{{image:japanese-engawa|The engawa and courtyard in the interactive WebGL preview. This is a browser capture of the generated scene, not a native Blender render.}}
+
+<div class="facts" markdown="1">
+
+**221.51 m²**<br>Indoor design area
+
+**3**<br>Open gardens
+
+**241**<br>Editable entities
+
+**3,033**<br>Mesh parts
+
+</div>
+
+### Switch samples without mixing their edits
+
+Run `python3 preview_samples.py --port 8765`, then use the sample selector. Each launch makes fresh working copies in a new `runs/` directory. Both examples use the same preview, patch validation and undo/redo system. Japanese screens change actual geometry; garden controls open the three saved views.
+
+The layout study used a published Neyagawa property plan. Its listing gives 221.51 m²; room dimensions, roof forms, fittings and planting are design estimates. The model preserves the studied adjacencies rather than claiming measured reconstruction. The original flyer and reference images are excluded; see [third-party notices](../THIRD_PARTY_NOTICES.md) for source attribution.
+
+<!-- page: japanese-views | Courtyards & layout -->
+
+## Read the house through its gardens.
+
+The front garden, central courtyard and main garden remain distinct outdoor rooms. The engawa provides the long circulation edge linking the quiet interior to them. Roof visibility and cutaway views help inspect these relationships.
+
+{{image:japanese-overview|The complete Japanese sample in the shared browser preview. The overview removes roofs for inspection while retaining the three garden spaces.}}
+
+{{image:japanese-courtyard|The central courtyard: gravel, moss, stepping stones and a maple. Planting and built details are generated geometry with stable entity IDs.}}
+
 <!-- page: editing | Editing -->
 
 ## Say what should change.
@@ -291,14 +327,14 @@ The current release demonstrates a maintained scene and a reproducible editing l
 
 New object types, complex geometry and arbitrary image textures require generator work. Externally edited Blender topology and materials are not automatically merged; detected conflicts stop synchronization. Parametric textiles need contact checks when supporting furniture changes.
 
-### Two packages, one runnable example
+### Two packages, two residential samples
 
 | Package | Contains | Start here when you want to... |
 | --- | --- | --- |
 | Source | Runtime, preview source and bundle, tests, documentation and generated examples | Develop, extend or inspect the project |
 | Skill | Host instructions, runtime scripts, references and preview assets | Use conversation in Codex or Claude Code |
 
-The public archives are `room-as-code-0.1.0-source.zip` and `room-studio-0.1.0-skill.zip`. The source includes the Manhattan scene and four rendered views; use the documented export command to generate its native Blender and GLB files. Original code is MIT-licensed and dependency notices are included. Private photographs and third-party reference drawings are excluded.
+The public archives are `room-as-code-0.1.0-source.zip` and `room-studio-0.1.0-skill.zip`. The current main branch adds both residential samples, the sample-switching preview and Japanese browser captures. The original v0.1.0 downloads preserve their historical baseline. Build the current source archive to include both samples; use the documented export commands for native Blender and GLB files. Original code is MIT-licensed and dependency notices are included. Private photographs and third-party reference drawings are excluded.
 
 ### What to validate next
 

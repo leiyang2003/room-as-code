@@ -18,7 +18,7 @@ The public project is **Room as Code**. Its compatible skill, CLI helper and Cla
 - **Visual iteration:** the bundled WebGL preview follows saved changes. Warm, Industrial Metal and Heritage themes, day/night and outdoor environment are independent controls.
 - **Rendering as a separate step:** export editable Blender and GLB files; request a full PNG render after editing. Render provenance detects stale images.
 
-This is an **early 0.1.0 prototype**, with a furnished apartment demonstration and a smaller component-grid fixture. Photos can inform an agent-authored scene; there is no automatic photo reconstruction algorithm.
+This is an **early 0.1.0 prototype**, with two furnished residential samples—Manhattan and a Japanese three-garden house—plus a smaller component-grid fixture. Photos can inform an agent-authored scene; there is no automatic photo reconstruction algorithm.
 
 ## Quick start
 
@@ -32,6 +32,28 @@ python3 skills/room-studio/scripts/room.py serve my-house.scene.json --port 8765
 ```
 
 Open the loopback URL printed by the server. `init` creates the bundled apartment, not a reconstruction of your home. Stop the server with Ctrl+C. For another home, let the host agent author or adapt its data using your photos, dimensions and requirements. See [photo authoring](skills/room-studio/references/photo-authoring.md).
+
+## Browse both residential samples
+
+```sh
+python3 preview_samples.py --port 8765
+```
+
+Open the printed loopback URL. The **住宅样例 / SAMPLE** selector switches between **Manhattan** and **三庭 · 静居 / NIWA TO MA**. Each launch creates a new `runs/` directory with editable copies; original examples stay intact. Edits, undo/redo and reloads belong to the selected sample. Share a local `?sample=manhattan` or `?sample=japanese` URL to choose the initial view. Stop the server with Ctrl+C.
+
+The Japanese sample preserves **three open-to-sky gardens and an engawa corridor**. It contains 12 indoor spaces, 3 gardens, 241 editable entities and 3,049 compiled parts (3,033 mesh parts and 16 lights). Its 221.51 m² indoor design area is based on the reference listing; room dimensions, roofs and furnishings are authored estimates. Tatami, shoji/fusuma, low furniture, a hinoki bath, planting and roofs remain parametric. The opening slider controls real screen geometry; garden buttons jump to the three saved views.
+
+![Three-garden Japanese residence, browser preview](docs/images/japanese-overview.png)
+
+![Engawa and courtyard, browser preview](docs/images/japanese-engawa.png)
+
+These Japanese images are **interactive browser captures**, while the Manhattan images are native Blender renders. The Japanese scene also supports native export:
+
+```sh
+python3 skills/room-studio/scripts/room.py blender examples/japanese-three-gardens.scene.json --out output/three-gardens.blend --room engawa
+```
+
+For an existing registry, use `room.py serve <scene> --samples <registry.json> --port 8765`. Registry paths resolve relative to its JSON file and are an explicit local allowlist; the browser accepts sample IDs, never filesystem paths. Directly serving a registry edits the referenced files, so use `preview_samples.py` for fresh working copies.
 
 ## Install the conversational skill
 
@@ -113,6 +135,7 @@ npm ci
 npm run build
 npx playwright install chromium
 npm run test:browser
+node tests/samples-browser.mjs
 python3 build_release.py
 ```
 

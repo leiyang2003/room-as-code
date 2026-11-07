@@ -29,3 +29,9 @@ The updated local unit suite contains 38 tests, including legacy mono compatibil
 [Native industrial result](validation/industrial-native-results.json) verifies Blender 4.2.23 shader creation, native save/reopen and constant-PBR GLB metalness/roughness, without image rendering. Repeat with `blender --background --factory-startup --python-exit-code 1 --python tests/native_industrial.py`.
 
 Native material version is now 3. The full-apartment and rendered-image evidence above remains historical 0.1.0 acceptance; no new complete apartment render is claimed for this theme update.
+
+## Two residential samples (current main)
+
+`validation/samples-checks.json` records the dual-sample integration checks. `tests/samples-browser.mjs` uses real Chromium WebGL2, changes Japanese sliding-screen geometry, changes Manhattan curtain geometry, verifies that each edit leaves the other sample file intact, switches and reloads saved state, checks roof visibility, and checks both layouts at 390px. Invalid sample IDs are rejected. The original single-scene browser test remains supported.
+
+The Python suite now contains 48 tests, including Japanese layout, three open-to-sky gardens, entry connectivity, protected edits, reversible changes, and two-leaf screen geometry. The fresh public-runtime Japanese Blender export reports 241 entities, 3,033 meshes and material recipe version 3. This is native export evidence, not a new full image render or a new Codex/Claude Code host execution. Japanese images are browser captures; Manhattan images retain their previously documented native-render provenance. Third-party floor-plan drawings and private reference files remain excluded.

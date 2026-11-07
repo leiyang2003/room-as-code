@@ -1,0 +1,7949 @@
+{
+  "schema": "room-studio/1",
+  "name": "NIWA TO MA / 三庭 · 静居",
+  "style": "warm",
+  "period": "day",
+  "environment": "garden",
+  "rooms": {
+    "zashiki": {
+      "name": "座敷 · 十五叠",
+      "center": [
+        -9.817553,
+        5.29486
+      ],
+      "size": [
+        5.515479306043131,
+        6.618575167251758,
+        2.65
+      ],
+      "polygon": [
+        [
+          -12.575293,
+          1.985573
+        ],
+        [
+          -7.059814,
+          1.985573
+        ],
+        [
+          -7.059814,
+          8.604148
+        ],
+        [
+          -12.575293,
+          8.604148
+        ]
+      ],
+      "style": null,
+      "zone": "public",
+      "area_design_m2": 36.5046,
+      "camera": {
+        "position": [
+          -11.858281,
+          2.592275,
+          1.48
+        ],
+        "target": [
+          -8.493838,
+          6.287646,
+          1.0
+        ]
+      }
+    },
+    "tea": {
+      "name": "茶の間 · 八叠",
+      "center": [
+        -4.743312,
+        3.971145
+      ],
+      "size": [
+        4.633002617076231,
+        3.9711451003510554,
+        2.65
+      ],
+      "polygon": [
+        [
+          -7.059814,
+          1.985573
+        ],
+        [
+          -2.426811,
+          1.985573
+        ],
+        [
+          -2.426811,
+          5.956718
+        ],
+        [
+          -7.059814,
+          5.956718
+        ]
+      ],
+      "style": null,
+      "zone": "public",
+      "area_design_m2": 18.3983,
+      "camera": {
+        "position": [
+          -6.508266,
+          2.316501,
+          1.43
+        ],
+        "target": [
+          -3.088668,
+          5.184551,
+          1.0
+        ]
+      }
+    },
+    "dressing": {
+      "name": "衣帽与布草",
+      "center": [
+        -4.743312,
+        7.280433
+      ],
+      "size": [
+        4.633002617076231,
+        2.6474300669007027,
+        2.65
+      ],
+      "polygon": [
+        [
+          -7.059814,
+          5.956718
+        ],
+        [
+          -2.426811,
+          5.956718
+        ],
+        [
+          -2.426811,
+          8.604148
+        ],
+        [
+          -7.059814,
+          8.604148
+        ]
+      ],
+      "style": null,
+      "zone": "service",
+      "area_design_m2": 12.2656,
+      "camera": {
+        "position": [
+          -6.397956,
+          6.397956,
+          1.6
+        ],
+        "target": [
+          -4.191764,
+          7.721671,
+          1.2
+        ]
+      }
+    },
+    "wc": {
+      "name": "手洗い · 卫生间",
+      "center": [
+        5.515479,
+        2.785317
+      ],
+      "size": [
+        3.529906755867604,
+        1.599488998752508,
+        2.65
+      ],
+      "polygon": [
+        [
+          3.750526,
+          1.985573
+        ],
+        [
+          7.280433,
+          1.985573
+        ],
+        [
+          7.280433,
+          3.585062
+        ],
+        [
+          3.750526,
+          3.585062
+        ]
+      ],
+      "style": null,
+      "zone": "service",
+      "area_design_m2": 5.646,
+      "camera": {
+        "position": [
+          6.728885,
+          2.206192,
+          1.5
+        ],
+        "target": [
+          4.743312,
+          2.978359,
+          0.8
+        ]
+      }
+    },
+    "bath": {
+      "name": "檜の湯 · 浴室",
+      "center": [
+        5.515479,
+        4.963931
+      ],
+      "size": [
+        3.529906755867604,
+        2.7577396530215657,
+        2.65
+      ],
+      "polygon": [
+        [
+          3.750526,
+          3.585062
+        ],
+        [
+          7.280433,
+          3.585062
+        ],
+        [
+          7.280433,
+          6.342801
+        ],
+        [
+          3.750526,
+          6.342801
+        ]
+      ],
+      "style": null,
+      "zone": "service",
+      "area_design_m2": 9.7346,
+      "camera": {
+        "position": [
+          6.78404,
+          5.791253,
+          1.53
+        ],
+        "target": [
+          3.971145,
+          4.908777,
+          0.85
+        ]
+      }
+    },
+    "wash": {
+      "name": "洗面与洗衣",
+      "center": [
+        5.515479,
+        7.473474
+      ],
+      "size": [
+        3.529906755867604,
+        2.2613465154776837,
+        2.65
+      ],
+      "polygon": [
+        [
+          3.750526,
+          6.342801
+        ],
+        [
+          7.280433,
+          6.342801
+        ],
+        [
+          7.280433,
+          8.604148
+        ],
+        [
+          3.750526,
+          8.604148
+        ]
+      ],
+      "style": null,
+      "zone": "service",
+      "area_design_m2": 7.9823,
+      "camera": {
+        "position": [
+          6.839194,
+          6.728885,
+          1.6
+        ],
+        "target": [
+          4.688157,
+          8.107755,
+          1.05
+        ]
+      }
+    },
+    "east_hall": {
+      "name": "东侧廊下",
+      "center": [
+        7.94229,
+        4.302074
+      ],
+      "size": [
+        1.3237150334503518,
+        8.604147717427285,
+        2.48
+      ],
+      "polygon": [
+        [
+          7.280433,
+          0.0
+        ],
+        [
+          8.604148,
+          0.0
+        ],
+        [
+          8.604148,
+          8.604148
+        ],
+        [
+          7.280433,
+          8.604148
+        ]
+      ],
+      "style": null,
+      "zone": "circulation",
+      "area_design_m2": 11.3894,
+      "camera": {
+        "position": [
+          7.94229,
+          0.551548,
+          1.55
+        ],
+        "target": [
+          7.94229,
+          7.831981,
+          1.2
+        ]
+      }
+    },
+    "kitchen": {
+      "name": "台所与食堂",
+      "center": [
+        10.58972,
+        6.067027
+      ],
+      "size": [
+        3.9711451003510554,
+        5.07424096155968,
+        2.65
+      ],
+      "polygon": [
+        [
+          8.604148,
+          3.529907
+        ],
+        [
+          12.575293,
+          3.529907
+        ],
+        [
+          12.575293,
+          8.604148
+        ],
+        [
+          8.604148,
+          8.604148
+        ]
+      ],
+      "style": null,
+      "zone": "public",
+      "area_design_m2": 20.1505,
+      "camera": {
+        "position": [
+          12.023745,
+          3.91599,
+          1.55
+        ],
+        "target": [
+          10.148482,
+          7.280433,
+          1.0
+        ]
+      }
+    },
+    "guest": {
+      "name": "客間 · 六叠",
+      "center": [
+        10.58972,
+        1.764953
+      ],
+      "size": [
+        3.9711451003510554,
+        3.5299067558676045,
+        2.65
+      ],
+      "polygon": [
+        [
+          8.604148,
+          0.0
+        ],
+        [
+          12.575293,
+          0.0
+        ],
+        [
+          12.575293,
+          3.529907
+        ],
+        [
+          8.604148,
+          3.529907
+        ]
+      ],
+      "style": null,
+      "zone": "private",
+      "area_design_m2": 14.0178,
+      "camera": {
+        "position": [
+          9.045386,
+          0.441238,
+          1.45
+        ],
+        "target": [
+          11.361887,
+          2.53712,
+          0.8
+        ]
+      }
+    },
+    "engawa": {
+      "name": "廊下 · 看庭长廊",
+      "center": [
+        -2.64743,
+        0.992786
+      ],
+      "size": [
+        19.855725501755273,
+        1.9855725501755275,
+        2.48
+      ],
+      "polygon": [
+        [
+          -12.575293,
+          0.0
+        ],
+        [
+          7.280433,
+          0.0
+        ],
+        [
+          7.280433,
+          1.985573
+        ],
+        [
+          -12.575293,
+          1.985573
+        ]
+      ],
+      "style": null,
+      "zone": "circulation",
+      "area_design_m2": 39.425,
+      "camera": {
+        "position": [
+          -11.527352,
+          0.992786,
+          1.48
+        ],
+        "target": [
+          2.426811,
+          1.103096,
+          1.25
+        ]
+      }
+    },
+    "bedroom": {
+      "name": "寝室 · 十四叠洋室",
+      "center": [
+        0.551548,
+        -2.316501
+      ],
+      "size": [
+        6.397955995010032,
+        4.633002617076231,
+        2.65
+      ],
+      "polygon": [
+        [
+          -2.64743,
+          -4.633003
+        ],
+        [
+          3.750526,
+          -4.633003
+        ],
+        [
+          3.750526,
+          0.0
+        ],
+        [
+          -2.64743,
+          0.0
+        ]
+      ],
+      "style": null,
+      "zone": "private",
+      "area_design_m2": 29.6417,
+      "camera": {
+        "position": [
+          3.198978,
+          -0.717012,
+          1.5
+        ],
+        "target": [
+          -0.717012,
+          -2.702585,
+          0.8
+        ]
+      }
+    },
+    "entry": {
+      "name": "玄関 · 入户",
+      "center": [
+        5.515479,
+        -2.316501
+      ],
+      "size": [
+        3.529906755867604,
+        4.633002617076231,
+        2.65
+      ],
+      "polygon": [
+        [
+          3.750526,
+          -4.633003
+        ],
+        [
+          7.280433,
+          -4.633003
+        ],
+        [
+          7.280433,
+          0.0
+        ],
+        [
+          3.750526,
+          0.0
+        ]
+      ],
+      "style": null,
+      "zone": "arrival",
+      "area_design_m2": 16.3541,
+      "camera": {
+        "position": [
+          5.625789,
+          -4.246919,
+          1.55
+        ],
+        "target": [
+          5.40517,
+          -0.330929,
+          1.15
+        ]
+      }
+    },
+    "courtyard": {
+      "name": "中庭 · 苔与石",
+      "center": [
+        0.661858,
+        5.29486
+      ],
+      "size": [
+        6.177336822768307,
+        6.618575167251758,
+        3.6
+      ],
+      "polygon": [
+        [
+          -2.426811,
+          1.985573
+        ],
+        [
+          3.750526,
+          1.985573
+        ],
+        [
+          3.750526,
+          8.604148
+        ],
+        [
+          -2.426811,
+          8.604148
+        ]
+      ],
+      "style": null,
+      "zone": "garden",
+      "open_to_sky": true,
+      "camera": {
+        "position": [
+          2.426811,
+          7.611361,
+          1.5
+        ],
+        "target": [
+          -0.275774,
+          2.64743,
+          1.0
+        ]
+      }
+    },
+    "main_garden": {
+      "name": "主庭 · 树影",
+      "center": [
+        -8.0526,
+        -3.502329
+      ],
+      "size": [
+        10.369101095361088,
+        6.453110788070464,
+        3.6
+      ],
+      "polygon": [
+        [
+          -13.23715,
+          -6.728885
+        ],
+        [
+          -2.868049,
+          -6.728885
+        ],
+        [
+          -2.868049,
+          -0.275774
+        ],
+        [
+          -13.23715,
+          -0.275774
+        ]
+      ],
+      "style": null,
+      "zone": "garden",
+      "open_to_sky": true,
+      "camera": {
+        "position": [
+          -11.692816,
+          -5.736098,
+          1.6
+        ],
+        "target": [
+          -6.067027,
+          1.875263,
+          1.15
+        ]
+      }
+    },
+    "front_garden": {
+      "name": "前庭 · 迎入",
+      "center": [
+        10.424256,
+        -3.502329
+      ],
+      "size": [
+        5.625788892163994,
+        6.453110788070464,
+        3.6
+      ],
+      "polygon": [
+        [
+          7.611361,
+          -6.728885
+        ],
+        [
+          13.23715,
+          -6.728885
+        ],
+        [
+          13.23715,
+          -0.275774
+        ],
+        [
+          7.611361,
+          -0.275774
+        ]
+      ],
+      "style": null,
+      "zone": "garden",
+      "open_to_sky": true,
+      "camera": {
+        "position": [
+          12.851067,
+          -6.177337,
+          1.6
+        ],
+        "target": [
+          6.618575,
+          -2.53712,
+          1.2
+        ]
+      }
+    }
+  },
+  "entities": {
+    "main_garden.site_ground": {
+      "id": "main_garden.site_ground",
+      "label": "site ground",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        0.0,
+        1.48,
+        -0.22
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 28.0,
+        "d": 17.055714,
+        "h": 0.18
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "ground"
+    },
+    "zashiki.floor": {
+      "id": "zashiki.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "zashiki",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -12.575293,
+            1.985573
+          ],
+          [
+            -7.059814,
+            1.985573
+          ],
+          [
+            -7.059814,
+            8.604148
+          ],
+          [
+            -12.575293,
+            8.604148
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "floor"
+    },
+    "zashiki.ceiling": {
+      "id": "zashiki.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "zashiki",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -12.575293,
+            1.985573
+          ],
+          [
+            -7.059814,
+            1.985573
+          ],
+          [
+            -7.059814,
+            8.604148
+          ],
+          [
+            -12.575293,
+            8.604148
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "zashiki.tatami": {
+      "id": "zashiki.tatami",
+      "label": "tatami",
+      "kind": "jp_floor",
+      "room": "zashiki",
+      "position": [
+        -9.817553,
+        5.019086,
+        0.018
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 4.743312,
+        "d": 5.460325,
+        "h": 0.045
+      },
+      "overrides": {
+        "fabric": "#b6bea1",
+        "accent": "#aab393",
+        "frame": "#565e4a"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "tatami",
+      "grid": [
+        5,
+        3
+      ]
+    },
+    "tea.floor": {
+      "id": "tea.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "tea",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.059814,
+            1.985573
+          ],
+          [
+            -2.426811,
+            1.985573
+          ],
+          [
+            -2.426811,
+            5.956718
+          ],
+          [
+            -7.059814,
+            5.956718
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "floor"
+    },
+    "tea.ceiling": {
+      "id": "tea.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "tea",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.059814,
+            1.985573
+          ],
+          [
+            -2.426811,
+            1.985573
+          ],
+          [
+            -2.426811,
+            5.956718
+          ],
+          [
+            -7.059814,
+            5.956718
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "tea.tatami": {
+      "id": "tea.tatami",
+      "label": "tatami",
+      "kind": "jp_floor",
+      "room": "tea",
+      "position": [
+        -4.743312,
+        3.971145,
+        0.018
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 4.25795,
+        "d": 3.662278,
+        "h": 0.045
+      },
+      "overrides": {
+        "fabric": "#b6bea1",
+        "accent": "#aab393",
+        "frame": "#565e4a"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "tatami",
+      "grid": [
+        4,
+        2
+      ]
+    },
+    "dressing.floor": {
+      "id": "dressing.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "dressing",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.059814,
+            5.956718
+          ],
+          [
+            -2.426811,
+            5.956718
+          ],
+          [
+            -2.426811,
+            8.604148
+          ],
+          [
+            -7.059814,
+            8.604148
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "floor"
+    },
+    "dressing.ceiling": {
+      "id": "dressing.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "dressing",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.059814,
+            5.956718
+          ],
+          [
+            -2.426811,
+            5.956718
+          ],
+          [
+            -2.426811,
+            8.604148
+          ],
+          [
+            -7.059814,
+            8.604148
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "dressing.surface_finish": {
+      "id": "dressing.surface_finish",
+      "label": "surface finish",
+      "kind": "jp_floor",
+      "room": "dressing",
+      "position": [
+        -4.743312,
+        7.280433,
+        0.014
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 4.59991,
+        "d": 2.614337,
+        "h": 0.026
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "boards"
+    },
+    "wc.floor": {
+      "id": "wc.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "wc",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.750526,
+            1.985573
+          ],
+          [
+            7.280433,
+            1.985573
+          ],
+          [
+            7.280433,
+            3.585062
+          ],
+          [
+            3.750526,
+            3.585062
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "stone"
+    },
+    "wc.ceiling": {
+      "id": "wc.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "wc",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.750526,
+            1.985573
+          ],
+          [
+            7.280433,
+            1.985573
+          ],
+          [
+            7.280433,
+            3.585062
+          ],
+          [
+            3.750526,
+            3.585062
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "wc.surface_finish": {
+      "id": "wc.surface_finish",
+      "label": "surface finish",
+      "kind": "jp_floor",
+      "room": "wc",
+      "position": [
+        5.515479,
+        2.785317,
+        0.014
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.496814,
+        "d": 1.566396,
+        "h": 0.026
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "stone"
+    },
+    "bath.floor": {
+      "id": "bath.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "bath",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.750526,
+            3.585062
+          ],
+          [
+            7.280433,
+            3.585062
+          ],
+          [
+            7.280433,
+            6.342801
+          ],
+          [
+            3.750526,
+            6.342801
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "stone"
+    },
+    "bath.ceiling": {
+      "id": "bath.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "bath",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.750526,
+            3.585062
+          ],
+          [
+            7.280433,
+            3.585062
+          ],
+          [
+            7.280433,
+            6.342801
+          ],
+          [
+            3.750526,
+            6.342801
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "bath.surface_finish": {
+      "id": "bath.surface_finish",
+      "label": "surface finish",
+      "kind": "jp_floor",
+      "room": "bath",
+      "position": [
+        5.515479,
+        4.963931,
+        0.014
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.496814,
+        "d": 2.724647,
+        "h": 0.026
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "stone"
+    },
+    "wash.floor": {
+      "id": "wash.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "wash",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.750526,
+            6.342801
+          ],
+          [
+            7.280433,
+            6.342801
+          ],
+          [
+            7.280433,
+            8.604148
+          ],
+          [
+            3.750526,
+            8.604148
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "stone"
+    },
+    "wash.ceiling": {
+      "id": "wash.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "wash",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.750526,
+            6.342801
+          ],
+          [
+            7.280433,
+            6.342801
+          ],
+          [
+            7.280433,
+            8.604148
+          ],
+          [
+            3.750526,
+            8.604148
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "wash.surface_finish": {
+      "id": "wash.surface_finish",
+      "label": "surface finish",
+      "kind": "jp_floor",
+      "room": "wash",
+      "position": [
+        5.515479,
+        7.473474,
+        0.014
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.496814,
+        "d": 2.228254,
+        "h": 0.026
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "stone"
+    },
+    "east_hall.floor": {
+      "id": "east_hall.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "east_hall",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            7.280433,
+            0.0
+          ],
+          [
+            8.604148,
+            0.0
+          ],
+          [
+            8.604148,
+            8.604148
+          ],
+          [
+            7.280433,
+            8.604148
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "floor"
+    },
+    "east_hall.ceiling": {
+      "id": "east_hall.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "east_hall",
+      "position": [
+        0.0,
+        0.0,
+        2.48
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            7.280433,
+            0.0
+          ],
+          [
+            8.604148,
+            0.0
+          ],
+          [
+            8.604148,
+            8.604148
+          ],
+          [
+            7.280433,
+            8.604148
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "east_hall.surface_finish": {
+      "id": "east_hall.surface_finish",
+      "label": "surface finish",
+      "kind": "jp_floor",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        4.302074,
+        0.014
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.290622,
+        "d": 8.571055,
+        "h": 0.026
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "boards"
+    },
+    "kitchen.floor": {
+      "id": "kitchen.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "kitchen",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            8.604148,
+            3.529907
+          ],
+          [
+            12.575293,
+            3.529907
+          ],
+          [
+            12.575293,
+            8.604148
+          ],
+          [
+            8.604148,
+            8.604148
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "floor"
+    },
+    "kitchen.ceiling": {
+      "id": "kitchen.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "kitchen",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            8.604148,
+            3.529907
+          ],
+          [
+            12.575293,
+            3.529907
+          ],
+          [
+            12.575293,
+            8.604148
+          ],
+          [
+            8.604148,
+            8.604148
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "kitchen.surface_finish": {
+      "id": "kitchen.surface_finish",
+      "label": "surface finish",
+      "kind": "jp_floor",
+      "room": "kitchen",
+      "position": [
+        10.58972,
+        6.067027,
+        0.014
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.938052,
+        "d": 5.041148,
+        "h": 0.026
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "boards"
+    },
+    "guest.floor": {
+      "id": "guest.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "guest",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            8.604148,
+            0.0
+          ],
+          [
+            12.575293,
+            0.0
+          ],
+          [
+            12.575293,
+            3.529907
+          ],
+          [
+            8.604148,
+            3.529907
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "floor"
+    },
+    "guest.ceiling": {
+      "id": "guest.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "guest",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            8.604148,
+            0.0
+          ],
+          [
+            12.575293,
+            0.0
+          ],
+          [
+            12.575293,
+            3.529907
+          ],
+          [
+            8.604148,
+            3.529907
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "guest.tatami": {
+      "id": "guest.tatami",
+      "label": "tatami",
+      "kind": "jp_floor",
+      "room": "guest",
+      "position": [
+        10.58972,
+        1.764953,
+        0.018
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.596093,
+        "d": 3.22104,
+        "h": 0.045
+      },
+      "overrides": {
+        "fabric": "#b6bea1",
+        "accent": "#aab393",
+        "frame": "#565e4a"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "tatami",
+      "grid": [
+        3,
+        2
+      ]
+    },
+    "engawa.floor": {
+      "id": "engawa.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "engawa",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -12.575293,
+            0.0
+          ],
+          [
+            7.280433,
+            0.0
+          ],
+          [
+            7.280433,
+            1.985573
+          ],
+          [
+            -12.575293,
+            1.985573
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "floor"
+    },
+    "engawa.ceiling": {
+      "id": "engawa.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "engawa",
+      "position": [
+        0.0,
+        0.0,
+        2.48
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -12.575293,
+            0.0
+          ],
+          [
+            7.280433,
+            0.0
+          ],
+          [
+            7.280433,
+            1.985573
+          ],
+          [
+            -12.575293,
+            1.985573
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "engawa.surface_finish": {
+      "id": "engawa.surface_finish",
+      "label": "surface finish",
+      "kind": "jp_floor",
+      "room": "engawa",
+      "position": [
+        -2.64743,
+        0.992786,
+        0.014
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 19.822633,
+        "d": 1.95248,
+        "h": 0.026
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "boards"
+    },
+    "bedroom.floor": {
+      "id": "bedroom.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "bedroom",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -2.64743,
+            -4.633003
+          ],
+          [
+            3.750526,
+            -4.633003
+          ],
+          [
+            3.750526,
+            0.0
+          ],
+          [
+            -2.64743,
+            0.0
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "floor"
+    },
+    "bedroom.ceiling": {
+      "id": "bedroom.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "bedroom",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -2.64743,
+            -4.633003
+          ],
+          [
+            3.750526,
+            -4.633003
+          ],
+          [
+            3.750526,
+            0.0
+          ],
+          [
+            -2.64743,
+            0.0
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "bedroom.surface_finish": {
+      "id": "bedroom.surface_finish",
+      "label": "surface finish",
+      "kind": "jp_floor",
+      "room": "bedroom",
+      "position": [
+        0.551548,
+        -2.316501,
+        0.014
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 6.364863,
+        "d": 4.59991,
+        "h": 0.026
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "boards"
+    },
+    "entry.floor": {
+      "id": "entry.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "entry",
+      "position": [
+        0.0,
+        0.0,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.750526,
+            -4.633003
+          ],
+          [
+            7.280433,
+            -4.633003
+          ],
+          [
+            7.280433,
+            0.0
+          ],
+          [
+            3.750526,
+            0.0
+          ]
+        ],
+        "thickness": 0.14
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "surface_role": "stone"
+    },
+    "entry.ceiling": {
+      "id": "entry.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "entry",
+      "position": [
+        0.0,
+        0.0,
+        2.65
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.750526,
+            -4.633003
+          ],
+          [
+            7.280433,
+            -4.633003
+          ],
+          [
+            7.280433,
+            0.0
+          ],
+          [
+            3.750526,
+            0.0
+          ]
+        ],
+        "thickness": 0.08
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "ceiling": true,
+      "surface_role": "wood"
+    },
+    "entry.surface_finish": {
+      "id": "entry.surface_finish",
+      "label": "surface finish",
+      "kind": "jp_floor",
+      "room": "entry",
+      "position": [
+        5.515479,
+        -2.316501,
+        -0.145
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.496814,
+        "d": 4.59991,
+        "h": 0.026
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "stone"
+    },
+    "engawa.wall_00": {
+      "id": "engawa.wall_00",
+      "label": "wall 00",
+      "kind": "wall",
+      "room": "engawa",
+      "position": [
+        -12.575293,
+        0.992786,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.985573,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "engawa"
+      ]
+    },
+    "engawa.wall_01": {
+      "id": "engawa.wall_01",
+      "label": "wall 01",
+      "kind": "wall",
+      "room": "engawa",
+      "position": [
+        -7.611361,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 9.927863,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 9.77342933030843,
+        "offset": 0.0,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "engawa"
+      ]
+    },
+    "engawa.screen_01": {
+      "id": "engawa.screen_01",
+      "label": "screen 01",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -7.611361,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 9.773429,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "glazing",
+      "facade": true,
+      "adjacent_rooms": [
+        "engawa"
+      ]
+    },
+    "zashiki.wall_02": {
+      "id": "zashiki.wall_02",
+      "label": "wall 02",
+      "kind": "wall",
+      "room": "zashiki",
+      "position": [
+        -12.575293,
+        5.29486,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 6.618575,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "window",
+        "gap": 4.3020738587136425,
+        "offset": 0.0,
+        "sill": 0.3,
+        "head": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "zashiki"
+      ]
+    },
+    "zashiki.screen_02": {
+      "id": "zashiki.screen_02",
+      "label": "screen 02",
+      "kind": "jp_joinery",
+      "room": "zashiki",
+      "position": [
+        -12.575293,
+        5.29486,
+        0.3
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.302074,
+        "d": 0.11031,
+        "h": 1.95,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "shoji",
+      "facade": true,
+      "adjacent_rooms": [
+        "zashiki"
+      ]
+    },
+    "zashiki.wall_03": {
+      "id": "zashiki.wall_03",
+      "label": "wall 03",
+      "kind": "wall",
+      "room": "zashiki",
+      "position": [
+        -9.817553,
+        1.985573,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 5.515479,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 3.309287583625879,
+        "offset": 0.22061917224172645,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "zashiki",
+        "engawa"
+      ]
+    },
+    "zashiki.screen_03": {
+      "id": "zashiki.screen_03",
+      "label": "screen 03",
+      "kind": "jp_joinery",
+      "room": "zashiki",
+      "position": [
+        -9.596934,
+        1.985573,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.309288,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0.86
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "shoji",
+      "facade": true,
+      "adjacent_rooms": [
+        "zashiki",
+        "engawa"
+      ]
+    },
+    "zashiki.wall_04": {
+      "id": "zashiki.wall_04",
+      "label": "wall 04",
+      "kind": "wall",
+      "room": "zashiki",
+      "position": [
+        -9.817553,
+        8.604148,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 5.515479,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "zashiki"
+      ]
+    },
+    "zashiki.wall_05": {
+      "id": "zashiki.wall_05",
+      "label": "wall 05",
+      "kind": "wall",
+      "room": "zashiki",
+      "position": [
+        -7.059814,
+        3.971145,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.971145,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 3.0886684113841536,
+        "offset": 0.0,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "zashiki",
+        "tea"
+      ]
+    },
+    "zashiki.screen_05": {
+      "id": "zashiki.screen_05",
+      "label": "screen 05",
+      "kind": "jp_joinery",
+      "room": "zashiki",
+      "position": [
+        -7.059814,
+        3.971145,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.088668,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "fusuma",
+      "facade": true,
+      "adjacent_rooms": [
+        "zashiki",
+        "tea"
+      ]
+    },
+    "tea.wall_06": {
+      "id": "tea.wall_06",
+      "label": "wall 06",
+      "kind": "wall",
+      "room": "tea",
+      "position": [
+        -4.743312,
+        1.985573,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.633003,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 2.9783588252632915,
+        "offset": 9.797459387860264e-16,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "tea",
+        "engawa"
+      ]
+    },
+    "tea.screen_06": {
+      "id": "tea.screen_06",
+      "label": "screen 06",
+      "kind": "jp_joinery",
+      "room": "tea",
+      "position": [
+        -4.743312,
+        1.985573,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.978359,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0.78
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "shoji",
+      "facade": true,
+      "adjacent_rooms": [
+        "tea",
+        "engawa"
+      ]
+    },
+    "zashiki.wall_07": {
+      "id": "zashiki.wall_07",
+      "label": "wall 07",
+      "kind": "wall",
+      "room": "zashiki",
+      "position": [
+        -7.059814,
+        7.280433,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.64743,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "zashiki",
+        "dressing"
+      ]
+    },
+    "tea.wall_08": {
+      "id": "tea.wall_08",
+      "label": "wall 08",
+      "kind": "wall",
+      "room": "tea",
+      "position": [
+        -4.743312,
+        5.956718,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.633003,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 0.9927862750877637,
+        "offset": 1.434024619571215,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "tea",
+        "dressing"
+      ]
+    },
+    "tea.screen_08": {
+      "id": "tea.screen_08",
+      "label": "screen 08",
+      "kind": "jp_joinery",
+      "room": "tea",
+      "position": [
+        -3.309288,
+        5.956718,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 0.992786,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "fusuma",
+      "facade": true,
+      "adjacent_rooms": [
+        "tea",
+        "dressing"
+      ]
+    },
+    "dressing.wall_09": {
+      "id": "dressing.wall_09",
+      "label": "wall 09",
+      "kind": "wall",
+      "room": "dressing",
+      "position": [
+        -4.743312,
+        8.604148,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.633003,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "dressing"
+      ]
+    },
+    "bedroom.wall_10": {
+      "id": "bedroom.wall_10",
+      "label": "wall 10",
+      "kind": "wall",
+      "room": "bedroom",
+      "position": [
+        -2.64743,
+        -2.316501,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.633003,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "window",
+        "gap": 4.302073858713643,
+        "offset": 0.0,
+        "sill": 0.05,
+        "head": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "bedroom"
+      ]
+    },
+    "bedroom.screen_10": {
+      "id": "bedroom.screen_10",
+      "label": "screen 10",
+      "kind": "jp_joinery",
+      "room": "bedroom",
+      "position": [
+        -2.64743,
+        -2.316501,
+        0.05
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.302074,
+        "d": 0.11031,
+        "h": 2.2,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "glazing",
+      "facade": true,
+      "adjacent_rooms": [
+        "bedroom"
+      ]
+    },
+    "bedroom.wall_11": {
+      "id": "bedroom.wall_11",
+      "label": "wall 11",
+      "kind": "wall",
+      "room": "bedroom",
+      "position": [
+        0.551548,
+        -4.633003,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 6.397956,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "bedroom"
+      ]
+    },
+    "engawa.wall_12": {
+      "id": "engawa.wall_12",
+      "label": "wall 12",
+      "kind": "wall",
+      "room": "engawa",
+      "position": [
+        0.551548,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 6.397956,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 1.3788698265107828,
+        "offset": 1.9855725501755273,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "engawa",
+        "bedroom"
+      ]
+    },
+    "engawa.screen_12": {
+      "id": "engawa.screen_12",
+      "label": "screen 12",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        2.53712,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 1.37887,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0.9
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "fusuma",
+      "facade": true,
+      "adjacent_rooms": [
+        "engawa",
+        "bedroom"
+      ]
+    },
+    "tea.wall_13": {
+      "id": "tea.wall_13",
+      "label": "wall 13",
+      "kind": "wall",
+      "room": "tea",
+      "position": [
+        -2.426811,
+        3.971145,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.971145,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "window",
+        "gap": 3.75052592810933,
+        "offset": 0.0,
+        "sill": 0.05,
+        "head": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "tea"
+      ]
+    },
+    "tea.screen_13": {
+      "id": "tea.screen_13",
+      "label": "screen 13",
+      "kind": "jp_joinery",
+      "room": "tea",
+      "position": [
+        -2.426811,
+        3.971145,
+        0.05
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.750526,
+        "d": 0.11031,
+        "h": 2.2,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "glazing",
+      "facade": true,
+      "adjacent_rooms": [
+        "tea"
+      ]
+    },
+    "engawa.wall_14": {
+      "id": "engawa.wall_14",
+      "label": "wall 14",
+      "kind": "wall",
+      "room": "engawa",
+      "position": [
+        0.661858,
+        1.985573,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 6.177337,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "window",
+        "gap": 5.956717650526581,
+        "offset": 0.0,
+        "sill": 0.05,
+        "head": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "engawa"
+      ]
+    },
+    "engawa.screen_14": {
+      "id": "engawa.screen_14",
+      "label": "screen 14",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        0.661858,
+        1.985573,
+        0.05
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 5.956718,
+        "d": 0.11031,
+        "h": 2.2,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "glazing",
+      "facade": true,
+      "adjacent_rooms": [
+        "engawa"
+      ]
+    },
+    "dressing.wall_15": {
+      "id": "dressing.wall_15",
+      "label": "wall 15",
+      "kind": "wall",
+      "room": "dressing",
+      "position": [
+        -2.426811,
+        7.280433,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.64743,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "window",
+        "gap": 2.4268108946589773,
+        "offset": 0.0,
+        "sill": 0.95,
+        "head": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "dressing"
+      ]
+    },
+    "dressing.screen_15": {
+      "id": "dressing.screen_15",
+      "label": "screen 15",
+      "kind": "jp_joinery",
+      "room": "dressing",
+      "position": [
+        -2.426811,
+        7.280433,
+        0.95
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.426811,
+        "d": 0.11031,
+        "h": 1.3,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "shoji",
+      "facade": true,
+      "adjacent_rooms": [
+        "dressing"
+      ]
+    },
+    "bedroom.wall_16": {
+      "id": "bedroom.wall_16",
+      "label": "wall 16",
+      "kind": "wall",
+      "room": "bedroom",
+      "position": [
+        3.750526,
+        -2.316501,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.633003,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "bedroom",
+        "entry"
+      ]
+    },
+    "entry.wall_17": {
+      "id": "entry.wall_17",
+      "label": "wall 17",
+      "kind": "wall",
+      "room": "entry",
+      "position": [
+        5.515479,
+        -4.633003,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.529907,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 2.3165013085381156,
+        "offset": 0.0,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "entry"
+      ]
+    },
+    "entry.screen_17": {
+      "id": "entry.screen_17",
+      "label": "screen 17",
+      "kind": "jp_joinery",
+      "room": "entry",
+      "position": [
+        5.515479,
+        -4.633003,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.316501,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0.8
+      },
+      "overrides": {
+        "paper": "#c4b79d"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "shoji",
+      "facade": true,
+      "adjacent_rooms": [
+        "entry"
+      ]
+    },
+    "engawa.wall_18": {
+      "id": "engawa.wall_18",
+      "label": "wall 18",
+      "kind": "wall",
+      "room": "engawa",
+      "position": [
+        5.515479,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.529907,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 2.9783588252632915,
+        "offset": -0.11030958612086224,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "engawa",
+        "entry"
+      ]
+    },
+    "wc.wall_19": {
+      "id": "wc.wall_19",
+      "label": "wall 19",
+      "kind": "wall",
+      "room": "wc",
+      "position": [
+        3.750526,
+        2.785317,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.599489,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "window",
+        "gap": 1.3788698265107828,
+        "offset": 0.0,
+        "sill": 0.95,
+        "head": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "wc"
+      ]
+    },
+    "wc.screen_19": {
+      "id": "wc.screen_19",
+      "label": "screen 19",
+      "kind": "jp_joinery",
+      "room": "wc",
+      "position": [
+        3.750526,
+        2.785317,
+        0.95
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.37887,
+        "d": 0.11031,
+        "h": 1.3,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "shoji",
+      "facade": true,
+      "adjacent_rooms": [
+        "wc"
+      ]
+    },
+    "wc.wall_20": {
+      "id": "wc.wall_20",
+      "label": "wall 20",
+      "kind": "wall",
+      "room": "wc",
+      "position": [
+        5.515479,
+        1.985573,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.529907,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "wc",
+        "engawa"
+      ]
+    },
+    "bath.wall_21": {
+      "id": "bath.wall_21",
+      "label": "wall 21",
+      "kind": "wall",
+      "room": "bath",
+      "position": [
+        3.750526,
+        4.963931,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.75774,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "window",
+        "gap": 2.53712048077984,
+        "offset": 0.0,
+        "sill": 0.05,
+        "head": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "bath"
+      ]
+    },
+    "bath.screen_21": {
+      "id": "bath.screen_21",
+      "label": "screen 21",
+      "kind": "jp_joinery",
+      "room": "bath",
+      "position": [
+        3.750526,
+        4.963931,
+        0.05
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.53712,
+        "d": 0.11031,
+        "h": 2.2,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "glazing",
+      "facade": true,
+      "adjacent_rooms": [
+        "bath"
+      ]
+    },
+    "wc.wall_22": {
+      "id": "wc.wall_22",
+      "label": "wall 22",
+      "kind": "wall",
+      "room": "wc",
+      "position": [
+        5.515479,
+        3.585062,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.529907,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "wc",
+        "bath"
+      ]
+    },
+    "wash.wall_23": {
+      "id": "wash.wall_23",
+      "label": "wall 23",
+      "kind": "wall",
+      "room": "wash",
+      "position": [
+        3.750526,
+        7.473474,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.261347,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "window",
+        "gap": 2.0407273432359587,
+        "offset": 0.0,
+        "sill": 0.05,
+        "head": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "wash"
+      ]
+    },
+    "wash.screen_23": {
+      "id": "wash.screen_23",
+      "label": "screen 23",
+      "kind": "jp_joinery",
+      "room": "wash",
+      "position": [
+        3.750526,
+        7.473474,
+        0.05
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.040727,
+        "d": 0.11031,
+        "h": 2.2,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "glazing",
+      "facade": true,
+      "adjacent_rooms": [
+        "wash"
+      ]
+    },
+    "bath.wall_24": {
+      "id": "bath.wall_24",
+      "label": "wall 24",
+      "kind": "wall",
+      "room": "bath",
+      "position": [
+        5.515479,
+        6.342801,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.529907,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "bath",
+        "wash"
+      ]
+    },
+    "wash.wall_25": {
+      "id": "wash.wall_25",
+      "label": "wall 25",
+      "kind": "wall",
+      "room": "wash",
+      "position": [
+        5.515479,
+        8.604148,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.529907,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "wash"
+      ]
+    },
+    "entry.wall_26": {
+      "id": "entry.wall_26",
+      "label": "wall 26",
+      "kind": "wall",
+      "room": "entry",
+      "position": [
+        7.280433,
+        -2.316501,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.633003,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "entry"
+      ]
+    },
+    "east_hall.wall_27": {
+      "id": "east_hall.wall_27",
+      "label": "wall 27",
+      "kind": "wall",
+      "room": "east_hall",
+      "position": [
+        7.280433,
+        0.992786,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.985573,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 1.6546437918129395,
+        "offset": 0.0,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "east_hall",
+        "engawa"
+      ]
+    },
+    "east_hall.wall_28": {
+      "id": "east_hall.wall_28",
+      "label": "wall 28",
+      "kind": "wall",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 1.323715,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "east_hall"
+      ]
+    },
+    "wc.wall_29": {
+      "id": "wc.wall_29",
+      "label": "wall 29",
+      "kind": "wall",
+      "room": "wc",
+      "position": [
+        7.280433,
+        2.785317,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.599489,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 0.9376314820273324,
+        "offset": -0.02757739653021556,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "wc",
+        "east_hall"
+      ]
+    },
+    "wc.screen_29": {
+      "id": "wc.screen_29",
+      "label": "screen 29",
+      "kind": "jp_joinery",
+      "room": "wc",
+      "position": [
+        7.280433,
+        2.75774,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 0.937631,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "fusuma",
+      "facade": true,
+      "adjacent_rooms": [
+        "wc",
+        "east_hall"
+      ]
+    },
+    "bath.wall_30": {
+      "id": "bath.wall_30",
+      "label": "wall 30",
+      "kind": "wall",
+      "room": "bath",
+      "position": [
+        7.280433,
+        4.963931,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.75774,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 1.0479410681481949,
+        "offset": -0.05515479306043112,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "bath",
+        "east_hall"
+      ]
+    },
+    "bath.screen_30": {
+      "id": "bath.screen_30",
+      "label": "screen 30",
+      "kind": "jp_joinery",
+      "room": "bath",
+      "position": [
+        7.280433,
+        4.908777,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.047941,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "glazing",
+      "facade": true,
+      "adjacent_rooms": [
+        "bath",
+        "east_hall"
+      ]
+    },
+    "wash.wall_31": {
+      "id": "wash.wall_31",
+      "label": "wall 31",
+      "kind": "wall",
+      "room": "wash",
+      "position": [
+        7.280433,
+        7.473474,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.261347,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 1.1030958612086263,
+        "offset": -0.1378869826510783,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "wash",
+        "east_hall"
+      ]
+    },
+    "east_hall.wall_32": {
+      "id": "east_hall.wall_32",
+      "label": "wall 32",
+      "kind": "wall",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        8.604148,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 1.323715,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "east_hall"
+      ]
+    },
+    "east_hall.wall_33": {
+      "id": "east_hall.wall_33",
+      "label": "wall 33",
+      "kind": "wall",
+      "room": "east_hall",
+      "position": [
+        8.604148,
+        1.764953,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.529907,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 2.2061917224172527,
+        "offset": -0.11030958612086274,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "east_hall",
+        "guest"
+      ]
+    },
+    "east_hall.screen_33": {
+      "id": "east_hall.screen_33",
+      "label": "screen 33",
+      "kind": "jp_joinery",
+      "room": "east_hall",
+      "position": [
+        8.604148,
+        1.654644,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.206192,
+        "d": 0.11031,
+        "h": 2.3,
+        "openness": 0.78
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "shoji",
+      "facade": true,
+      "adjacent_rooms": [
+        "east_hall",
+        "guest"
+      ]
+    },
+    "guest.wall_34": {
+      "id": "guest.wall_34",
+      "label": "wall 34",
+      "kind": "wall",
+      "room": "guest",
+      "position": [
+        10.58972,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.971145,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "guest"
+      ]
+    },
+    "east_hall.wall_35": {
+      "id": "east_hall.wall_35",
+      "label": "wall 35",
+      "kind": "wall",
+      "room": "east_hall",
+      "position": [
+        8.604148,
+        6.067027,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 5.074241,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "door",
+        "gap": 2.9783588252632915,
+        "offset": -0.22061917224172548,
+        "sill": 0,
+        "head": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "east_hall",
+        "kitchen"
+      ]
+    },
+    "kitchen.wall_36": {
+      "id": "kitchen.wall_36",
+      "label": "wall 36",
+      "kind": "wall",
+      "room": "kitchen",
+      "position": [
+        10.58972,
+        3.529907,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.971145,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "kitchen",
+        "guest"
+      ]
+    },
+    "kitchen.wall_37": {
+      "id": "kitchen.wall_37",
+      "label": "wall 37",
+      "kind": "wall",
+      "room": "kitchen",
+      "position": [
+        10.58972,
+        8.604148,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 3.971145,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "kitchen"
+      ]
+    },
+    "guest.wall_38": {
+      "id": "guest.wall_38",
+      "label": "wall 38",
+      "kind": "wall",
+      "room": "guest",
+      "position": [
+        12.575293,
+        1.764953,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.529907,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "guest"
+      ]
+    },
+    "kitchen.wall_39": {
+      "id": "kitchen.wall_39",
+      "label": "wall 39",
+      "kind": "wall",
+      "room": "kitchen",
+      "position": [
+        12.575293,
+        6.067027,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 5.074241,
+        "h": 2.65,
+        "thickness": 0.13,
+        "opening": "window",
+        "gap": 4.688157410136662,
+        "offset": 0.0,
+        "sill": 0.65,
+        "head": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "adjacent_rooms": [
+        "kitchen"
+      ]
+    },
+    "kitchen.screen_39": {
+      "id": "kitchen.screen_39",
+      "label": "screen 39",
+      "kind": "jp_joinery",
+      "room": "kitchen",
+      "position": [
+        12.575293,
+        6.067027,
+        0.65
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.688157,
+        "d": 0.11031,
+        "h": 1.6,
+        "openness": 0
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "shoji",
+      "facade": true,
+      "adjacent_rooms": [
+        "kitchen"
+      ]
+    },
+    "zashiki.hipped_roof": {
+      "id": "zashiki.hipped_roof",
+      "label": "hipped roof",
+      "kind": "jp_roof",
+      "room": "zashiki",
+      "position": [
+        -7.501052,
+        5.29486,
+        2.78
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 11.472196930604312,
+        "d": 7.942289930604313,
+        "h": 0.68
+      },
+      "overrides": {
+        "metal": "#42483f",
+        "frame": "#494e44"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "hipped"
+    },
+    "kitchen.hipped_roof": {
+      "id": "kitchen.hipped_roof",
+      "label": "hipped roof",
+      "kind": "jp_roof",
+      "room": "kitchen",
+      "position": [
+        8.162909,
+        4.302074,
+        2.78
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 10.148481930604312,
+        "d": 9.927862930604313,
+        "h": 0.68
+      },
+      "overrides": {
+        "metal": "#42483f",
+        "frame": "#494e44"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "hipped"
+    },
+    "engawa.hipped_roof": {
+      "id": "engawa.hipped_roof",
+      "label": "hipped roof",
+      "kind": "jp_roof",
+      "room": "engawa",
+      "position": [
+        -4.412383,
+        0.992786,
+        2.78
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 17.649533930604314,
+        "d": 3.309287930604313,
+        "h": 0.68
+      },
+      "overrides": {
+        "metal": "#42483f",
+        "frame": "#494e44"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "hipped"
+    },
+    "bedroom.hipped_roof": {
+      "id": "bedroom.hipped_roof",
+      "label": "hipped roof",
+      "kind": "jp_roof",
+      "room": "bedroom",
+      "position": [
+        2.316501,
+        -2.316501,
+        2.78
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 11.251577930604313,
+        "d": 5.956717930604313,
+        "h": 0.68
+      },
+      "overrides": {
+        "metal": "#42483f",
+        "frame": "#494e44"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "hipped"
+    },
+    "engawa.exposed_beam_00": {
+      "id": "engawa.exposed_beam_00",
+      "label": "exposed beam 00",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -12.189209,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_01": {
+      "id": "engawa.exposed_beam_01",
+      "label": "exposed beam 01",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -11.428073,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_02": {
+      "id": "engawa.exposed_beam_02",
+      "label": "exposed beam 02",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -10.666937,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_03": {
+      "id": "engawa.exposed_beam_03",
+      "label": "exposed beam 03",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -9.905801,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_04": {
+      "id": "engawa.exposed_beam_04",
+      "label": "exposed beam 04",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -9.144665,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_05": {
+      "id": "engawa.exposed_beam_05",
+      "label": "exposed beam 05",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -8.383529,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_06": {
+      "id": "engawa.exposed_beam_06",
+      "label": "exposed beam 06",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -7.622392,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_07": {
+      "id": "engawa.exposed_beam_07",
+      "label": "exposed beam 07",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -6.861256,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_08": {
+      "id": "engawa.exposed_beam_08",
+      "label": "exposed beam 08",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -6.10012,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_09": {
+      "id": "engawa.exposed_beam_09",
+      "label": "exposed beam 09",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -5.338984,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_10": {
+      "id": "engawa.exposed_beam_10",
+      "label": "exposed beam 10",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -4.577848,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_11": {
+      "id": "engawa.exposed_beam_11",
+      "label": "exposed beam 11",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -3.816712,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_12": {
+      "id": "engawa.exposed_beam_12",
+      "label": "exposed beam 12",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -3.055576,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_13": {
+      "id": "engawa.exposed_beam_13",
+      "label": "exposed beam 13",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -2.294439,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_14": {
+      "id": "engawa.exposed_beam_14",
+      "label": "exposed beam 14",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -1.533303,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_15": {
+      "id": "engawa.exposed_beam_15",
+      "label": "exposed beam 15",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -0.772167,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_16": {
+      "id": "engawa.exposed_beam_16",
+      "label": "exposed beam 16",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        -0.011031,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_17": {
+      "id": "engawa.exposed_beam_17",
+      "label": "exposed beam 17",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        0.750105,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_18": {
+      "id": "engawa.exposed_beam_18",
+      "label": "exposed beam 18",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        1.511241,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_19": {
+      "id": "engawa.exposed_beam_19",
+      "label": "exposed beam 19",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        2.272377,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_20": {
+      "id": "engawa.exposed_beam_20",
+      "label": "exposed beam 20",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        3.033514,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_21": {
+      "id": "engawa.exposed_beam_21",
+      "label": "exposed beam 21",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        3.79465,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_22": {
+      "id": "engawa.exposed_beam_22",
+      "label": "exposed beam 22",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        4.555786,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_23": {
+      "id": "engawa.exposed_beam_23",
+      "label": "exposed beam 23",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        5.316922,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "engawa.exposed_beam_24": {
+      "id": "engawa.exposed_beam_24",
+      "label": "exposed beam 24",
+      "kind": "jp_joinery",
+      "room": "engawa",
+      "position": [
+        6.078058,
+        0.992786,
+        2.32
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.071701,
+        "d": 1.985573,
+        "h": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "east_hall.exposed_beam_00": {
+      "id": "east_hall.exposed_beam_00",
+      "label": "exposed beam 00",
+      "kind": "jp_joinery",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        0.551548,
+        2.33
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.071701,
+        "h": 0.11
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "east_hall.exposed_beam_01": {
+      "id": "east_hall.exposed_beam_01",
+      "label": "exposed beam 01",
+      "kind": "jp_joinery",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        1.599489,
+        2.33
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.071701,
+        "h": 0.11
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "east_hall.exposed_beam_02": {
+      "id": "east_hall.exposed_beam_02",
+      "label": "exposed beam 02",
+      "kind": "jp_joinery",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        2.64743,
+        2.33
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.071701,
+        "h": 0.11
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "east_hall.exposed_beam_03": {
+      "id": "east_hall.exposed_beam_03",
+      "label": "exposed beam 03",
+      "kind": "jp_joinery",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        3.695371,
+        2.33
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.071701,
+        "h": 0.11
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "east_hall.exposed_beam_04": {
+      "id": "east_hall.exposed_beam_04",
+      "label": "exposed beam 04",
+      "kind": "jp_joinery",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        4.743312,
+        2.33
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.071701,
+        "h": 0.11
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "east_hall.exposed_beam_05": {
+      "id": "east_hall.exposed_beam_05",
+      "label": "exposed beam 05",
+      "kind": "jp_joinery",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        5.791253,
+        2.33
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.071701,
+        "h": 0.11
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "east_hall.exposed_beam_06": {
+      "id": "east_hall.exposed_beam_06",
+      "label": "exposed beam 06",
+      "kind": "jp_joinery",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        6.839194,
+        2.33
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.071701,
+        "h": 0.11
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "east_hall.exposed_beam_07": {
+      "id": "east_hall.exposed_beam_07",
+      "label": "exposed beam 07",
+      "kind": "jp_joinery",
+      "room": "east_hall",
+      "position": [
+        7.94229,
+        7.887135,
+        2.33
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.071701,
+        "h": 0.11
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "beam"
+    },
+    "zashiki.tea_table": {
+      "id": "zashiki.tea_table",
+      "label": "tea table",
+      "kind": "jp_furniture",
+      "room": "zashiki",
+      "position": [
+        -9.817553,
+        4.577848,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.709799,
+        "d": 0.992786,
+        "h": 0.33
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "chabudai"
+    },
+    "zashiki.zabuton_1": {
+      "id": "zashiki.zabuton_1",
+      "label": "zabuton 1",
+      "kind": "jp_furniture",
+      "room": "zashiki",
+      "position": [
+        -10.810339,
+        4.577848,
+        0.07
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.683919,
+        "d": 0.683919,
+        "h": 0.09
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "zabuton"
+    },
+    "zashiki.zabuton_2": {
+      "id": "zashiki.zabuton_2",
+      "label": "zabuton 2",
+      "kind": "jp_furniture",
+      "room": "zashiki",
+      "position": [
+        -8.824767,
+        4.577848,
+        0.07
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.683919,
+        "d": 0.683919,
+        "h": 0.09
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "zabuton"
+    },
+    "zashiki.zabuton_3": {
+      "id": "zashiki.zabuton_3",
+      "label": "zabuton 3",
+      "kind": "jp_furniture",
+      "room": "zashiki",
+      "position": [
+        -9.817553,
+        3.529907,
+        0.07
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.683919,
+        "d": 0.683919,
+        "h": 0.09
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "zabuton"
+    },
+    "zashiki.zabuton_4": {
+      "id": "zashiki.zabuton_4",
+      "label": "zabuton 4",
+      "kind": "jp_furniture",
+      "room": "zashiki",
+      "position": [
+        -9.817553,
+        5.625789,
+        0.07
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.683919,
+        "d": 0.683919,
+        "h": 0.09
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "zabuton"
+    },
+    "zashiki.tokonoma": {
+      "id": "zashiki.tokonoma",
+      "label": "tokonoma",
+      "kind": "jp_joinery",
+      "room": "zashiki",
+      "position": [
+        -9.762398,
+        7.898166,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 4.191764,
+        "d": 0.794229,
+        "h": 2.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "tokonoma"
+    },
+    "zashiki.ikebana": {
+      "id": "zashiki.ikebana",
+      "label": "ikebana",
+      "kind": "plant",
+      "room": "zashiki",
+      "position": [
+        -11.251578,
+        7.831981,
+        0.2
+      ],
+      "rotation": 0,
+      "params": {
+        "h": 0.58
+      },
+      "overrides": {
+        "leaf": "#4e6240",
+        "accent": "#d1c5a2"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "flowers"
+    },
+    "zashiki.tea_service": {
+      "id": "zashiki.tea_service",
+      "label": "tea service",
+      "kind": "art",
+      "room": "zashiki",
+      "position": [
+        -9.817553,
+        4.577848,
+        0.358
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.606703,
+        "h": 0.24,
+        "image": "abstract"
+      },
+      "overrides": {
+        "ceramic": "#797d6b"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "tea_service"
+    },
+    "zashiki.andon": {
+      "id": "zashiki.andon",
+      "label": "andon",
+      "kind": "jp_furniture",
+      "room": "zashiki",
+      "position": [
+        -11.858281,
+        6.839194,
+        0.064
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.34196,
+        "d": 0.34196,
+        "h": 0.6
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "andon"
+    },
+    "tea.reading_table": {
+      "id": "tea.reading_table",
+      "label": "reading table",
+      "kind": "jp_furniture",
+      "room": "tea",
+      "position": [
+        -5.129396,
+        4.0263,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.772167,
+        "h": 0.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "chabudai"
+    },
+    "tea.floor_cushion": {
+      "id": "tea.floor_cushion",
+      "label": "floor cushion",
+      "kind": "jp_furniture",
+      "room": "tea",
+      "position": [
+        -5.129396,
+        3.088668,
+        0.06
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.750105,
+        "d": 0.683919,
+        "h": 0.1
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "zabuton"
+    },
+    "tea.books": {
+      "id": "tea.books",
+      "label": "books",
+      "kind": "books",
+      "room": "tea",
+      "position": [
+        -5.29486,
+        4.081455,
+        0.318
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.441238
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "stack"
+    },
+    "tea.andon": {
+      "id": "tea.andon",
+      "label": "andon",
+      "kind": "jp_furniture",
+      "room": "tea",
+      "position": [
+        -6.453111,
+        5.350015,
+        0.064
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.330929,
+        "d": 0.330929,
+        "h": 0.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "andon"
+    },
+    "dressing.storage": {
+      "id": "dressing.storage",
+      "label": "storage",
+      "kind": "cabinet",
+      "room": "dressing",
+      "position": [
+        -4.743312,
+        8.196002,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 4.081455,
+        "d": 0.661858,
+        "h": 2.35
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "dressing.linen": {
+      "id": "dressing.linen",
+      "label": "linen",
+      "kind": "cabinet",
+      "room": "dressing",
+      "position": [
+        -6.618575,
+        7.059814,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.764953,
+        "d": 0.551548,
+        "h": 1.8,
+        "shelves": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "guest.low_table": {
+      "id": "guest.low_table",
+      "label": "low table",
+      "kind": "jp_furniture",
+      "room": "guest",
+      "position": [
+        10.810339,
+        1.544334,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.213405,
+        "d": 0.794229,
+        "h": 0.32
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "chabudai"
+    },
+    "guest.cushion_0": {
+      "id": "guest.cushion_0",
+      "label": "cushion 0",
+      "kind": "jp_furniture",
+      "room": "guest",
+      "position": [
+        9.707244,
+        1.544334,
+        0.06
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.661858,
+        "d": 0.661858,
+        "h": 0.09
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "zabuton"
+    },
+    "guest.cushion_1": {
+      "id": "guest.cushion_1",
+      "label": "cushion 1",
+      "kind": "jp_furniture",
+      "room": "guest",
+      "position": [
+        11.913435,
+        1.544334,
+        0.06
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.661858,
+        "d": 0.661858,
+        "h": 0.09
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "zabuton"
+    },
+    "guest.closet": {
+      "id": "guest.closet",
+      "label": "closet",
+      "kind": "cabinet",
+      "room": "guest",
+      "position": [
+        10.58972,
+        3.132792,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.309288,
+        "d": 0.606703,
+        "h": 2.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "guest.andon": {
+      "id": "guest.andon",
+      "label": "andon",
+      "kind": "jp_furniture",
+      "room": "guest",
+      "position": [
+        12.0789,
+        0.551548,
+        0.064
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.330929,
+        "d": 0.330929,
+        "h": 0.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "andon"
+    },
+    "bedroom.low_bed": {
+      "id": "bedroom.low_bed",
+      "label": "low bed",
+      "kind": "jp_furniture",
+      "room": "bedroom",
+      "position": [
+        0.220619,
+        -2.75774,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 1.985573,
+        "d": 2.338563,
+        "h": 0.65
+      },
+      "overrides": {
+        "fabric": "#c5c0ae",
+        "accent": "#8b927f"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "low_bed"
+    },
+    "bedroom.bedside_0": {
+      "id": "bedroom.bedside_0",
+      "label": "bedside 0",
+      "kind": "jp_furniture",
+      "room": "bedroom",
+      "position": [
+        -1.323715,
+        -3.529907,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.551548,
+        "d": 0.529486,
+        "h": 0.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "bench"
+    },
+    "bedroom.andon_0": {
+      "id": "bedroom.andon_0",
+      "label": "andon 0",
+      "kind": "jp_furniture",
+      "room": "bedroom",
+      "position": [
+        -1.323715,
+        -3.529907,
+        0.333
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.275774,
+        "d": 0.275774,
+        "h": 0.4
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "andon"
+    },
+    "bedroom.bedside_1": {
+      "id": "bedroom.bedside_1",
+      "label": "bedside 1",
+      "kind": "jp_furniture",
+      "room": "bedroom",
+      "position": [
+        1.764953,
+        -3.529907,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.551548,
+        "d": 0.529486,
+        "h": 0.3
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "bench"
+    },
+    "bedroom.andon_1": {
+      "id": "bedroom.andon_1",
+      "label": "andon 1",
+      "kind": "jp_furniture",
+      "room": "bedroom",
+      "position": [
+        1.764953,
+        -3.529907,
+        0.333
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.275774,
+        "d": 0.275774,
+        "h": 0.4
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "andon"
+    },
+    "bedroom.low_storage": {
+      "id": "bedroom.low_storage",
+      "label": "low storage",
+      "kind": "cabinet",
+      "room": "bedroom",
+      "position": [
+        3.198978,
+        -2.75774,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 2.206192,
+        "d": 0.441238,
+        "h": 0.7
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "bedroom.art": {
+      "id": "bedroom.art",
+      "label": "art",
+      "kind": "art",
+      "room": "bedroom",
+      "position": [
+        0.220619,
+        -4.522693,
+        1.55
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 1.103096,
+        "h": 0.6,
+        "image": "botanical"
+      },
+      "overrides": {
+        "accent": "#727a62"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "entry.genkan_step": {
+      "id": "entry.genkan_step",
+      "label": "genkan step",
+      "kind": "jp_joinery",
+      "room": "entry",
+      "position": [
+        5.515479,
+        -1.103096,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 2.923204,
+        "d": 0.496393,
+        "h": 0.16
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "step"
+    },
+    "entry.shoe_storage": {
+      "id": "entry.shoe_storage",
+      "label": "shoe storage",
+      "kind": "cabinet",
+      "room": "entry",
+      "position": [
+        6.894349,
+        -3.143823,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.985573,
+        "d": 0.496393,
+        "h": 0.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "entry.sitting_bench": {
+      "id": "entry.sitting_bench",
+      "label": "sitting bench",
+      "kind": "jp_furniture",
+      "room": "entry",
+      "position": [
+        4.191764,
+        -3.088668,
+        -0.14
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.544334,
+        "d": 0.496393,
+        "h": 0.4
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "bench"
+    },
+    "entry.vase": {
+      "id": "entry.vase",
+      "label": "vase",
+      "kind": "art",
+      "room": "entry",
+      "position": [
+        6.894349,
+        -2.978359,
+        0.88
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.242681,
+        "h": 0.38,
+        "image": "abstract"
+      },
+      "overrides": {
+        "ceramic": "#7a7e69"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "ceramic_vessel"
+    },
+    "entry.andon": {
+      "id": "entry.andon",
+      "label": "andon",
+      "kind": "jp_furniture",
+      "room": "entry",
+      "position": [
+        6.78404,
+        -4.0263,
+        -0.14
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.330929,
+        "d": 0.330929,
+        "h": 0.55
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "andon"
+    },
+    "kitchen.counter": {
+      "id": "kitchen.counter",
+      "label": "counter",
+      "kind": "cabinet",
+      "room": "kitchen",
+      "position": [
+        10.810339,
+        8.162909,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.088668,
+        "d": 0.705981,
+        "h": 0.9
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.side_counter": {
+      "id": "kitchen.side_counter",
+      "label": "side counter",
+      "kind": "cabinet",
+      "room": "kitchen",
+      "position": [
+        12.189209,
+        6.949504,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.875263,
+        "d": 0.606703,
+        "h": 0.9
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.cooktop": {
+      "id": "kitchen.cooktop",
+      "label": "cooktop",
+      "kind": "appliance",
+      "room": "kitchen",
+      "position": [
+        10.038172,
+        8.162909,
+        0.94
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.717012,
+        "d": 0.474331,
+        "h": 0.035,
+        "model": "cooktop"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.fridge": {
+      "id": "kitchen.fridge",
+      "label": "fridge",
+      "kind": "appliance",
+      "room": "kitchen",
+      "position": [
+        9.100541,
+        7.94229,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.728043,
+        "d": 0.772167,
+        "h": 1.9,
+        "model": "fridge"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.dining_table": {
+      "id": "kitchen.dining_table",
+      "label": "dining table",
+      "kind": "table",
+      "room": "kitchen",
+      "position": [
+        10.644875,
+        5.350015,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.709799,
+        "d": 0.904539,
+        "h": 0.7
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.chair_0": {
+      "id": "kitchen.chair_0",
+      "label": "chair 0",
+      "kind": "chair",
+      "room": "kitchen",
+      "position": [
+        10.148482,
+        4.544755,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.474331,
+        "d": 0.529486,
+        "h": 0.79
+      },
+      "overrides": {
+        "fabric": "#b7b59d",
+        "metal": "#665643"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.chair_1": {
+      "id": "kitchen.chair_1",
+      "label": "chair 1",
+      "kind": "chair",
+      "room": "kitchen",
+      "position": [
+        11.141268,
+        4.544755,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.474331,
+        "d": 0.529486,
+        "h": 0.79
+      },
+      "overrides": {
+        "fabric": "#b7b59d",
+        "metal": "#665643"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.chair_2": {
+      "id": "kitchen.chair_2",
+      "label": "chair 2",
+      "kind": "chair",
+      "room": "kitchen",
+      "position": [
+        10.148482,
+        6.155275,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.474331,
+        "d": 0.529486,
+        "h": 0.79
+      },
+      "overrides": {
+        "fabric": "#b7b59d",
+        "metal": "#665643"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.chair_3": {
+      "id": "kitchen.chair_3",
+      "label": "chair 3",
+      "kind": "chair",
+      "room": "kitchen",
+      "position": [
+        11.141268,
+        6.155275,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.474331,
+        "d": 0.529486,
+        "h": 0.79
+      },
+      "overrides": {
+        "fabric": "#b7b59d",
+        "metal": "#665643"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.table_flower": {
+      "id": "kitchen.table_flower",
+      "label": "table flower",
+      "kind": "plant",
+      "room": "kitchen",
+      "position": [
+        10.644875,
+        5.350015,
+        0.76
+      ],
+      "rotation": 0,
+      "params": {
+        "h": 0.38
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "flowers"
+    },
+    "bath.hinoki_tub": {
+      "id": "bath.hinoki_tub",
+      "label": "hinoki tub",
+      "kind": "jp_furniture",
+      "room": "bath",
+      "position": [
+        4.688157,
+        4.963931,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.434025,
+        "d": 2.040727,
+        "h": 0.6
+      },
+      "overrides": {
+        "wood": "#c0a475",
+        "glass": "#8ea9a0",
+        "metal": "#747e77"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "ofuro"
+    },
+    "bath.bath_stool": {
+      "id": "bath.bath_stool",
+      "label": "bath stool",
+      "kind": "jp_furniture",
+      "room": "bath",
+      "position": [
+        6.453111,
+        5.350015,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.419176,
+        "d": 0.308867,
+        "h": 0.25
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "bench"
+    },
+    "bath.towels": {
+      "id": "bath.towels",
+      "label": "towels",
+      "kind": "rug",
+      "room": "bath",
+      "position": [
+        6.397956,
+        3.971145,
+        0.15
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.496393,
+        "d": 0.386084
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "folded_towels"
+    },
+    "wash.vanity": {
+      "id": "wash.vanity",
+      "label": "vanity",
+      "kind": "basin",
+      "room": "wash",
+      "position": [
+        4.743312,
+        8.107755,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.875263
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "wash.mirror": {
+      "id": "wash.mirror",
+      "label": "mirror",
+      "kind": "mirror",
+      "room": "wash",
+      "position": [
+        4.743312,
+        8.471776,
+        1.55
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.820108,
+        "h": 0.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "wash.laundry": {
+      "id": "wash.laundry",
+      "label": "laundry",
+      "kind": "appliance",
+      "room": "wash",
+      "position": [
+        6.750947,
+        7.94229,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.717012,
+        "d": 0.717012,
+        "h": 0.92,
+        "model": "fridge"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "laundry_appliance"
+    },
+    "wc.toilet": {
+      "id": "wc.toilet",
+      "label": "toilet",
+      "kind": "toilet",
+      "room": "wc",
+      "position": [
+        4.743312,
+        2.75774,
+        0
+      ],
+      "rotation": 90,
+      "params": {},
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "wc.basin": {
+      "id": "wc.basin",
+      "label": "basin",
+      "kind": "basin",
+      "room": "wc",
+      "position": [
+        6.397956,
+        2.923204,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.717012
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "main_garden.engawa_deck": {
+      "id": "main_garden.engawa_deck",
+      "label": "engawa deck",
+      "kind": "jp_joinery",
+      "room": "main_garden",
+      "position": [
+        -7.721671,
+        -0.639796,
+        -0.025
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 9.266005,
+        "d": 1.158251,
+        "h": 0.14
+      },
+      "overrides": {
+        "wood": "#8f7e62"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "deck"
+    },
+    "main_garden.bedroom_deck": {
+      "id": "main_garden.bedroom_deck",
+      "label": "bedroom deck",
+      "kind": "jp_joinery",
+      "room": "main_garden",
+      "position": [
+        -3.254133,
+        -2.53712,
+        -0.025
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.103096,
+        "d": 4.302074,
+        "h": 0.14
+      },
+      "overrides": {
+        "wood": "#8f7e62"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "deck"
+    },
+    "courtyard.inner_deck": {
+      "id": "courtyard.inner_deck",
+      "label": "inner deck",
+      "kind": "jp_joinery",
+      "room": "courtyard",
+      "position": [
+        0.661858,
+        2.316501,
+        -0.025
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 5.846408,
+        "d": 0.661858,
+        "h": 0.14
+      },
+      "overrides": {
+        "wood": "#8f7e62"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "deck"
+    },
+    "courtyard.gravel": {
+      "id": "courtyard.gravel",
+      "label": "gravel",
+      "kind": "jp_garden",
+      "room": "courtyard",
+      "position": [
+        0.661858,
+        5.570634,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 5.846408,
+        "d": 5.625789,
+        "h": 0.05
+      },
+      "overrides": {
+        "stone": "#bdb9a7"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "gravel"
+    },
+    "main_garden.gravel": {
+      "id": "main_garden.gravel",
+      "label": "gravel",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -8.714457,
+        -4.0263,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 9.376315,
+        "d": 5.40517,
+        "h": 0.05
+      },
+      "overrides": {
+        "stone": "#b4b3a1"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "gravel"
+    },
+    "front_garden.gravel": {
+      "id": "front_garden.gravel",
+      "label": "gravel",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        10.672452,
+        -3.640216,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 5.129396,
+        "d": 6.177337,
+        "h": 0.05
+      },
+      "overrides": {
+        "stone": "#bdb9a7"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "gravel"
+    },
+    "courtyard.moss": {
+      "id": "courtyard.moss",
+      "label": "moss",
+      "kind": "jp_garden",
+      "room": "courtyard",
+      "position": [
+        0.0,
+        5.956718,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 4.191764,
+        "d": 3.750526,
+        "h": 0.13
+      },
+      "overrides": {
+        "leaf": "#6e7955"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "moss"
+    },
+    "main_garden.west_moss": {
+      "id": "main_garden.west_moss",
+      "label": "west moss",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -10.148482,
+        -4.633003,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 5.29486,
+        "d": 3.198978,
+        "h": 0.13
+      },
+      "overrides": {
+        "leaf": "#6e7955"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "moss"
+    },
+    "main_garden.east_moss": {
+      "id": "main_garden.east_moss",
+      "label": "east moss",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -6.287646,
+        -3.750526,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.088668,
+        "d": 2.64743,
+        "h": 0.13
+      },
+      "overrides": {
+        "leaf": "#6e7955"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "moss"
+    },
+    "front_garden.entry_moss": {
+      "id": "front_garden.entry_moss",
+      "label": "entry moss",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        11.803126,
+        -3.971145,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 2.095882,
+        "d": 3.750526,
+        "h": 0.13
+      },
+      "overrides": {
+        "leaf": "#6e7955"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "moss"
+    },
+    "courtyard.maple": {
+      "id": "courtyard.maple",
+      "label": "maple",
+      "kind": "jp_garden",
+      "room": "courtyard",
+      "position": [
+        0.11031,
+        6.067027,
+        -0.13
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 2.868049,
+        "d": 2.868049,
+        "h": 3.0
+      },
+      "overrides": {
+        "leaf": "#6f7f52",
+        "wood": "#756751"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "maple"
+    },
+    "main_garden.maple_west": {
+      "id": "main_garden.maple_west",
+      "label": "maple west",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -10.258792,
+        -4.633003,
+        -0.13
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 2.978359,
+        "d": 2.978359,
+        "h": 3.3
+      },
+      "overrides": {
+        "leaf": "#6f7f52",
+        "wood": "#756751"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "maple"
+    },
+    "main_garden.pine": {
+      "id": "main_garden.pine",
+      "label": "pine",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -5.956718,
+        -4.633003,
+        -0.13
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 2.868049,
+        "d": 2.868049,
+        "h": 2.7
+      },
+      "overrides": {
+        "leaf": "#4f694d",
+        "wood": "#756751"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "pine"
+    },
+    "front_garden.maple_entry": {
+      "id": "front_garden.maple_entry",
+      "label": "maple entry",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        12.023745,
+        -3.971145,
+        -0.13
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 2.206192,
+        "d": 2.206192,
+        "h": 2.75
+      },
+      "overrides": {
+        "leaf": "#6f7f52",
+        "wood": "#756751"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "maple"
+    },
+    "main_garden.bamboo_0": {
+      "id": "main_garden.bamboo_0",
+      "label": "bamboo 0",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -13.568079,
+        -4.412383,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.827322,
+        "d": 0.496393,
+        "h": 2.4
+      },
+      "overrides": {
+        "leaf": "#7b8961",
+        "wood": "#95835d"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "bamboo"
+    },
+    "main_garden.bamboo_1": {
+      "id": "main_garden.bamboo_1",
+      "label": "bamboo 1",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -13.568079,
+        -1.764953,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.827322,
+        "d": 0.496393,
+        "h": 2.4
+      },
+      "overrides": {
+        "leaf": "#7b8961",
+        "wood": "#95835d"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "bamboo"
+    },
+    "main_garden.bamboo_2": {
+      "id": "main_garden.bamboo_2",
+      "label": "bamboo 2",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -11.030959,
+        -6.78404,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.827322,
+        "d": 0.496393,
+        "h": 2.4
+      },
+      "overrides": {
+        "leaf": "#7b8961",
+        "wood": "#95835d"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "bamboo"
+    },
+    "front_garden.bamboo_3": {
+      "id": "front_garden.bamboo_3",
+      "label": "bamboo 3",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        13.512924,
+        1.875263,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.827322,
+        "d": 0.496393,
+        "h": 2.4
+      },
+      "overrides": {
+        "leaf": "#7b8961",
+        "wood": "#95835d"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "bamboo"
+    },
+    "front_garden.bamboo_4": {
+      "id": "front_garden.bamboo_4",
+      "label": "bamboo 4",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        13.512924,
+        6.287646,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.827322,
+        "d": 0.496393,
+        "h": 2.4
+      },
+      "overrides": {
+        "leaf": "#7b8961",
+        "wood": "#95835d"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "bamboo"
+    },
+    "courtyard.stone_0": {
+      "id": "courtyard.stone_0",
+      "label": "stone 0",
+      "kind": "jp_garden",
+      "room": "courtyard",
+      "position": [
+        -0.882477,
+        5.40517,
+        -0.12
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.213405,
+        "d": 0.937631,
+        "h": 0.44
+      },
+      "overrides": {
+        "stone": "#858980"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "courtyard.stone_1": {
+      "id": "courtyard.stone_1",
+      "label": "stone 1",
+      "kind": "jp_garden",
+      "room": "courtyard",
+      "position": [
+        1.544334,
+        6.839194,
+        -0.12
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.882477,
+        "d": 0.606703,
+        "h": 0.3
+      },
+      "overrides": {
+        "stone": "#858980"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "courtyard.stone_2": {
+      "id": "courtyard.stone_2",
+      "label": "stone 2",
+      "kind": "jp_garden",
+      "room": "courtyard",
+      "position": [
+        0.0,
+        7.059814,
+        -0.12
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.551548,
+        "d": 0.441238,
+        "h": 0.26
+      },
+      "overrides": {
+        "stone": "#858980"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.stone_3": {
+      "id": "main_garden.stone_3",
+      "label": "stone 3",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -9.927863,
+        -3.750526,
+        -0.12
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.323715,
+        "d": 0.882477,
+        "h": 0.48
+      },
+      "overrides": {
+        "stone": "#858980"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.stone_4": {
+      "id": "main_garden.stone_4",
+      "label": "stone 4",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -11.692816,
+        -5.184551,
+        -0.12
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.882477,
+        "d": 0.661858,
+        "h": 0.37
+      },
+      "overrides": {
+        "stone": "#858980"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.stone_5": {
+      "id": "main_garden.stone_5",
+      "label": "stone 5",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -6.397956,
+        -3.529907,
+        -0.12
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.992786,
+        "d": 0.606703,
+        "h": 0.33
+      },
+      "overrides": {
+        "stone": "#858980"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "front_garden.stone_6": {
+      "id": "front_garden.stone_6",
+      "label": "stone 6",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        11.030959,
+        -3.088668,
+        -0.12
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.717012,
+        "d": 0.551548,
+        "h": 0.35
+      },
+      "overrides": {
+        "stone": "#858980"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "front_garden.path_0": {
+      "id": "front_garden.path_0",
+      "label": "path 0",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        11.251577784327988,
+        -6.453110788070464,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.661858,
+        "d": 0.474331,
+        "h": 0.065
+      },
+      "overrides": {
+        "stone": "#9b9e8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "front_garden.path_1": {
+      "id": "front_garden.path_1",
+      "label": "path 1",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        10.14848192311936,
+        -6.122182029707876,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.661858,
+        "d": 0.474331,
+        "h": 0.065
+      },
+      "overrides": {
+        "stone": "#9b9e8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "front_garden.path_2": {
+      "id": "front_garden.path_2",
+      "label": "path 2",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        9.045386061910735,
+        -5.791253271345289,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.661858,
+        "d": 0.474331,
+        "h": 0.065
+      },
+      "overrides": {
+        "stone": "#9b9e8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "front_garden.path_3": {
+      "id": "front_garden.path_3",
+      "label": "path 3",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        7.94229020070211,
+        -5.515479306043131,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.661858,
+        "d": 0.474331,
+        "h": 0.065
+      },
+      "overrides": {
+        "stone": "#9b9e8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "front_garden.path_4": {
+      "id": "front_garden.path_4",
+      "label": "path 4",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        6.839194339493484,
+        -5.239705340740975,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.661858,
+        "d": 0.474331,
+        "h": 0.065
+      },
+      "overrides": {
+        "stone": "#9b9e8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "front_garden.path_5": {
+      "id": "front_garden.path_5",
+      "label": "path 5",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        5.846408064405719,
+        -4.963931375438818,
+        -0.17
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.661858,
+        "d": 0.474331,
+        "h": 0.065
+      },
+      "overrides": {
+        "stone": "#9b9e8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.path_0": {
+      "id": "main_garden.path_0",
+      "label": "path 0",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -10.70003,
+        -1.654644,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.705981,
+        "d": 0.507424,
+        "h": 0.06
+      },
+      "overrides": {
+        "stone": "#9a9d8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.path_1": {
+      "id": "main_garden.path_1",
+      "label": "path 1",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -10.038172,
+        -2.206192,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.705981,
+        "d": 0.507424,
+        "h": 0.06
+      },
+      "overrides": {
+        "stone": "#9a9d8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.path_2": {
+      "id": "main_garden.path_2",
+      "label": "path 2",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -9.376315,
+        -2.75774,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.705981,
+        "d": 0.507424,
+        "h": 0.06
+      },
+      "overrides": {
+        "stone": "#9a9d8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.path_3": {
+      "id": "main_garden.path_3",
+      "label": "path 3",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -8.714457,
+        -3.254133,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.705981,
+        "d": 0.507424,
+        "h": 0.06
+      },
+      "overrides": {
+        "stone": "#9a9d8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.path_4": {
+      "id": "main_garden.path_4",
+      "label": "path 4",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -7.997445,
+        -3.585062,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.705981,
+        "d": 0.507424,
+        "h": 0.06
+      },
+      "overrides": {
+        "stone": "#9a9d8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.path_5": {
+      "id": "main_garden.path_5",
+      "label": "path 5",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -7.225278,
+        -3.309288,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.705981,
+        "d": 0.507424,
+        "h": 0.06
+      },
+      "overrides": {
+        "stone": "#9a9d8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.path_6": {
+      "id": "main_garden.path_6",
+      "label": "path 6",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -6.508266,
+        -2.812894,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.705981,
+        "d": 0.507424,
+        "h": 0.06
+      },
+      "overrides": {
+        "stone": "#9a9d8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "main_garden.path_7": {
+      "id": "main_garden.path_7",
+      "label": "path 7",
+      "kind": "jp_garden",
+      "room": "main_garden",
+      "position": [
+        -5.736098,
+        -2.316501,
+        -0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.705981,
+        "d": 0.507424,
+        "h": 0.06
+      },
+      "overrides": {
+        "stone": "#9a9d8c"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "rock"
+    },
+    "courtyard.ishidoro": {
+      "id": "courtyard.ishidoro",
+      "label": "ishidoro",
+      "kind": "jp_garden",
+      "room": "courtyard",
+      "position": [
+        -1.26856,
+        4.0263,
+        -0.14
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.750105,
+        "d": 0.750105,
+        "h": 0.95
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "toro"
+    },
+    "front_garden.ishidoro": {
+      "id": "front_garden.ishidoro",
+      "label": "ishidoro",
+      "kind": "jp_garden",
+      "room": "front_garden",
+      "position": [
+        11.086113,
+        -5.239705,
+        -0.14
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.639796,
+        "d": 0.639796,
+        "h": 0.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "toro"
+    },
+    "courtyard.tsukubai": {
+      "id": "courtyard.tsukubai",
+      "label": "tsukubai",
+      "kind": "jp_furniture",
+      "room": "courtyard",
+      "position": [
+        2.426811,
+        5.625789,
+        -0.11
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.772167,
+        "d": 0.717012,
+        "h": 0.36
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "stone_bowl"
+    },
+    "courtyard.privacy_slats": {
+      "id": "courtyard.privacy_slats",
+      "label": "privacy slats",
+      "kind": "jp_joinery",
+      "room": "courtyard",
+      "position": [
+        3.375473,
+        5.515479,
+        -0.04
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 4.081455,
+        "d": 0.077217,
+        "h": 1.65
+      },
+      "overrides": {
+        "wood": "#8e7b57"
+      },
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "slats"
+    },
+    "main_garden.west_boundary": {
+      "id": "main_garden.west_boundary",
+      "label": "west boundary",
+      "kind": "jp_joinery",
+      "room": "main_garden",
+      "position": [
+        -13.4,
+        1.48,
+        -0.18
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 16.255714,
+        "d": 0.2,
+        "h": 1.75
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "boundary",
+      "architecture": true
+    },
+    "main_garden.north_boundary": {
+      "id": "main_garden.north_boundary",
+      "label": "north boundary",
+      "kind": "jp_joinery",
+      "room": "main_garden",
+      "position": [
+        0.0,
+        9.657857,
+        -0.18
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 26.8,
+        "d": 0.2,
+        "h": 1.75
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "boundary",
+      "architecture": true
+    },
+    "front_garden.east_boundary": {
+      "id": "front_garden.east_boundary",
+      "label": "east boundary",
+      "kind": "jp_joinery",
+      "room": "front_garden",
+      "position": [
+        13.4,
+        1.48,
+        -0.18
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 16.255714,
+        "d": 0.2,
+        "h": 1.75
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "boundary",
+      "architecture": true
+    },
+    "main_garden.south_boundary": {
+      "id": "main_garden.south_boundary",
+      "label": "south boundary",
+      "kind": "jp_joinery",
+      "room": "main_garden",
+      "position": [
+        -4.0,
+        -6.697857,
+        -0.18
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 18.8,
+        "d": 0.2,
+        "h": 1.75
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      },
+      "detail": "boundary",
+      "architecture": true
+    },
+    "engawa.concealed_light": {
+      "id": "engawa.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "engawa",
+      "position": [
+        -0.551548,
+        0.132372,
+        0.16
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 4.412383,
+        "power": 18,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "east_hall.concealed_light": {
+      "id": "east_hall.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "east_hall",
+      "position": [
+        8.40559,
+        4.853622,
+        0.16
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 5.074241,
+        "power": 18,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "zashiki.concealed_light": {
+      "id": "zashiki.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "zashiki",
+      "position": [
+        -9.817553,
+        8.118786,
+        2.3
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.529907,
+        "power": 30,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "tea.concealed_light": {
+      "id": "tea.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "tea",
+      "position": [
+        -6.916411,
+        4.081455,
+        2.3
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 2.64743,
+        "power": 30,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "kitchen.concealed_light": {
+      "id": "kitchen.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "kitchen",
+      "position": [
+        10.70003,
+        8.107755,
+        2.3
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 2.75774,
+        "power": 30,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "bedroom.concealed_light": {
+      "id": "bedroom.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "bedroom",
+      "position": [
+        0.220619,
+        -4.500631,
+        0.18
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 3.750526,
+        "power": 18,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "entry.concealed_light": {
+      "id": "entry.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "entry",
+      "position": [
+        6.971566,
+        -3.088668,
+        0.18
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.985573,
+        "power": 18,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "bath.concealed_light": {
+      "id": "bath.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "bath",
+      "position": [
+        3.971145,
+        4.963931,
+        2.25
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.764953,
+        "power": 30,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "wash.concealed_light": {
+      "id": "wash.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "wash",
+      "position": [
+        4.743312,
+        8.383529,
+        2.2
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.764953,
+        "power": 30,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    },
+    "guest.concealed_light": {
+      "id": "guest.concealed_light",
+      "label": "concealed light",
+      "kind": "cove",
+      "room": "guest",
+      "position": [
+        11.913435,
+        3.198978,
+        2.3
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.103096,
+        "power": 30,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "designed_example",
+        "geometry": "parametric",
+        "scale": "design_dimensions"
+      }
+    }
+  },
+  "presentation": {
+    "title": "三庭 · 静居",
+    "subtitle": "NIWA TO MA · 日式庭院住宅",
+    "note": "约221.5㎡设计面积 · 前庭／中庭／主庭与廊下",
+    "filename": "three-gardens.scene.json"
+  },
+  "provenance": {
+    "origin": "reference_layout_design_adaptation",
+    "scale": "design_dimensions",
+    "geometry": "parametric",
+    "reference": "Neyagawa single-storey residence, public MASH property PDF; source building area 221.51 m², land 477.56 m².",
+    "notes": "Room adjacencies and three gardens follow the selected plan. No complete dimension strings were available. Rectified outlines, ceiling heights, roof form, doors, furnishings and planting are authored estimates; not a measured reproduction."
+  },
+  "palettes": {
+    "warm": {
+      "wood": "#9c896d",
+      "fabric": "#c6c1a0",
+      "wall": "#ded8c8",
+      "floor": "#af9676",
+      "metal": "#484b43",
+      "accent": "#a4a584",
+      "stone": "#b6b3a5",
+      "frame": "#544a38",
+      "paper": "#eee7d4",
+      "leaf": "#637c4e",
+      "soil": "#5e6551"
+    },
+    "heritage": {
+      "wood": "#6f5946",
+      "fabric": "#ada894",
+      "wall": "#cfc7b7",
+      "floor": "#8e7963",
+      "metal": "#484b43",
+      "accent": "#a4a584",
+      "stone": "#b6b3a5",
+      "frame": "#484236",
+      "paper": "#eee7d4",
+      "leaf": "#637c4e",
+      "soil": "#5e6551"
+    }
+  },
+  "layout": {
+    "outline": [
+      [
+        -14,
+        -7.047857142857142
+      ],
+      [
+        14,
+        -7.047857142857142
+      ],
+      [
+        14,
+        10.007857142857143
+      ],
+      [
+        -14,
+        10.007857142857143
+      ]
+    ],
+    "area_design_m2": 221.51,
+    "garden_rooms": [
+      "front_garden",
+      "courtyard",
+      "main_garden"
+    ],
+    "portals": [
+      {
+        "rooms": [
+          "engawa",
+          "outside"
+        ],
+        "center": [
+          -7.611361,
+          0.0
+        ],
+        "width": 9.77342933030843,
+        "kind": "sliding",
+        "wall": "engawa.wall_01"
+      },
+      {
+        "rooms": [
+          "zashiki",
+          "outside"
+        ],
+        "center": [
+          -12.575293,
+          5.29486
+        ],
+        "width": 4.3020738587136425,
+        "kind": "sliding",
+        "wall": "zashiki.wall_02"
+      },
+      {
+        "rooms": [
+          "zashiki",
+          "engawa"
+        ],
+        "center": [
+          -9.596934,
+          1.985573
+        ],
+        "width": 3.309287583625879,
+        "kind": "sliding",
+        "wall": "zashiki.wall_03"
+      },
+      {
+        "rooms": [
+          "zashiki",
+          "tea"
+        ],
+        "center": [
+          -7.059814,
+          3.971145
+        ],
+        "width": 3.0886684113841536,
+        "kind": "sliding",
+        "wall": "zashiki.wall_05"
+      },
+      {
+        "rooms": [
+          "tea",
+          "engawa"
+        ],
+        "center": [
+          -4.743312,
+          1.985573
+        ],
+        "width": 2.9783588252632915,
+        "kind": "sliding",
+        "wall": "tea.wall_06"
+      },
+      {
+        "rooms": [
+          "tea",
+          "dressing"
+        ],
+        "center": [
+          -3.309288,
+          5.956718
+        ],
+        "width": 0.9927862750877637,
+        "kind": "sliding",
+        "wall": "tea.wall_08"
+      },
+      {
+        "rooms": [
+          "bedroom",
+          "outside"
+        ],
+        "center": [
+          -2.64743,
+          -2.316501
+        ],
+        "width": 4.302073858713643,
+        "kind": "sliding",
+        "wall": "bedroom.wall_10"
+      },
+      {
+        "rooms": [
+          "engawa",
+          "bedroom"
+        ],
+        "center": [
+          2.53712,
+          0.0
+        ],
+        "width": 1.3788698265107828,
+        "kind": "sliding",
+        "wall": "engawa.wall_12"
+      },
+      {
+        "rooms": [
+          "tea",
+          "courtyard"
+        ],
+        "center": [
+          -2.426811,
+          3.971145
+        ],
+        "width": 3.75052592810933,
+        "kind": "sliding",
+        "wall": "tea.wall_13"
+      },
+      {
+        "rooms": [
+          "engawa",
+          "courtyard"
+        ],
+        "center": [
+          0.661858,
+          1.985573
+        ],
+        "width": 5.956717650526581,
+        "kind": "sliding",
+        "wall": "engawa.wall_14"
+      },
+      {
+        "rooms": [
+          "dressing",
+          "courtyard"
+        ],
+        "center": [
+          -2.426811,
+          7.280433
+        ],
+        "width": 2.4268108946589773,
+        "kind": "sliding",
+        "wall": "dressing.wall_15"
+      },
+      {
+        "rooms": [
+          "entry",
+          "outside"
+        ],
+        "center": [
+          5.515479,
+          -4.633003
+        ],
+        "width": 2.3165013085381156,
+        "kind": "sliding",
+        "wall": "entry.wall_17"
+      },
+      {
+        "rooms": [
+          "engawa",
+          "entry"
+        ],
+        "center": [
+          5.40517,
+          0.0
+        ],
+        "width": 2.9783588252632915,
+        "kind": "open",
+        "wall": "engawa.wall_18"
+      },
+      {
+        "rooms": [
+          "wc",
+          "courtyard"
+        ],
+        "center": [
+          3.750526,
+          2.785317
+        ],
+        "width": 1.3788698265107828,
+        "kind": "sliding",
+        "wall": "wc.wall_19"
+      },
+      {
+        "rooms": [
+          "bath",
+          "courtyard"
+        ],
+        "center": [
+          3.750526,
+          4.963931
+        ],
+        "width": 2.53712048077984,
+        "kind": "sliding",
+        "wall": "bath.wall_21"
+      },
+      {
+        "rooms": [
+          "wash",
+          "courtyard"
+        ],
+        "center": [
+          3.750526,
+          7.473474
+        ],
+        "width": 2.0407273432359587,
+        "kind": "sliding",
+        "wall": "wash.wall_23"
+      },
+      {
+        "rooms": [
+          "east_hall",
+          "engawa"
+        ],
+        "center": [
+          7.280433,
+          0.992786
+        ],
+        "width": 1.6546437918129395,
+        "kind": "open",
+        "wall": "east_hall.wall_27"
+      },
+      {
+        "rooms": [
+          "wc",
+          "east_hall"
+        ],
+        "center": [
+          7.280433,
+          2.75774
+        ],
+        "width": 0.9376314820273324,
+        "kind": "sliding",
+        "wall": "wc.wall_29"
+      },
+      {
+        "rooms": [
+          "bath",
+          "east_hall"
+        ],
+        "center": [
+          7.280433,
+          4.908777
+        ],
+        "width": 1.0479410681481949,
+        "kind": "sliding",
+        "wall": "bath.wall_30"
+      },
+      {
+        "rooms": [
+          "wash",
+          "east_hall"
+        ],
+        "center": [
+          7.280433,
+          7.335587
+        ],
+        "width": 1.1030958612086263,
+        "kind": "open",
+        "wall": "wash.wall_31"
+      },
+      {
+        "rooms": [
+          "east_hall",
+          "guest"
+        ],
+        "center": [
+          8.604148,
+          1.654644
+        ],
+        "width": 2.2061917224172527,
+        "kind": "sliding",
+        "wall": "east_hall.wall_33"
+      },
+      {
+        "rooms": [
+          "east_hall",
+          "kitchen"
+        ],
+        "center": [
+          8.604148,
+          5.846408
+        ],
+        "width": 2.9783588252632915,
+        "kind": "open",
+        "wall": "east_hall.wall_35"
+      },
+      {
+        "rooms": [
+          "kitchen",
+          "outside"
+        ],
+        "center": [
+          12.575293,
+          6.067027
+        ],
+        "width": 4.688157410136662,
+        "kind": "sliding",
+        "wall": "kitchen.wall_39"
+      }
+    ],
+    "source_plan_room_labels": [
+      "和室15畳",
+      "和室8畳",
+      "和室6畳",
+      "洋室14畳",
+      "DK11帖"
+    ],
+    "source_dimensions": "not provided; scaled design adaptation"
+  },
+  "revision": 13,
+  "history": [],
+  "redo": []
+}

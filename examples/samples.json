@@ -1,0 +1,15 @@
+{
+  "default": "japanese",
+  "samples": [
+    {
+      "id": "manhattan",
+      "label": "曼哈顿 · 大公寓",
+      "scene": "manhattan.scene.json"
+    },
+    {
+      "id": "japanese",
+      "label": "三庭 · 静居",
+      "scene": "japanese-three-gardens.scene.json"
+    }
+  ]
+}

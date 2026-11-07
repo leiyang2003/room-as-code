@@ -16,3 +16,5 @@ docs/qa/
 output/
 my-house.scene.json
 my-house.scene.json.*
+
+/runs/
