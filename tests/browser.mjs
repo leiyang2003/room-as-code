@@ -6,6 +6,7 @@ const browser=await chromium.launch({...(process.env.CHROME_PATH ? {executablePa
 const page=await browser.newPage({viewport:{width:1440,height:1100},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>{errors.push(e.message);console.error('PAGE_ERROR',e.stack)});const results=[];const dir='docs/qa';fs.mkdirSync(dir,{recursive:true});
 try{
  await page.goto(`http://127.0.0.1:${port}`);await page.waitForFunction(()=>window.roomStudio?.parts.length>0);await page.waitForTimeout(1400);
+ if(process.env.CI)await page.evaluate(()=>{const v=window.roomStudio;v.renderer.shadowMap.enabled=false;v.renderer.setPixelRatio(.5);v.renderer.render(v.world,v.camera)});
  assert.equal(await page.locator('[data-room]').count(),9);results.push('eight room navigation plus overview');await page.screenshot({path:dir+'/01-overview.png',fullPage:true});
  for(const rid of ['kitchen','dining','living','bedroom','study','bathroom','entry','balcony']){await page.locator(`[data-room="${rid}"]`).click();await page.waitForFunction(id=>window.roomStudio.room===id,rid,{timeout:10000});assert.equal(await page.evaluate(()=>window.roomStudio.room),rid)}results.push('all eight rooms render and navigate');
  await page.locator('[data-room="living"]').click();await page.waitForTimeout(800);await page.screenshot({path:dir+'/02-living-day.png',fullPage:true});

@@ -16,7 +16,11 @@ async function change(selector,predicate){await page.locator(selector).click();a
 try{
  assert.equal((await fetch(url+'/api/scene?sample=../../etc/passwd')).status,400);
  const unknown=await fetch(url+'/api/undo?sample=unknown',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'});assert.equal(unknown.status,400);checks.push('unknown IDs and filesystem paths rejected');
- await page.goto(url);await loaded('japanese');assert.equal(await page.locator('[data-room]').count(),16);assert.equal(await page.locator('#sampleSelect option').count(),2);
+ await page.goto(url);await loaded('japanese');
+ // CPU-only CI runners verify real WebGL/state with a smaller render budget.
+ // Local captures retain full resolution and shadows.
+ if(process.env.CI)await page.evaluate(()=>{const v=window.roomStudio;v.renderer.shadowMap.enabled=false;v.renderer.setPixelRatio(.5);v.renderer.render(v.world,v.camera)});
+assert.equal(await page.locator('[data-room]').count(),16);assert.equal(await page.locator('#sampleSelect option').count(),2);
  assert.equal(await page.locator('#gardenChoices').isVisible(),true);checks.push('Japanese default with 15 room views and three garden shortcuts');
  await page.waitForTimeout(700);await page.locator('#stage').screenshot({path:'docs/qa/samples/japanese-overview.png'});
  for(const id of ['engawa','zashiki','bedroom','front_garden','courtyard','main_garden']){await page.locator(`[data-room="${id}"]`).click();await page.waitForFunction(id=>window.roomStudio.room===id,id)}
@@ -36,5 +40,5 @@ try{
  await page.locator('[data-garden="courtyard"]').click();await page.waitForTimeout(700);await page.locator('#stage').screenshot({path:'docs/qa/samples/japanese-courtyard.png'});
  for(const sample of ['manhattan','japanese']){await page.locator('#sampleSelect').selectOption(sample);await loaded(sample);await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.setViewportSize({width:1600,height:1080})}checks.push('both sample controls fit 390px mobile width');
  const gl=await page.evaluate(()=>{const g=window.roomStudio.renderer.getContext();return {version:g.getParameter(g.VERSION),error:g.getError()}});assert.equal(gl.error,0);assert.deepEqual(errors,[]);checks.push('actual WebGL2 with no page exceptions or GL errors');
- const report={status:'PASS',checks,gl,pageErrors:errors};fs.writeFileSync('docs/qa/samples/browser-results.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
+ const report={status:'PASS',renderProfile:process.env.CI?'software CI: half pixel ratio, shadow maps disabled':'full-quality',checks,gl,pageErrors:errors};fs.writeFileSync('docs/qa/samples/browser-results.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
 }catch(e){console.error(JSON.stringify({errors:[...new Set(errors)],state:await page.evaluate(()=>({name:window.roomStudio?.scene.name,selected:document.querySelector('#sampleSelect').value,status:document.querySelector('#status').textContent,loading:document.querySelector('#loading').textContent}))}));throw e}finally{await browser.close();server.kill();fs.rmSync(tmp,{recursive:true,force:true})}
