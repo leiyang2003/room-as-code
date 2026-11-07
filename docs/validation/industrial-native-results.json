@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "blender": "4.2.23 LTS",
+  "material_version": 3,
+  "checks": [
+    "Steel and concrete create distinct physical shader graphs without wood or plank textures",
+    "New material graphs survive native save and reopen",
+    "GLB fallback retains actual metalness and roughness; native shader slots restored"
+  ],
+  "full_render": false
+}

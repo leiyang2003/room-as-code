@@ -15,7 +15,7 @@ The public project is **Room as Code**. Its compatible skill, CLI helper and Cla
 - **Persistent scene data:** resume with the same scene, object identities and history.
 - **Scoped edits:** widen an island, move a sofa or recolor a frame while preserving protected objects and existing overrides.
 - **Atomic transactions:** patches check the current revision and return actual changed fields. Undo and redo survive a restart.
-- **Visual iteration:** the bundled WebGL preview follows saved changes. Styles, day/night and outdoor environment are independent controls.
+- **Visual iteration:** the bundled WebGL preview follows saved changes. Warm, Industrial Metal and Heritage themes, day/night and outdoor environment are independent controls.
 - **Rendering as a separate step:** export editable Blender and GLB files; request a full PNG render after editing. Render provenance detects stale images.
 
 This is an **early 0.1.0 prototype**, with a furnished apartment demonstration and a smaller component-grid fixture. Photos can inform an agent-authored scene; there is no automatic photo reconstruction algorithm.
@@ -76,7 +76,15 @@ Blender is discovered locally and is not installed automatically. `doctor` check
 
 Rendering uses PNG. The `.render.json` sidecar binds the image to scene content and renderer version. Status is `CURRENT`, `STALE` or `MISSING`; a later edit can make a saved image stale. Undoing to identical content can make it current again at a newer revision.
 
-For exact patch operations, see [operations.md](skills/room-studio/references/operations.md). Native procedural wood, floor, fabric and stone materials remain editable in Blender. **GLB uses constant PBR colors and scalar properties; procedural textures are not baked.** See [native material behavior](skills/room-studio/references/native-materials.md).
+For exact patch operations, see [operations.md](skills/room-studio/references/operations.md). Native procedural wood, floor, fabric, stone, brushed steel, blackened steel and concrete materials remain editable in Blender. **GLB uses constant PBR colors and scalar properties; procedural textures are not baked.** See [native material behavior](skills/room-studio/references/native-materials.md).
+
+## Industrial Metal theme
+
+The previous Monochrome preset is now **Industrial Metal**: brushed-steel cabinetry, blackened-steel frames, concrete surfaces and graphite fabrics. This changes physical material recipes as well as colors. Layout, explicit color overrides, curtains and lighting settings are preserved. Older saved `mono` values remain compatible; new edits use `industrial`.
+
+Choose **工业金属** in the preview or ask your agent to apply the `industrial` style. A fresh industrial example is available as `examples/manhattan-industrial.scene.json`. [See the live-preview capture](docs/images/industrial-metal-preview.jpg).
+
+Material recipe version 3 also covers the native Blender surfaces and GLB PBR fallback. This update does not automatically render images. The illustrated guide and warm-theme renders remain useful examples; v0.1.0 release downloads preserve their original baseline.
 
 ## Example and scope
 

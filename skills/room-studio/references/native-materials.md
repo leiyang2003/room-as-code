@@ -1,6 +1,16 @@
 # Native procedural surfaces
 
-The Blender adapter has a small, versioned material layer in `scripts/native_materials.py`. It derives surfaces from the compiled primitive's role and effective color; no new scene parameters or arbitrary patch fields are introduced.
+The Blender adapter has a small, versioned material layer in `scripts/native_materials.py`. It derives surfaces from the compiled primitive's role, effective theme and color; no new writable scene parameters or arbitrary patch fields are introduced. The compiler supplies a read-only `surface` profile for industrial finishes. Material recipe version 3 adds these profiles while retaining version 2 object signatures for external-edit detection.
+
+Industrial metal replaces the previous monochrome preset. The canonical style is `industrial`; saved `mono` values remain compatible aliases. Wood-role cabinetry becomes brushed steel, frames become blackened steel, and floor/stone/wall roles become concrete. Fabric and bedding retain nonmetallic textile surfaces. Existing color overrides remain effective.
+
+| Industrial surface | Native behavior |
+|---|---|
+| brushed_steel | Metalness 0.92, base roughness 0.34, anisotropy 0.55 and fine directional grain |
+| blackened_steel | Metalness 0.82, base roughness 0.44, restrained directional grain |
+| concrete | Nonmetallic, base roughness 0.79 and shallow procedural pores |
+
+The ordinary role-based surfaces below remain in warm and heritage themes:
 
 | Role | Native Blender surface |
 |---|---|

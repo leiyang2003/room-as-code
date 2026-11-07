@@ -31,6 +31,8 @@ def sources():
     files['examples/kit-grid.scene.json']=json.dumps(kit_demo(),ensure_ascii=False,indent=2).encode()
     night,_=apply(main,{'expected_revision':main['revision'],'label':'Night template','ops':[{'op':'period','value':'night'}]});night['history']=[]
     files['examples/manhattan-night.scene.json']=json.dumps(night,ensure_ascii=False,indent=2).encode()
+    industrial,_=apply(main,{'expected_revision':main['revision'],'label':'Industrial Metal template','ops':[{'op':'style','target':'all','value':'industrial'}]});industrial['history']=[]
+    files['examples/manhattan-industrial.scene.json']=json.dumps(industrial,ensure_ascii=False,indent=2).encode()
     # Explicit public documentation allowlist; never package generated QA logs.
     for name in ('VALIDATION.md','tools/build_project_guide.py','Room_Studio_Project_Guide_EN.md','Room_Studio_Project_Guide_EN.html','Room_Studio_Project_Guide_EN.pdf'):
         p=DOCS/name
@@ -39,7 +41,8 @@ def sources():
                  'images/manhattan-living-night.png','images/manhattan-overview-day.png',
                  'validation/final-native-results.json','validation/final-visual-results.json',
                  'validation/codex-edits.json','validation/claude-edits.json',
-                 'validation/publication-checks.json'):
+                 'validation/publication-checks.json','validation/industrial-native-results.json',
+                 'images/industrial-metal-preview.jpg'):
         p=DOCS/name
         if p.exists():files['docs/'+name]=p.read_bytes()
     files['examples/quiet-house.scene.json']=files['examples/kit-grid.scene.json']

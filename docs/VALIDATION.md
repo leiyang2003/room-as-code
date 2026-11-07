@@ -21,3 +21,11 @@ The native acceptance ran with Blender 4.2.23 LTS. A fixed integration task does
 Run the commands in the root README to repeat them. `examples/manhattan.scene.json` is the current furnished apartment. `examples/kit-grid.scene.json` and its compatibility alias `quiet-house.scene.json` are the historical component-grid fixture used by smaller integration checks.
 
 Private photos, third-party reference PDFs, personal filesystem paths, raw host logs, installed dependencies and internal coordination documents are excluded from this repository. The original source archive SHA-256 was `9e02609f7b91c21c0f71d752f113bb447c67cb46c32b1bd13c6d8cedb804280e`; the public copy has its own manifest because its documentation and packaging differ.
+
+## Industrial Metal update
+
+The updated local unit suite contains 38 tests, including legacy mono compatibility, physical finish selection, unchanged layout/color overrides, undo and protection against surface-only changes. Browser undo/redo was exercised against the updated live preview with no page errors or horizontal overflow. [Preview capture](images/industrial-metal-preview.jpg).
+
+[Native industrial result](validation/industrial-native-results.json) verifies Blender 4.2.23 shader creation, native save/reopen and constant-PBR GLB metalness/roughness, without image rendering. Repeat with `blender --background --factory-startup --python-exit-code 1 --python tests/native_industrial.py`.
+
+Native material version is now 3. The full-apartment and rendered-image evidence above remains historical 0.1.0 acceptance; no new complete apartment render is claimed for this theme update.

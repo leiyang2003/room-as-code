@@ -1,6 +1,6 @@
 """Original parametric residential kit, shared by browser and Blender backends."""
 import math
-from core import palette, digest, validate
+from core import palette, digest, validate, surface_profile
 
 def kit_demo():
     s={'schema':'room-studio/1','revision':0,'name':'Quiet House / 静居','style':'warm','period':'day','environment':'city','rooms':{},'entities':{},'history':[],'redo':[],
@@ -465,6 +465,8 @@ def compile_scene(s):
             m['rooms']=e.get('adjacent_rooms',[e['room']])
             m['architecture']=e['kind']=='wall'
             m['facade']=e['kind'] in ('window','curtain')
+            surface=surface_profile(s,e,m['role'])
+            if surface:m['surface']=surface
             if e['kind']=='shell':
                 cx,cy=s['rooms'][e['room']]['center'];w,d,_=s['rooms'][e['room']]['size'];edge=e['params']['edge']
                 nx,ny=cx+({'E':w,'W':-w}.get(edge,0)),cy+({'N':d,'S':-d}.get(edge,0))

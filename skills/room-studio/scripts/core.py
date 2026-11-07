@@ -10,9 +10,19 @@ from contextlib import contextmanager
 
 STYLES = {
  'warm': {'wood':'#b79367','fabric':'#d2c4ad','wall':'#eee8db','floor':'#d3c6af','metal':'#51595b','accent':'#a56e53','stone':'#c9c5b9','frame':'#826541'},
- 'mono': {'wood':'#424447','fabric':'#a5a5a0','wall':'#eeece7','floor':'#c4c5c2','metal':'#202528','accent':'#6b7479','stone':'#dcdcd8','frame':'#24282a'},
+ 'industrial': {'wood':'#899397','fabric':'#62686b','wall':'#c3c0b8','floor':'#888b88','metal':'#abb4b8','accent':'#a27355','stone':'#959b98','frame':'#30383c'},
  'heritage': {'wood':'#674536','fabric':'#b49a72','wall':'#e4d9c5','floor':'#ac9274','metal':'#967342','accent':'#6d7962','stone':'#c5baa5','frame':'#5c3d2b'},
 }
+STYLE_ALIASES = {'mono': 'industrial'}
+
+def style_key(value):
+    return STYLE_ALIASES.get(value,value) if isinstance(value,str) else value
+
+def surface_profile(s,e,role):
+    style=style_key(s['rooms'][e['room']].get('style') or s['style'])
+    if style!='industrial':return None
+    return {'wood':'brushed_steel','metal':'brushed_steel','frame':'blackened_steel',
+            'floor':'concrete','stone':'concrete','wall':'concrete'}.get(role)
 KINDS = {'shell','sofa','table','chair','cabinet','bed','island','art','window','curtain','cove','plant','rug','toilet','shower','basin','mirror','rail','books','landscape','appliance','wall','floorplan'}
 ROLES=(*STYLES['warm'].keys(),'ceramic','glass','leaf','soil','paper','screen','white','light','mirror','skyline','sea')
 PARAMS = {
@@ -45,12 +55,12 @@ def number(v, lo, hi):
 def validate(s):
     if s.get('schema') != 'room-studio/1': raise ValueError('Unsupported scene schema')
     if type(s.get('revision')) is not int or s['revision'] < 0: raise ValueError('Invalid revision')
-    if s.get('style') not in STYLES or s.get('period') not in ('day','night'): raise ValueError('Unknown style/period')
+    if style_key(s.get('style')) not in STYLES or s.get('period') not in ('day','night'): raise ValueError('Unknown style/period')
     if s.get('environment') not in ('city','garden','sea'): raise ValueError('Unknown environment')
     rooms=s.get('rooms',{}); entities=s.get('entities',{})
     if not rooms or not entities: raise ValueError('Empty scene')
     for rid,r in rooms.items():
-        if r.get('style') is not None and r['style'] not in STYLES: raise ValueError('Unknown room style')
+        if r.get('style') is not None and style_key(r['style']) not in STYLES: raise ValueError('Unknown room style')
         if len(r.get('center',[])) != 2 or len(r.get('size',[])) != 3: raise ValueError('Invalid room geometry')
         for v in r['center']: number(v,-100,100)
         for v in r['size']: number(v,.1,100)
@@ -98,7 +108,7 @@ def validate(s):
     return s
 
 def palette(s,e):
-    style=s['rooms'][e['room']].get('style') or s['style']
+    style=style_key(s['rooms'][e['room']].get('style') or s['style'])
     colors={**STYLES[style],'ceramic':'#f0ede5','glass':'#c7dde0','leaf':'#647954','soil':'#52473a','paper':'#ede7d8','screen':'#1d282f','white':'#f9f7ef','light':'#ffe2a6'}
     return {**colors,**e.get('overrides',{})}
 
@@ -106,7 +116,10 @@ def content(s):
     return {k:copy.deepcopy(v) for k,v in s.items() if k not in ('revision','history','redo')}
 
 def effective(s,e):
-    return {**e,'palette':palette(s,e),'period':s['period'] if e['kind'] in ('cove','landscape') else None,'environment':s['environment'] if e['kind']=='landscape' else None}
+    result={**e,'palette':palette(s,e),'period':s['period'] if e['kind'] in ('cove','landscape') else None,'environment':s['environment'] if e['kind']=='landscape' else None}
+    surfaces={role:profile for role in STYLES['warm'] if (profile:=surface_profile(s,e,role))}
+    if surfaces:result['surfaces']=surfaces
+    return result
 
 def fingerprints(s): return {eid:digest(effective(s,e)) for eid,e in s['entities'].items()}
 
@@ -147,7 +160,7 @@ def apply(s,patch):
             if val is None: e['overrides'].pop(role,None)
             else: e['overrides'][role]=val
         elif typ=='style':
-            val=op.get('value')
+            val=style_key(op.get('value'))
             if target=='all':
                 if val not in STYLES: raise ValueError('Unknown style')
                 out['style']=val

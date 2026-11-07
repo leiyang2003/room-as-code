@@ -51,14 +51,14 @@ These are example coordinates, not defaults to paste into another home. Keep the
 |---|---|---|
 | set | target, params and/or position, rotation, visible | Edit exact entity; position is complete XYZ |
 | material | target, role, color | Object color override as #RRGGBB; null clears that role override |
-| style | target=all or room ID, value | warm / mono / heritage; room null clears its override |
+| style | target=all or room ID, value | warm / industrial / heritage; legacy mono is accepted as an alias for industrial; room null clears its override |
 | period | value | day / night |
 | environment | value | city / garden / sea |
 
 Examples:
 
 ```json
-{"expected_revision":1,"label":"全屋现代，卧室保留暖木","ops":[{"op":"style","target":"all","value":"mono"},{"op":"style","target":"bedroom","value":"warm"}]}
+{"expected_revision":1,"label":"全屋工业金属，卧室保留暖木","ops":[{"op":"style","target":"all","value":"industrial"},{"op":"style","target":"bedroom","value":"warm"}]}
 ```
 
 ```json
@@ -88,3 +88,5 @@ Freshness also checks `material_version`. A render created before the current na
 Style priority: object material overrides → room style → global style. Switching a global style intentionally keeps room/object overrides. Clear them explicitly when requested. The sample palette supports color/roughness roles; arbitrary texture ingestion, furniture asset replacement and new entity creation are authoring extensions, not existing patch commands.
 
 Incremental Blender sync is scoped to tool-managed objects. Unchanged primitive fingerprints are reused. It does not automatically merge arbitrary external topology edits; detected conflicts stop before saving. The `.blend` embeds source JSON so the state is inspectable. The editable master keeps walls and ceilings; screenshots may use temporary cutaway visibility.
+
+Industrial uses brushed steel, blackened steel and concrete surface recipes, with graphite fabric and restrained copper-toned accents. Layout, room/object color overrides, lighting and curtains remain independent. The stored legacy style ID mono resolves to industrial; new style operations save industrial.

@@ -6,7 +6,7 @@ Keep MATERIAL_VERSION in the cache key when changing any recipe.
 """
 from core import digest
 
-MATERIAL_VERSION = 2
+MATERIAL_VERSION = 3
 
 
 def rgb(color):
@@ -15,6 +15,7 @@ def rgb(color):
 
 
 def recipe(p):
+    if p.get('surface') in ('brushed_steel','blackened_steel','concrete'):return p['surface']
     role=p['role']
     if role in ('wood','frame'):return 'wood'
     if role in ('floor','fabric','stone'):return role
@@ -24,6 +25,7 @@ def recipe(p):
 
 def material_id(p):
     key={k:p.get(k) for k in ('role','color','emission','temperature','sheer')}
+    if p.get('surface'):key['surface']=p['surface']
     if recipe(p):key['native_material_version']=MATERIAL_VERSION
     return 'RS_'+digest(key)[:16]
 
@@ -96,7 +98,22 @@ def add_surface(m,p,bs):
         n=node('ShaderNodeMixRGB','RS User color tint');n.blend_type='MULTIPLY'
         n.inputs[0].default_value=1;n.inputs[1].default_value=(*rgb(p['color']),1)
         links.new(source,n.inputs[2]);links.new(n.outputs[0],bs.inputs['Base Color'])
-    if surface in ('wood','floor'):
+    if surface in ('brushed_steel','blackened_steel'):
+        grain=noise('RS Brushed steel grain',1,scaled((4,650,18)))
+        tint(remap(grain,'RS Steel color',.96,1.0))
+        dark=surface=='blackened_steel'
+        bs.inputs['Metallic'].default_value=.82 if dark else .92
+        bs.inputs['Roughness'].default_value=.44 if dark else .34
+        bs.inputs['Anisotropic'].default_value=.25 if dark else .55
+        roughness=remap(grain,'RS Steel roughness',.38 if dark else .27,.5 if dark else .40)
+        height=grain;distance=.000035;strength=.10
+    elif surface=='concrete':
+        coarse=noise('RS Concrete variation',7)
+        tint(remap(coarse,'RS Concrete color',.92,1.0))
+        height=noise('RS Concrete pores',150);distance=.0003;strength=.20
+        roughness=remap(coarse,'RS Concrete roughness',.72,.86)
+        bs.inputs['Roughness'].default_value=.79
+    elif surface in ('wood','floor'):
         grain=noise('RS Wood grain',1,scaled((2,70,7)))
         shade=remap(grain,'RS Subtle grain color',.84,1.0)
         if surface=='floor':

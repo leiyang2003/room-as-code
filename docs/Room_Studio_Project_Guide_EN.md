@@ -176,7 +176,7 @@ Selection uses stable identity, labels and detail metadata. A generic geometry f
 
 ## Keep the layout. Change the atmosphere.
 
-Three material themes share the same scene: **Warm**, **Monochrome** and **Heritage**. A theme can apply globally or to a room. Object color overrides remain available, and room overrides survive a global theme change.
+Three material themes share the same scene: **Warm**, **Industrial Metal** and **Heritage**. A theme can apply globally or to a room. Object color overrides remain available, and room overrides survive a global theme change.
 
 {{daynight}}
 

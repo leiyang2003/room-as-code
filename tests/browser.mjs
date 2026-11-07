@@ -10,7 +10,7 @@ try{
  for(const rid of ['kitchen','dining','living','bedroom','study','bathroom','entry','balcony']){await page.locator(`[data-room="${rid}"]`).click();await page.waitForFunction(id=>window.roomStudio.room===id,rid,{timeout:10000});assert.equal(await page.evaluate(()=>window.roomStudio.room),rid)}results.push('all eight rooms render and navigate');
  await page.locator('[data-room="living"]').click();await page.waitForTimeout(800);await page.screenshot({path:dir+'/02-living-day.png',fullPage:true});
  async function clickUpdate(selector,predicate){await page.locator(selector).click();await page.waitForFunction(predicate);await page.waitForTimeout(250)}
- await clickUpdate('[data-style="mono"]',()=>window.roomStudio.scene.style==='mono');results.push('global monochrome style persisted');
+ await clickUpdate('[data-style="industrial"]',()=>window.roomStudio.scene.style==='industrial');results.push('global industrial metal style persisted');
  await page.locator('#roomOnly').check();await clickUpdate('[data-style="heritage"]',()=>window.roomStudio.scene.rooms.living.style==='heritage');results.push('room style override');
  await clickUpdate('[data-period="night"]',()=>window.roomStudio.scene.period==='night');await page.waitForTimeout(800);await page.screenshot({path:dir+'/03-living-night.png',fullPage:true});results.push('real WebGL night lights');
  const before=await page.evaluate(()=>[...window.roomStudio.objects.values()].filter(o=>o.userData.p.room==='living'&&o.userData.p.shape==='light').reduce((s,o)=>s+o.userData.item.intensity,0));

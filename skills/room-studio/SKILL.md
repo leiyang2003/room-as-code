@@ -38,7 +38,7 @@ Inspect browser geometry during editing; inspect actual render images after the 
 
 ## Sample visual direction and evidence
 
-The supplied home uses warm wood, light plaster, glass and metal; themes include warm, monochrome and heritage. The example's fixtures are recessed or concealed; avoid adding exposed ceiling lamps to it unless requested. Other user projects follow their own design direction.
+The supplied home uses warm wood, light plaster, glass and metal; themes include warm, industrial metal and heritage (legacy mono resolves to industrial). The example's fixtures are recessed or concealed; avoid adding exposed ceiling lamps to it unless requested. Other user projects follow their own design direction.
 
 Maintain source and scale distinctions. A photo observation, a user estimate, an approved inference and an actual measurement are different facts. New unseen rooms and the original programmatic window scenery are design examples. Preserve user photos locally; no public upload or deployment is implied by creating or editing a scene. Keep private photos out of a distributable example.
 
