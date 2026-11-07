@@ -1,0 +1,4 @@
+interface:
+  display_name: "Room Studio"
+  short_description: "Create and edit residential 3D scenes through conversation"
+  default_prompt: "Use $room-studio to inspect the saved scene, apply a reviewable atomic patch, preserve unrelated objects and material overrides, and update the realtime preview. Keep full rendering as a separate explicit step after editing."

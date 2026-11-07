@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "case": "fresh final Manhattan demo",
+  "rooms": 19,
+  "entities": 251,
+  "compiled_parts": 2211,
+  "native_meshes": 2189,
+  "glb_reimport_meshes": 2189,
+  "protected_parts": 2188,
+  "seconds": 48.255,
+  "checks": [
+    "full case export",
+    "two local edits preserve all other part matrices and fingerprints",
+    "undo restores full geometry",
+    "native save and reopen",
+    "GLB reimport mesh count",
+    "no image render during edits"
+  ]
+}

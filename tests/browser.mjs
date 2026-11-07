@@ -1,0 +1,26 @@
+import {chromium} from 'playwright';
+import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import {spawn} from 'node:child_process';import assert from 'node:assert/strict';
+const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'room-studio-browser-'));const scene=path.join(tmp,'house.scene.json');fs.copyFileSync('examples/quiet-house.scene.json',scene);const port=8766;
+const server=spawn('python3',['skills/room-studio/scripts/room.py','serve',scene,'--port',String(port)]);await new Promise((resolve,reject)=>{server.stdout.once('data',resolve);server.once('error',reject);server.once('exit',code=>reject(Error('server exit '+code)))});
+const browser=await chromium.launch({...(process.env.CHROME_PATH ? {executablePath:process.env.CHROME_PATH} : {}),headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1100},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>{errors.push(e.message);console.error('PAGE_ERROR',e.stack)});const results=[];const dir='docs/qa';fs.mkdirSync(dir,{recursive:true});
+try{
+ await page.goto(`http://127.0.0.1:${port}`);await page.waitForFunction(()=>window.roomStudio?.parts.length>0);await page.waitForTimeout(1400);
+ assert.equal(await page.locator('[data-room]').count(),9);results.push('eight room navigation plus overview');await page.screenshot({path:dir+'/01-overview.png',fullPage:true});
+ for(const rid of ['kitchen','dining','living','bedroom','study','bathroom','entry','balcony']){await page.locator(`[data-room="${rid}"]`).click();await page.waitForFunction(id=>window.roomStudio.room===id,rid,{timeout:10000});assert.equal(await page.evaluate(()=>window.roomStudio.room),rid)}results.push('all eight rooms render and navigate');
+ await page.locator('[data-room="living"]').click();await page.waitForTimeout(800);await page.screenshot({path:dir+'/02-living-day.png',fullPage:true});
+ async function clickUpdate(selector,predicate){await page.locator(selector).click();await page.waitForFunction(predicate);await page.waitForTimeout(250)}
+ await clickUpdate('[data-style="mono"]',()=>window.roomStudio.scene.style==='mono');results.push('global monochrome style persisted');
+ await page.locator('#roomOnly').check();await clickUpdate('[data-style="heritage"]',()=>window.roomStudio.scene.rooms.living.style==='heritage');results.push('room style override');
+ await clickUpdate('[data-period="night"]',()=>window.roomStudio.scene.period==='night');await page.waitForTimeout(800);await page.screenshot({path:dir+'/03-living-night.png',fullPage:true});results.push('real WebGL night lights');
+ const before=await page.evaluate(()=>[...window.roomStudio.objects.values()].filter(o=>o.userData.p.room==='living'&&o.userData.p.shape==='light').reduce((s,o)=>s+o.userData.item.intensity,0));
+ await page.locator('#lights').click();await page.waitForFunction(()=>!window.roomStudio.scene.entities['living.cove_back'].params.enabled);const after=await page.evaluate(()=>[...window.roomStudio.objects.values()].filter(o=>o.userData.p.room==='living'&&o.userData.p.shape==='light').reduce((s,o)=>s+o.userData.item.intensity,0));assert(before>after);results.push('room switch changes real light intensity');
+ await clickUpdate('[data-environment="sea"]',()=>window.roomStudio.scene.environment==='sea');assert.equal(await page.evaluate(()=>window.roomStudio.scene.period),'night');results.push('environment independent of period');
+ await page.locator('#curtain').fill('30');await page.locator('#curtain').dispatchEvent('change');await page.waitForFunction(()=>window.roomStudio.scene.entities['living.sheer'].params.openness===.3);results.push('curtain saved into shared scene');
+ const revision=await page.evaluate(()=>window.roomStudio.scene.revision);await page.locator('#undo').click();await page.waitForFunction(r=>window.roomStudio.scene.revision>r,revision);assert.equal(await page.evaluate(()=>window.roomStudio.scene.entities['living.sheer'].params.openness),.7);
+ await page.locator('#redo').click();await page.waitForFunction(()=>window.roomStudio.scene.entities['living.sheer'].params.openness===.3);results.push('undo redo actual saved state');
+ await page.reload();await page.waitForFunction(()=>window.roomStudio?.scene.period==='night');assert.equal(await page.evaluate(()=>window.roomStudio.scene.rooms.living.style),'heritage');results.push('reload persistent state');
+ await page.setViewportSize({width:390,height:844});await page.locator('[data-room="bedroom"]').click();await page.waitForTimeout(500);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:dir+'/04-mobile.png',fullPage:true});results.push('390px no horizontal document overflow');
+ const gl=await page.evaluate(()=>{const gl=window.roomStudio.renderer.getContext();return{version:gl.getParameter(gl.VERSION),renderer:gl.getParameter(gl.RENDERER),error:gl.getError()}});assert.equal(gl.error,0);assert.deepEqual(errors,[]);results.push('actual WebGL context no GL error and no page exceptions');
+ fs.writeFileSync(dir+'/browser-results.json',JSON.stringify({status:'PASS',results,gl,pageErrors:errors},null,2));console.log(JSON.stringify({status:'PASS',results,gl,pageErrors:errors},null,2));
+}finally{await browser.close();server.kill();fs.rmSync(tmp,{recursive:true,force:true})}

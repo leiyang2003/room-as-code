@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "date": "2026-11-07",
+  "unit_tests": {
+    "status": "PASS",
+    "summary": "Ran 35 tests in 2.623s"
+  },
+  "fresh_installations": {
+    "codex": "PASS",
+    "claude": "PASS",
+    "existing_target_preserved": true,
+    "entities": 251,
+    "compiled_parts": 2211
+  },
+  "frontend_build": "PASS",
+  "npm_audit": {
+    "vulnerabilities": 0
+  },
+  "historical_render_image_hashes": "4 of 4 original images matched acceptance hashes before metadata-only sanitization",
+  "scope": "Checks run in independent publication copy; historical host/native evidence reported separately.",
+  "browser_suite": {
+    "status": "PASS",
+    "checks": [
+      "eight room navigation plus overview",
+      "all eight rooms render and navigate",
+      "global monochrome style persisted",
+      "room style override",
+      "real WebGL night lights",
+      "room switch changes real light intensity",
+      "environment independent of period",
+      "curtain saved into shared scene",
+      "undo redo actual saved state",
+      "reload persistent state",
+      "390px no horizontal document overflow",
+      "actual WebGL context no GL error and no page exceptions"
+    ],
+    "webgl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "error": 0
+    },
+    "page_errors": [],
+    "fixture": "historical component grid"
+  },
+  "native_regression": {
+    "status": "PASS",
+    "checks": [
+      "unchanged native master reopened and all managed primitives reused",
+      "island width native sync only rebuilds island primitives and preserves table",
+      "native sink remains centered",
+      "external mesh edit conflict rejects sync without changing saved file",
+      "external whole-entity transform conflict rejects sync",
+      "GLB reimport mesh count matches actual export and retains real punctual lights"
+    ],
+    "blender": "4.2.23 LTS",
+    "reimport_meshes": 1148,
+    "reimport_lights": 32
+  },
+  "published_render_images": {
+    "manhattan-bedroom-day.png": {
+      "original_sha256": "c2fc933e6a6f6e196c0213db95df61ee15f26e3fe9c0d92a5ac0820c290cbbaf",
+      "public_sha256": "97e241294ae3431017a0d564887d8ba988244d1cc7b0aae314c5ebc84a5d9483",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "eXIf"
+      ],
+      "compressed_pixel_data_unchanged": true
+    },
+    "manhattan-living-night.png": {
+      "original_sha256": "6cf92fa78acf32d2a9190630253e60e79a9553bb66665a32fc058bd986f6b173",
+      "public_sha256": "e769bd0ac15a0959b02cbd6713f3dec937319522f081edb05a36b63d931bb3eb",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "eXIf"
+      ],
+      "compressed_pixel_data_unchanged": true
+    },
+    "manhattan-overview-day.png": {
+      "original_sha256": "9a0026fa2782fa97bca32075ef9c3af39cdd8550691f8eed67fd76bfce2e79c6",
+      "public_sha256": "b27074e1b02a5270e9ade133e539ed47d0a0e75d75dd571a6701084529b5f98a",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "eXIf"
+      ],
+      "compressed_pixel_data_unchanged": true
+    },
+    "manhattan-living-day.png": {
+      "original_sha256": "f8b6dadfcd51bed1f78103e023d901defd760a449e684233e9f2922e68c0eb12",
+      "public_sha256": "55e4285963b7be43bb2fc138f72af5680e80b48c9928599e5079c0ea724838cf",
+      "metadata_chunks_removed": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "eXIf"
+      ],
+      "compressed_pixel_data_unchanged": true
+    }
+  },
+  "project_guide": {
+    "pdf_pages": 11,
+    "pdf_text_and_metadata_privacy": "PASS",
+    "embedded_images_privacy": "PASS",
+    "pdf_contact_sheet_review": "11 pages inspected; no clipping, overlap or stranded pages",
+    "html_browser": {
+      "status": "PASS",
+      "navigation_links": 10,
+      "day_night_switch": "PASS",
+      "viewport_widths": [
+        1440,
+        390
+      ],
+      "horizontal_overflow": false,
+      "page_errors": []
+    }
+  }
+}

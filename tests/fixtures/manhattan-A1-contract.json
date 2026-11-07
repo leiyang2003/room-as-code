@@ -1,0 +1,378 @@
+{
+  "stage": "A1",
+  "status": "PASS",
+  "rooms": 19,
+  "entities": 211,
+  "design_envelope_m2": 267,
+  "walls_sha256": "00ca98e6979c25e3549c8517da380ff8b90497914124528161df876f070b8a0f",
+  "layout": {
+    "design_envelope_m2": 267,
+    "outline": [
+      [
+        -11.30025,
+        0.0
+      ],
+      [
+        1.027295,
+        0.0
+      ],
+      [
+        1.027295,
+        -5.136477
+      ],
+      [
+        3.081886,
+        -5.136477
+      ],
+      [
+        3.081886,
+        -3.081886
+      ],
+      [
+        5.136477,
+        -3.081886
+      ],
+      [
+        5.136477,
+        0.0
+      ],
+      [
+        12.327546,
+        0.0
+      ],
+      [
+        11.505709,
+        4.109182
+      ],
+      [
+        11.30025,
+        5.136477
+      ],
+      [
+        8.732011,
+        11.30025
+      ],
+      [
+        -11.30025,
+        11.30025
+      ]
+    ],
+    "portals": [
+      {
+        "rooms": [
+          "bathroom",
+          "dressing"
+        ],
+        "center": [
+          -7.910175,
+          3.287345
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "bathroom.wall_03",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "laundry"
+        ],
+        "center": [
+          -5.958314,
+          1.643673
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "service_hall.wall_10",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "dressing"
+        ],
+        "center": [
+          -7.191068,
+          4.211911
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "service_hall.wall_11",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "private_hall",
+          "service_hall"
+        ],
+        "center": [
+          -6.677421,
+          5.136477
+        ],
+        "width": 1.0272954630384807,
+        "kind": "open",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "bedroom",
+          "private_hall"
+        ],
+        "center": [
+          -6.677421,
+          6.677421
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "bedroom.wall_13",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "private_hall",
+          "bathroom2"
+        ],
+        "center": [
+          -4.828289,
+          5.136477
+        ],
+        "width": 0.8218363704307846,
+        "kind": "door",
+        "wall": "private_hall.wall_16",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "bedroom2",
+          "private_hall"
+        ],
+        "center": [
+          -5.033748,
+          6.677421
+        ],
+        "width": 0.9759306898865566,
+        "kind": "door",
+        "wall": "bedroom2.wall_18",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "storage"
+        ],
+        "center": [
+          -3.184616,
+          1.643673
+        ],
+        "width": 0.8732011435827086,
+        "kind": "door",
+        "wall": "service_hall.wall_22",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "private_hall",
+          "bathroom3"
+        ],
+        "center": [
+          -2.465509,
+          5.136477
+        ],
+        "width": 0.8218363704307846,
+        "kind": "door",
+        "wall": "private_hall.wall_25",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "utility"
+        ],
+        "center": [
+          -0.359553,
+          1.643673
+        ],
+        "width": 0.8732011435827086,
+        "kind": "door",
+        "wall": "service_hall.wall_28",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "study",
+          "private_hall"
+        ],
+        "center": [
+          0.308189,
+          6.677421
+        ],
+        "width": 0.9759306898865566,
+        "kind": "door",
+        "wall": "study.wall_30",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "linen"
+        ],
+        "center": [
+          0.308189,
+          3.287345
+        ],
+        "width": 0.8218363704307846,
+        "kind": "door",
+        "wall": "service_hall.wall_33",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "entry",
+          "outside"
+        ],
+        "center": [
+          1.027295,
+          -4.109182
+        ],
+        "width": 1.0272954630384807,
+        "kind": "door",
+        "wall": "entry.wall_35",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "entry",
+          "gallery"
+        ],
+        "center": [
+          2.054591,
+          -3.081886
+        ],
+        "width": 2.0545909260769615,
+        "kind": "open",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "service_hall"
+        ],
+        "center": [
+          1.027295,
+          2.465509
+        ],
+        "width": 1.6436727408615692,
+        "kind": "open",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "private_hall"
+        ],
+        "center": [
+          1.027295,
+          5.906949
+        ],
+        "width": 1.540943194557721,
+        "kind": "open",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "powder"
+        ],
+        "center": [
+          3.081886,
+          -1.232755
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "gallery.wall_42",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "kitchen"
+        ],
+        "center": [
+          3.081886,
+          2.568239
+        ],
+        "width": 1.8491318334692655,
+        "kind": "door",
+        "wall": "gallery.wall_44",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "living"
+        ],
+        "center": [
+          3.081886,
+          5.547396
+        ],
+        "width": 1.489578421405797,
+        "kind": "door",
+        "wall": "gallery.wall_46",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "living",
+          "kitchen"
+        ],
+        "center": [
+          5.239207,
+          4.109182
+        ],
+        "width": 4.314640944761619,
+        "kind": "open",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "kitchen",
+          "dining"
+        ],
+        "center": [
+          7.396527,
+          2.054591
+        ],
+        "width": 4.109181852153923,
+        "kind": "open",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "living",
+          "dining"
+        ],
+        "center": [
+          9.451118,
+          4.109182
+        ],
+        "width": 4.109181852153922,
+        "kind": "open",
+        "axis": 0.0
+      }
+    ],
+    "bedroom_rooms": [
+      "bedroom",
+      "bedroom2",
+      "study"
+    ],
+    "full_bathrooms": [
+      "bathroom",
+      "bathroom2",
+      "bathroom3"
+    ],
+    "powder_room": "powder",
+    "scale_factor": 1.0272954630384807,
+    "units": "m",
+    "north": "+Y"
+  }
+}

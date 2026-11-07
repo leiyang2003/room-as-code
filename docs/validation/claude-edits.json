@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "host": "claude",
+  "task": "Move furniture, rotate it, move fixed wall art and recolor its frame",
+  "skill_discovery": "project .claude/skills/room-studio",
+  "revision_before": 0,
+  "revision_after_host": 1,
+  "changed_entities": [
+    "living.sofa",
+    "living.picture"
+  ],
+  "other_entities_unchanged": 136,
+  "checks": [
+    "actual scene content matches independent expected content",
+    "sofa +X 0.30 m and +Z rotation 15 degrees; fabric override preserved",
+    "wall art +Z 0.15 m; attachment XY and picture content preserved; frame recolored",
+    "all unrelated entities and material overrides unchanged",
+    "undo and redo in fresh processes restore exact scene content",
+    "no native export or render during editing"
+  ],
+  "host_wall_seconds": 59.142,
+  "two_restart_cli_seconds": 0.105,
+  "timing_note": "Host wall time includes model, tool and service waiting; restart CLI timing measures two local script processes only.",
+  "scope": "One live text-edit task per host; does not establish arbitrary-language, photo reconstruction or browser visual quality."
+}

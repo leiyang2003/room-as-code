@@ -1,0 +1,8324 @@
+{
+  "schema": "room-studio/1",
+  "revision": 0,
+  "name": "Manhattan / 曼哈顿大公寓",
+  "style": "warm",
+  "period": "day",
+  "environment": "city",
+  "history": [],
+  "redo": [],
+  "provenance": {
+    "origin": "reference_layout_design_adaptation",
+    "scale": "design_dimensions",
+    "reference": "35 Hudson Yards Residence 02, floors 75–82; public developer floor plan",
+    "notes": "Space organization adapted from the public plan. 267 m² is this model’s design envelope, not measured net usable area, survey, exact sales-plan reproduction or BIM. Three bedrooms, three full bathrooms, powder room; no balcony. Procedural scenery is not the actual view.",
+    "finish_notes": "A2: editable functional arrangements, upholstered seating, tailored bed linen, layered rugs, flowers/books/tableware/bath storage; procedural city is not a geographic Manhattan view."
+  },
+  "rooms": {
+    "entry": {
+      "name": "入户门厅",
+      "center": [
+        2.0545904999999998,
+        -4.1091815
+      ],
+      "size": [
+        2.054591,
+        2.0545910000000003,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          1.027295,
+          -5.136477
+        ],
+        [
+          3.081886,
+          -5.136477
+        ],
+        [
+          3.081886,
+          -3.081886
+        ],
+        [
+          1.027295,
+          -3.081886
+        ]
+      ],
+      "zone": "arrival",
+      "area_design_m2": 4.221,
+      "camera": {
+        "position": [
+          1.540943,
+          -4.725559,
+          1.7
+        ],
+        "target": [
+          2.105956,
+          -2.773698,
+          1.2
+        ]
+      }
+    },
+    "gallery": {
+      "name": "长画廊",
+      "center": [
+        2.0545904999999998,
+        1.7977675
+      ],
+      "size": [
+        2.054591,
+        9.759307,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          1.027295,
+          -3.081886
+        ],
+        [
+          3.081886,
+          -3.081886
+        ],
+        [
+          3.081886,
+          6.677421
+        ],
+        [
+          1.027295,
+          6.677421
+        ]
+      ],
+      "zone": "circulation",
+      "area_design_m2": 20.051,
+      "camera": {
+        "position": [
+          2.054591,
+          -2.670968,
+          1.72
+        ],
+        "target": [
+          2.054591,
+          5.136477,
+          1.25
+        ]
+      }
+    },
+    "living": {
+      "name": "转角大客厅",
+      "center": [
+        7.2937975,
+        7.7047159999999995
+      ],
+      "size": [
+        8.423822999999999,
+        7.1910680000000005,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          3.081886,
+          4.109182
+        ],
+        [
+          11.505709,
+          4.109182
+        ],
+        [
+          11.30025,
+          5.136477
+        ],
+        [
+          8.732011,
+          11.30025
+        ],
+        [
+          3.081886,
+          11.30025
+        ]
+      ],
+      "zone": "public",
+      "area_design_m2": 51.289,
+      "camera": {
+        "position": [
+          9.245659,
+          5.958314,
+          1.72
+        ],
+        "target": [
+          5.547396,
+          8.732011,
+          1.1
+        ]
+      }
+    },
+    "kitchen": {
+      "name": "开放厨房",
+      "center": [
+        5.2392065,
+        2.054591
+      ],
+      "size": [
+        4.314641,
+        4.109182,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          3.081886,
+          0.0
+        ],
+        [
+          7.396527,
+          0.0
+        ],
+        [
+          7.396527,
+          4.109182
+        ],
+        [
+          3.081886,
+          4.109182
+        ]
+      ],
+      "zone": "public",
+      "area_design_m2": 17.73,
+      "camera": {
+        "position": [
+          3.800993,
+          3.492805,
+          1.72
+        ],
+        "target": [
+          5.444666,
+          0.667742,
+          1.15
+        ]
+      }
+    },
+    "dining": {
+      "name": "家庭餐厅",
+      "center": [
+        9.8620365,
+        2.054591
+      ],
+      "size": [
+        4.931019,
+        4.109182,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          7.396527,
+          0.0
+        ],
+        [
+          12.327546,
+          0.0
+        ],
+        [
+          11.505709,
+          4.109182
+        ],
+        [
+          7.396527,
+          4.109182
+        ]
+      ],
+      "zone": "public",
+      "area_design_m2": 18.574,
+      "camera": {
+        "position": [
+          8.218364,
+          3.595534,
+          1.72
+        ],
+        "target": [
+          10.067496,
+          1.643673,
+          1.05
+        ]
+      }
+    },
+    "bedroom": {
+      "name": "主卧",
+      "center": [
+        -8.7320115,
+        8.9888355
+      ],
+      "size": [
+        5.136477,
+        4.622829,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -11.30025,
+          6.677421
+        ],
+        [
+          -6.163773,
+          6.677421
+        ],
+        [
+          -6.163773,
+          11.30025
+        ],
+        [
+          -11.30025,
+          11.30025
+        ]
+      ],
+      "zone": "private",
+      "area_design_m2": 23.745,
+      "camera": {
+        "position": [
+          -6.78015,
+          7.293798,
+          1.72
+        ],
+        "target": [
+          -9.0402,
+          9.451118,
+          1
+        ]
+      }
+    },
+    "bedroom2": {
+      "name": "次卧",
+      "center": [
+        -3.8523579999999997,
+        8.9888355
+      ],
+      "size": [
+        4.62283,
+        4.622829,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -6.163773,
+          6.677421
+        ],
+        [
+          -1.540943,
+          6.677421
+        ],
+        [
+          -1.540943,
+          11.30025
+        ],
+        [
+          -6.163773,
+          11.30025
+        ]
+      ],
+      "zone": "private",
+      "area_design_m2": 21.371,
+      "camera": {
+        "position": [
+          -5.033748,
+          7.191068,
+          1.72
+        ],
+        "target": [
+          -3.595534,
+          9.245659,
+          1
+        ]
+      }
+    },
+    "study": {
+      "name": "第三卧室 / 书房",
+      "center": [
+        0.7704715,
+        8.9888355
+      ],
+      "size": [
+        4.622828999999999,
+        4.622829,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -1.540943,
+          6.677421
+        ],
+        [
+          3.081886,
+          6.677421
+        ],
+        [
+          3.081886,
+          11.30025
+        ],
+        [
+          -1.540943,
+          11.30025
+        ]
+      ],
+      "zone": "private",
+      "area_design_m2": 21.371,
+      "camera": {
+        "position": [
+          1.951861,
+          7.191068,
+          1.72
+        ],
+        "target": [
+          0.10273,
+          9.245659,
+          1
+        ]
+      }
+    },
+    "private_hall": {
+      "name": "卧室走廊",
+      "center": [
+        -3.0818864999999995,
+        5.906949
+      ],
+      "size": [
+        8.218363,
+        1.5409439999999996,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -7.191068,
+          5.136477
+        ],
+        [
+          1.027295,
+          5.136477
+        ],
+        [
+          1.027295,
+          6.677421
+        ],
+        [
+          -7.191068,
+          6.677421
+        ]
+      ],
+      "zone": "circulation",
+      "area_design_m2": 12.664
+    },
+    "service_hall": {
+      "name": "服务走廊",
+      "center": [
+        -3.0818864999999995,
+        3.390075
+      ],
+      "size": [
+        8.218363,
+        3.4928040000000005,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -7.191068,
+          1.643673
+        ],
+        [
+          1.027295,
+          1.643673
+        ],
+        [
+          1.027295,
+          3.287345
+        ],
+        [
+          -6.163773,
+          3.287345
+        ],
+        [
+          -6.163773,
+          5.136477
+        ],
+        [
+          -7.191068,
+          5.136477
+        ]
+      ],
+      "zone": "circulation",
+      "area_design_m2": 15.408,
+      "label_center": [
+        -3.081886,
+        2.465509
+      ],
+      "camera": {
+        "position": [
+          -6.677421,
+          3.800993,
+          1.72
+        ],
+        "target": [
+          -6.677421,
+          5.033748,
+          1.1
+        ]
+      }
+    },
+    "bathroom": {
+      "name": "主卫",
+      "center": [
+        -9.245659,
+        1.6436725
+      ],
+      "size": [
+        4.109182000000001,
+        3.287345,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -11.30025,
+          0.0
+        ],
+        [
+          -7.191068,
+          0.0
+        ],
+        [
+          -7.191068,
+          3.287345
+        ],
+        [
+          -11.30025,
+          3.287345
+        ]
+      ],
+      "zone": "service",
+      "area_design_m2": 13.508,
+      "camera": {
+        "position": [
+          -7.910175,
+          2.876427,
+          1.72
+        ],
+        "target": [
+          -10.272955,
+          0.924566,
+          1.05
+        ]
+      }
+    },
+    "dressing": {
+      "name": "步入衣帽间",
+      "center": [
+        -9.245659,
+        4.9823830000000005
+      ],
+      "size": [
+        4.109182000000001,
+        3.3900759999999996,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -11.30025,
+          3.287345
+        ],
+        [
+          -7.191068,
+          3.287345
+        ],
+        [
+          -7.191068,
+          6.677421
+        ],
+        [
+          -11.30025,
+          6.677421
+        ]
+      ],
+      "zone": "private",
+      "area_design_m2": 13.93
+    },
+    "bathroom2": {
+      "name": "次卫",
+      "center": [
+        -4.7255590000000005,
+        4.211911000000001
+      ],
+      "size": [
+        2.8764279999999998,
+        1.849132,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -6.163773,
+          3.287345
+        ],
+        [
+          -3.287345,
+          3.287345
+        ],
+        [
+          -3.287345,
+          5.136477
+        ],
+        [
+          -6.163773,
+          5.136477
+        ]
+      ],
+      "zone": "service",
+      "area_design_m2": 5.319,
+      "camera": {
+        "position": [
+          -4.828289,
+          4.910472,
+          1.72
+        ],
+        "target": [
+          -4.5201,
+          3.903723,
+          1
+        ]
+      }
+    },
+    "bathroom3": {
+      "name": "第三卫浴",
+      "center": [
+        -1.8491315000000002,
+        4.211911000000001
+      ],
+      "size": [
+        2.876427,
+        1.849132,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -3.287345,
+          3.287345
+        ],
+        [
+          -0.410918,
+          3.287345
+        ],
+        [
+          -0.410918,
+          5.136477
+        ],
+        [
+          -3.287345,
+          5.136477
+        ]
+      ],
+      "zone": "service",
+      "area_design_m2": 5.319,
+      "camera": {
+        "position": [
+          -1.951861,
+          4.910472,
+          1.72
+        ],
+        "target": [
+          -1.643673,
+          3.903723,
+          1
+        ]
+      }
+    },
+    "linen": {
+      "name": "布草柜",
+      "center": [
+        0.30818850000000003,
+        4.211911000000001
+      ],
+      "size": [
+        1.4382130000000002,
+        1.849132,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -0.410918,
+          3.287345
+        ],
+        [
+          1.027295,
+          3.287345
+        ],
+        [
+          1.027295,
+          5.136477
+        ],
+        [
+          -0.410918,
+          5.136477
+        ]
+      ],
+      "zone": "service",
+      "area_design_m2": 2.659
+    },
+    "laundry": {
+      "name": "洗衣间",
+      "center": [
+        -5.855584,
+        0.8218365
+      ],
+      "size": [
+        2.6709679999999993,
+        1.643673,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -7.191068,
+          0.0
+        ],
+        [
+          -4.5201,
+          0.0
+        ],
+        [
+          -4.5201,
+          1.643673
+        ],
+        [
+          -7.191068,
+          1.643673
+        ]
+      ],
+      "zone": "service",
+      "area_design_m2": 4.39
+    },
+    "storage": {
+      "name": "储物间",
+      "center": [
+        -3.184616,
+        0.8218365
+      ],
+      "size": [
+        2.6709680000000002,
+        1.643673,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -4.5201,
+          0.0
+        ],
+        [
+          -1.849132,
+          0.0
+        ],
+        [
+          -1.849132,
+          1.643673
+        ],
+        [
+          -4.5201,
+          1.643673
+        ]
+      ],
+      "zone": "service",
+      "area_design_m2": 4.39
+    },
+    "utility": {
+      "name": "设备间",
+      "center": [
+        -0.41091849999999996,
+        0.8218365
+      ],
+      "size": [
+        2.876427,
+        1.643673,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          -1.849132,
+          0.0
+        ],
+        [
+          1.027295,
+          0.0
+        ],
+        [
+          1.027295,
+          1.643673
+        ],
+        [
+          -1.849132,
+          1.643673
+        ]
+      ],
+      "zone": "service",
+      "area_design_m2": 4.728
+    },
+    "powder": {
+      "name": "客卫",
+      "center": [
+        4.1091815,
+        -1.540943
+      ],
+      "size": [
+        2.0545910000000003,
+        3.081886,
+        3.05
+      ],
+      "style": null,
+      "polygon": [
+        [
+          3.081886,
+          -3.081886
+        ],
+        [
+          5.136477,
+          -3.081886
+        ],
+        [
+          5.136477,
+          0.0
+        ],
+        [
+          3.081886,
+          0.0
+        ]
+      ],
+      "zone": "service",
+      "area_design_m2": 6.332,
+      "camera": {
+        "position": [
+          3.390075,
+          -1.130025,
+          1.7
+        ],
+        "target": [
+          4.5201,
+          -1.849132,
+          1
+        ]
+      }
+    }
+  },
+  "entities": {
+    "entry.floor": {
+      "id": "entry.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "entry",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            1.027295,
+            -5.136477
+          ],
+          [
+            3.081886,
+            -5.136477
+          ],
+          [
+            3.081886,
+            -3.081886
+          ],
+          [
+            1.027295,
+            -3.081886
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "entry.ceiling": {
+      "id": "entry.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "entry",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            1.027295,
+            -5.136477
+          ],
+          [
+            3.081886,
+            -5.136477
+          ],
+          [
+            3.081886,
+            -3.081886
+          ],
+          [
+            1.027295,
+            -3.081886
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "gallery.floor": {
+      "id": "gallery.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "gallery",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            1.027295,
+            -3.081886
+          ],
+          [
+            3.081886,
+            -3.081886
+          ],
+          [
+            3.081886,
+            6.677421
+          ],
+          [
+            1.027295,
+            6.677421
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "gallery.ceiling": {
+      "id": "gallery.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "gallery",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            1.027295,
+            -3.081886
+          ],
+          [
+            3.081886,
+            -3.081886
+          ],
+          [
+            3.081886,
+            6.677421
+          ],
+          [
+            1.027295,
+            6.677421
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "living.floor": {
+      "id": "living.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "living",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.081886,
+            4.109182
+          ],
+          [
+            11.505709,
+            4.109182
+          ],
+          [
+            11.30025,
+            5.136477
+          ],
+          [
+            8.732011,
+            11.30025
+          ],
+          [
+            3.081886,
+            11.30025
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "living.ceiling": {
+      "id": "living.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "living",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.081886,
+            4.109182
+          ],
+          [
+            11.505709,
+            4.109182
+          ],
+          [
+            11.30025,
+            5.136477
+          ],
+          [
+            8.732011,
+            11.30025
+          ],
+          [
+            3.081886,
+            11.30025
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "kitchen.floor": {
+      "id": "kitchen.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "kitchen",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.081886,
+            0.0
+          ],
+          [
+            7.396527,
+            0.0
+          ],
+          [
+            7.396527,
+            4.109182
+          ],
+          [
+            3.081886,
+            4.109182
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "kitchen.ceiling": {
+      "id": "kitchen.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "kitchen",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.081886,
+            0.0
+          ],
+          [
+            7.396527,
+            0.0
+          ],
+          [
+            7.396527,
+            4.109182
+          ],
+          [
+            3.081886,
+            4.109182
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "dining.floor": {
+      "id": "dining.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "dining",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            7.396527,
+            0.0
+          ],
+          [
+            12.327546,
+            0.0
+          ],
+          [
+            11.505709,
+            4.109182
+          ],
+          [
+            7.396527,
+            4.109182
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "dining.ceiling": {
+      "id": "dining.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "dining",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            7.396527,
+            0.0
+          ],
+          [
+            12.327546,
+            0.0
+          ],
+          [
+            11.505709,
+            4.109182
+          ],
+          [
+            7.396527,
+            4.109182
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "bedroom.floor": {
+      "id": "bedroom.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "bedroom",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -11.30025,
+            6.677421
+          ],
+          [
+            -6.163773,
+            6.677421
+          ],
+          [
+            -6.163773,
+            11.30025
+          ],
+          [
+            -11.30025,
+            11.30025
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "bedroom.ceiling": {
+      "id": "bedroom.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "bedroom",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -11.30025,
+            6.677421
+          ],
+          [
+            -6.163773,
+            6.677421
+          ],
+          [
+            -6.163773,
+            11.30025
+          ],
+          [
+            -11.30025,
+            11.30025
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "bedroom2.floor": {
+      "id": "bedroom2.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "bedroom2",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -6.163773,
+            6.677421
+          ],
+          [
+            -1.540943,
+            6.677421
+          ],
+          [
+            -1.540943,
+            11.30025
+          ],
+          [
+            -6.163773,
+            11.30025
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "bedroom2.ceiling": {
+      "id": "bedroom2.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "bedroom2",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -6.163773,
+            6.677421
+          ],
+          [
+            -1.540943,
+            6.677421
+          ],
+          [
+            -1.540943,
+            11.30025
+          ],
+          [
+            -6.163773,
+            11.30025
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "study.floor": {
+      "id": "study.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "study",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -1.540943,
+            6.677421
+          ],
+          [
+            3.081886,
+            6.677421
+          ],
+          [
+            3.081886,
+            11.30025
+          ],
+          [
+            -1.540943,
+            11.30025
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "study.ceiling": {
+      "id": "study.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "study",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -1.540943,
+            6.677421
+          ],
+          [
+            3.081886,
+            6.677421
+          ],
+          [
+            3.081886,
+            11.30025
+          ],
+          [
+            -1.540943,
+            11.30025
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "private_hall.floor": {
+      "id": "private_hall.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "private_hall",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.191068,
+            5.136477
+          ],
+          [
+            1.027295,
+            5.136477
+          ],
+          [
+            1.027295,
+            6.677421
+          ],
+          [
+            -7.191068,
+            6.677421
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "private_hall.ceiling": {
+      "id": "private_hall.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "private_hall",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.191068,
+            5.136477
+          ],
+          [
+            1.027295,
+            5.136477
+          ],
+          [
+            1.027295,
+            6.677421
+          ],
+          [
+            -7.191068,
+            6.677421
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "service_hall.floor": {
+      "id": "service_hall.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "service_hall",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.191068,
+            1.643673
+          ],
+          [
+            1.027295,
+            1.643673
+          ],
+          [
+            1.027295,
+            3.287345
+          ],
+          [
+            -6.163773,
+            3.287345
+          ],
+          [
+            -6.163773,
+            5.136477
+          ],
+          [
+            -7.191068,
+            5.136477
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "service_hall.ceiling": {
+      "id": "service_hall.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "service_hall",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.191068,
+            1.643673
+          ],
+          [
+            1.027295,
+            1.643673
+          ],
+          [
+            1.027295,
+            3.287345
+          ],
+          [
+            -6.163773,
+            3.287345
+          ],
+          [
+            -6.163773,
+            5.136477
+          ],
+          [
+            -7.191068,
+            5.136477
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "bathroom.floor": {
+      "id": "bathroom.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "bathroom",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -11.30025,
+            0.0
+          ],
+          [
+            -7.191068,
+            0.0
+          ],
+          [
+            -7.191068,
+            3.287345
+          ],
+          [
+            -11.30025,
+            3.287345
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "stone"
+    },
+    "bathroom.ceiling": {
+      "id": "bathroom.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "bathroom",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -11.30025,
+            0.0
+          ],
+          [
+            -7.191068,
+            0.0
+          ],
+          [
+            -7.191068,
+            3.287345
+          ],
+          [
+            -11.30025,
+            3.287345
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "dressing.floor": {
+      "id": "dressing.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "dressing",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -11.30025,
+            3.287345
+          ],
+          [
+            -7.191068,
+            3.287345
+          ],
+          [
+            -7.191068,
+            6.677421
+          ],
+          [
+            -11.30025,
+            6.677421
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "dressing.ceiling": {
+      "id": "dressing.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "dressing",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -11.30025,
+            3.287345
+          ],
+          [
+            -7.191068,
+            3.287345
+          ],
+          [
+            -7.191068,
+            6.677421
+          ],
+          [
+            -11.30025,
+            6.677421
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "bathroom2.floor": {
+      "id": "bathroom2.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "bathroom2",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -6.163773,
+            3.287345
+          ],
+          [
+            -3.287345,
+            3.287345
+          ],
+          [
+            -3.287345,
+            5.136477
+          ],
+          [
+            -6.163773,
+            5.136477
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "stone"
+    },
+    "bathroom2.ceiling": {
+      "id": "bathroom2.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "bathroom2",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -6.163773,
+            3.287345
+          ],
+          [
+            -3.287345,
+            3.287345
+          ],
+          [
+            -3.287345,
+            5.136477
+          ],
+          [
+            -6.163773,
+            5.136477
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "bathroom3.floor": {
+      "id": "bathroom3.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "bathroom3",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -3.287345,
+            3.287345
+          ],
+          [
+            -0.410918,
+            3.287345
+          ],
+          [
+            -0.410918,
+            5.136477
+          ],
+          [
+            -3.287345,
+            5.136477
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "stone"
+    },
+    "bathroom3.ceiling": {
+      "id": "bathroom3.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "bathroom3",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -3.287345,
+            3.287345
+          ],
+          [
+            -0.410918,
+            3.287345
+          ],
+          [
+            -0.410918,
+            5.136477
+          ],
+          [
+            -3.287345,
+            5.136477
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "linen.floor": {
+      "id": "linen.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "linen",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -0.410918,
+            3.287345
+          ],
+          [
+            1.027295,
+            3.287345
+          ],
+          [
+            1.027295,
+            5.136477
+          ],
+          [
+            -0.410918,
+            5.136477
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "linen.ceiling": {
+      "id": "linen.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "linen",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -0.410918,
+            3.287345
+          ],
+          [
+            1.027295,
+            3.287345
+          ],
+          [
+            1.027295,
+            5.136477
+          ],
+          [
+            -0.410918,
+            5.136477
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "laundry.floor": {
+      "id": "laundry.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "laundry",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.191068,
+            0.0
+          ],
+          [
+            -4.5201,
+            0.0
+          ],
+          [
+            -4.5201,
+            1.643673
+          ],
+          [
+            -7.191068,
+            1.643673
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "stone"
+    },
+    "laundry.ceiling": {
+      "id": "laundry.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "laundry",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -7.191068,
+            0.0
+          ],
+          [
+            -4.5201,
+            0.0
+          ],
+          [
+            -4.5201,
+            1.643673
+          ],
+          [
+            -7.191068,
+            1.643673
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "storage.floor": {
+      "id": "storage.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "storage",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -4.5201,
+            0.0
+          ],
+          [
+            -1.849132,
+            0.0
+          ],
+          [
+            -1.849132,
+            1.643673
+          ],
+          [
+            -4.5201,
+            1.643673
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "storage.ceiling": {
+      "id": "storage.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "storage",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -4.5201,
+            0.0
+          ],
+          [
+            -1.849132,
+            0.0
+          ],
+          [
+            -1.849132,
+            1.643673
+          ],
+          [
+            -4.5201,
+            1.643673
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "utility.floor": {
+      "id": "utility.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "utility",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -1.849132,
+            0.0
+          ],
+          [
+            1.027295,
+            0.0
+          ],
+          [
+            1.027295,
+            1.643673
+          ],
+          [
+            -1.849132,
+            1.643673
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "floor"
+    },
+    "utility.ceiling": {
+      "id": "utility.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "utility",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            -1.849132,
+            0.0
+          ],
+          [
+            1.027295,
+            0.0
+          ],
+          [
+            1.027295,
+            1.643673
+          ],
+          [
+            -1.849132,
+            1.643673
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "powder.floor": {
+      "id": "powder.floor",
+      "label": "floor",
+      "kind": "floorplan",
+      "room": "powder",
+      "position": [
+        0.0,
+        0.0,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.081886,
+            -3.081886
+          ],
+          [
+            5.136477,
+            -3.081886
+          ],
+          [
+            5.136477,
+            0.0
+          ],
+          [
+            3.081886,
+            0.0
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "stone"
+    },
+    "powder.ceiling": {
+      "id": "powder.ceiling",
+      "label": "ceiling",
+      "kind": "floorplan",
+      "room": "powder",
+      "position": [
+        0.0,
+        0.0,
+        3.05
+      ],
+      "rotation": 0,
+      "params": {
+        "points": [
+          [
+            3.081886,
+            -3.081886
+          ],
+          [
+            5.136477,
+            -3.081886
+          ],
+          [
+            5.136477,
+            0.0
+          ],
+          [
+            3.081886,
+            0.0
+          ]
+        ],
+        "thickness": 0.12
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "surface_role": "wall",
+      "ceiling": true
+    },
+    "bathroom.wall_00": {
+      "id": "bathroom.wall_00",
+      "label": "wall 00",
+      "kind": "wall",
+      "room": "bathroom",
+      "position": [
+        -11.30025,
+        1.643673,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.287345,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bathroom"
+      ]
+    },
+    "bathroom.wall_01": {
+      "id": "bathroom.wall_01",
+      "label": "wall 01",
+      "kind": "wall",
+      "room": "bathroom",
+      "position": [
+        -9.245659,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.109182,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bathroom"
+      ]
+    },
+    "dressing.wall_02": {
+      "id": "dressing.wall_02",
+      "label": "wall 02",
+      "kind": "wall",
+      "room": "dressing",
+      "position": [
+        -11.30025,
+        4.982383,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.390075,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "dressing"
+      ]
+    },
+    "bathroom.wall_03": {
+      "id": "bathroom.wall_03",
+      "label": "wall 03",
+      "kind": "wall",
+      "room": "bathroom",
+      "position": [
+        -9.245659,
+        3.287345,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.109182,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.9245659167346327,
+        "offset": 1.3354841019500248,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bathroom",
+        "dressing"
+      ]
+    },
+    "bedroom.wall_04": {
+      "id": "bedroom.wall_04",
+      "label": "wall 04",
+      "kind": "wall",
+      "room": "bedroom",
+      "position": [
+        -11.30025,
+        8.988835,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.62283,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bedroom"
+      ]
+    },
+    "bedroom.wall_05": {
+      "id": "bedroom.wall_05",
+      "label": "wall 05",
+      "kind": "wall",
+      "room": "bedroom",
+      "position": [
+        -9.245659,
+        6.677421,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.109182,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bedroom",
+        "dressing"
+      ]
+    },
+    "bedroom.wall_06": {
+      "id": "bedroom.wall_06",
+      "label": "wall 06",
+      "kind": "wall",
+      "room": "bedroom",
+      "position": [
+        -8.732011,
+        11.30025,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 5.136477,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "window",
+        "gap": 4.622829583673163,
+        "offset": 0.0,
+        "sill": 0.35,
+        "head": 2.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bedroom"
+      ]
+    },
+    "bedroom.window": {
+      "id": "bedroom.window",
+      "label": "window",
+      "kind": "window",
+      "room": "bedroom",
+      "position": [
+        -8.732011,
+        11.30025,
+        0.35
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.62283,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom.sheer": {
+      "id": "bedroom.sheer",
+      "label": "sheer",
+      "kind": "curtain",
+      "room": "bedroom",
+      "position": [
+        -8.732011,
+        11.115337,
+        0.12
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.848835,
+        "h": 2.82,
+        "openness": 0.7,
+        "sheer": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom.drape": {
+      "id": "bedroom.drape",
+      "label": "drape",
+      "kind": "curtain",
+      "room": "bedroom",
+      "position": [
+        -8.732011,
+        11.002334,
+        0.12
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.931018,
+        "h": 2.82,
+        "openness": 0.9,
+        "sheer": false
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom.wall_07": {
+      "id": "bathroom.wall_07",
+      "label": "wall 07",
+      "kind": "wall",
+      "room": "bathroom",
+      "position": [
+        -7.191068,
+        0.821836,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.643673,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bathroom",
+        "laundry"
+      ]
+    },
+    "laundry.wall_08": {
+      "id": "laundry.wall_08",
+      "label": "wall 08",
+      "kind": "wall",
+      "room": "laundry",
+      "position": [
+        -5.855584,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.670968,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "laundry"
+      ]
+    },
+    "service_hall.wall_09": {
+      "id": "service_hall.wall_09",
+      "label": "wall 09",
+      "kind": "wall",
+      "room": "service_hall",
+      "position": [
+        -7.191068,
+        2.465509,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.643673,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "service_hall",
+        "bathroom"
+      ]
+    },
+    "service_hall.wall_10": {
+      "id": "service_hall.wall_10",
+      "label": "wall 10",
+      "kind": "wall",
+      "room": "service_hall",
+      "position": [
+        -5.855584,
+        1.643673,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.670968,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.9245659167346327,
+        "offset": -0.10272954630384772,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "service_hall",
+        "laundry"
+      ]
+    },
+    "service_hall.wall_11": {
+      "id": "service_hall.wall_11",
+      "label": "wall 11",
+      "kind": "wall",
+      "room": "service_hall",
+      "position": [
+        -7.191068,
+        4.211911,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.849132,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.9245659167346327,
+        "offset": 0.0,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "service_hall",
+        "dressing"
+      ]
+    },
+    "private_hall.wall_12": {
+      "id": "private_hall.wall_12",
+      "label": "wall 12",
+      "kind": "wall",
+      "room": "private_hall",
+      "position": [
+        -7.191068,
+        5.906949,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.540943,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "private_hall",
+        "dressing"
+      ]
+    },
+    "bedroom.wall_13": {
+      "id": "bedroom.wall_13",
+      "label": "wall 13",
+      "kind": "wall",
+      "room": "bedroom",
+      "position": [
+        -6.677421,
+        6.677421,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 1.027295,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.9245659167346327,
+        "offset": 0.0,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bedroom",
+        "private_hall"
+      ]
+    },
+    "service_hall.wall_14": {
+      "id": "service_hall.wall_14",
+      "label": "wall 14",
+      "kind": "wall",
+      "room": "service_hall",
+      "position": [
+        -6.163773,
+        4.211911,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.849132,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "service_hall",
+        "bathroom2"
+      ]
+    },
+    "service_hall.wall_15": {
+      "id": "service_hall.wall_15",
+      "label": "wall 15",
+      "kind": "wall",
+      "room": "service_hall",
+      "position": [
+        -4.725559,
+        3.287345,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.876427,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "service_hall",
+        "bathroom2"
+      ]
+    },
+    "private_hall.wall_16": {
+      "id": "private_hall.wall_16",
+      "label": "wall 16",
+      "kind": "wall",
+      "room": "private_hall",
+      "position": [
+        -4.725559,
+        5.136477,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.876427,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.8218363704307846,
+        "offset": -0.10272954630384862,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "private_hall",
+        "bathroom2"
+      ]
+    },
+    "bedroom.wall_17": {
+      "id": "bedroom.wall_17",
+      "label": "wall 17",
+      "kind": "wall",
+      "room": "bedroom",
+      "position": [
+        -6.163773,
+        8.988835,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.62283,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bedroom",
+        "bedroom2"
+      ]
+    },
+    "bedroom2.wall_18": {
+      "id": "bedroom2.wall_18",
+      "label": "wall 18",
+      "kind": "wall",
+      "room": "bedroom2",
+      "position": [
+        -3.852358,
+        6.677421,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.62283,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.9759306898865566,
+        "offset": -1.1813897824942532,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bedroom2",
+        "private_hall"
+      ]
+    },
+    "bedroom2.wall_19": {
+      "id": "bedroom2.wall_19",
+      "label": "wall 19",
+      "kind": "wall",
+      "room": "bedroom2",
+      "position": [
+        -3.852358,
+        11.30025,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.62283,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "window",
+        "gap": 4.109181852153923,
+        "offset": 0.0,
+        "sill": 0.35,
+        "head": 2.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bedroom2"
+      ]
+    },
+    "bedroom2.window": {
+      "id": "bedroom2.window",
+      "label": "window",
+      "kind": "window",
+      "room": "bedroom2",
+      "position": [
+        -3.852358,
+        11.30025,
+        0.35
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.109182,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom2.sheer": {
+      "id": "bedroom2.sheer",
+      "label": "sheer",
+      "kind": "curtain",
+      "room": "bedroom2",
+      "position": [
+        -3.852358,
+        11.115337,
+        0.12
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.335187,
+        "h": 2.82,
+        "openness": 0.7,
+        "sheer": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom2.drape": {
+      "id": "bedroom2.drape",
+      "label": "drape",
+      "kind": "curtain",
+      "room": "bedroom2",
+      "position": [
+        -3.852358,
+        11.002334,
+        0.12
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.41737,
+        "h": 2.82,
+        "openness": 0.9,
+        "sheer": false
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "laundry.wall_20": {
+      "id": "laundry.wall_20",
+      "label": "wall 20",
+      "kind": "wall",
+      "room": "laundry",
+      "position": [
+        -4.5201,
+        0.821836,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.643673,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "laundry",
+        "storage"
+      ]
+    },
+    "storage.wall_21": {
+      "id": "storage.wall_21",
+      "label": "wall 21",
+      "kind": "wall",
+      "room": "storage",
+      "position": [
+        -3.184616,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.670968,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "storage"
+      ]
+    },
+    "service_hall.wall_22": {
+      "id": "service_hall.wall_22",
+      "label": "wall 22",
+      "kind": "wall",
+      "room": "service_hall",
+      "position": [
+        -3.184616,
+        1.643673,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.670968,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.8732011435827086,
+        "offset": 0.0,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "service_hall",
+        "storage"
+      ]
+    },
+    "bathroom2.wall_23": {
+      "id": "bathroom2.wall_23",
+      "label": "wall 23",
+      "kind": "wall",
+      "room": "bathroom2",
+      "position": [
+        -3.287345,
+        4.211911,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.849132,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bathroom2",
+        "bathroom3"
+      ]
+    },
+    "service_hall.wall_24": {
+      "id": "service_hall.wall_24",
+      "label": "wall 24",
+      "kind": "wall",
+      "room": "service_hall",
+      "position": [
+        -1.849132,
+        3.287345,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.876427,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "service_hall",
+        "bathroom3"
+      ]
+    },
+    "private_hall.wall_25": {
+      "id": "private_hall.wall_25",
+      "label": "wall 25",
+      "kind": "wall",
+      "room": "private_hall",
+      "position": [
+        -1.849132,
+        5.136477,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.876427,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.8218363704307846,
+        "offset": -0.6163772778230883,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "private_hall",
+        "bathroom3"
+      ]
+    },
+    "storage.wall_26": {
+      "id": "storage.wall_26",
+      "label": "wall 26",
+      "kind": "wall",
+      "room": "storage",
+      "position": [
+        -1.849132,
+        0.821836,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.643673,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "storage",
+        "utility"
+      ]
+    },
+    "utility.wall_27": {
+      "id": "utility.wall_27",
+      "label": "wall 27",
+      "kind": "wall",
+      "room": "utility",
+      "position": [
+        -0.410918,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.876427,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "utility"
+      ]
+    },
+    "service_hall.wall_28": {
+      "id": "service_hall.wall_28",
+      "label": "wall 28",
+      "kind": "wall",
+      "room": "service_hall",
+      "position": [
+        -0.410918,
+        1.643673,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.876427,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.8732011435827086,
+        "offset": 0.05136477315192408,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "service_hall",
+        "utility"
+      ]
+    },
+    "bedroom2.wall_29": {
+      "id": "bedroom2.wall_29",
+      "label": "wall 29",
+      "kind": "wall",
+      "room": "bedroom2",
+      "position": [
+        -1.540943,
+        8.988835,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.62283,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bedroom2",
+        "study"
+      ]
+    },
+    "study.wall_30": {
+      "id": "study.wall_30",
+      "label": "wall 30",
+      "kind": "wall",
+      "room": "study",
+      "position": [
+        -0.256824,
+        6.677421,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.568239,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.9759306898865566,
+        "offset": 0.5650125046711645,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "study",
+        "private_hall"
+      ]
+    },
+    "study.wall_31": {
+      "id": "study.wall_31",
+      "label": "wall 31",
+      "kind": "wall",
+      "room": "study",
+      "position": [
+        0.770472,
+        11.30025,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.62283,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "window",
+        "gap": 4.109181852153923,
+        "offset": 0.0,
+        "sill": 0.35,
+        "head": 2.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "study"
+      ]
+    },
+    "study.window": {
+      "id": "study.window",
+      "label": "window",
+      "kind": "window",
+      "room": "study",
+      "position": [
+        0.770472,
+        11.30025,
+        0.35
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.109182,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.sheer": {
+      "id": "study.sheer",
+      "label": "sheer",
+      "kind": "curtain",
+      "room": "study",
+      "position": [
+        0.770472,
+        11.115337,
+        0.12
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.335187,
+        "h": 2.82,
+        "openness": 0.7,
+        "sheer": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.drape": {
+      "id": "study.drape",
+      "label": "drape",
+      "kind": "curtain",
+      "room": "study",
+      "position": [
+        0.770472,
+        11.002334,
+        0.12
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.41737,
+        "h": 2.82,
+        "openness": 0.9,
+        "sheer": false
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom3.wall_32": {
+      "id": "bathroom3.wall_32",
+      "label": "wall 32",
+      "kind": "wall",
+      "room": "bathroom3",
+      "position": [
+        -0.410918,
+        4.211911,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.849132,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "bathroom3",
+        "linen"
+      ]
+    },
+    "service_hall.wall_33": {
+      "id": "service_hall.wall_33",
+      "label": "wall 33",
+      "kind": "wall",
+      "room": "service_hall",
+      "position": [
+        0.308189,
+        3.287345,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 1.438214,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.8218363704307846,
+        "offset": 0.0,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "service_hall",
+        "linen"
+      ]
+    },
+    "private_hall.wall_34": {
+      "id": "private_hall.wall_34",
+      "label": "wall 34",
+      "kind": "wall",
+      "room": "private_hall",
+      "position": [
+        0.308189,
+        5.136477,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 1.438214,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "private_hall",
+        "linen"
+      ]
+    },
+    "entry.wall_35": {
+      "id": "entry.wall_35",
+      "label": "wall 35",
+      "kind": "wall",
+      "room": "entry",
+      "position": [
+        1.027295,
+        -4.109182,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.054591,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 1.0272954630384807,
+        "offset": 0.0,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "entry"
+      ]
+    },
+    "entry.wall_36": {
+      "id": "entry.wall_36",
+      "label": "wall 36",
+      "kind": "wall",
+      "room": "entry",
+      "position": [
+        2.054591,
+        -5.136477,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.054591,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "entry"
+      ]
+    },
+    "gallery.wall_37": {
+      "id": "gallery.wall_37",
+      "label": "wall 37",
+      "kind": "wall",
+      "room": "gallery",
+      "position": [
+        1.027295,
+        -1.540943,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.081886,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "gallery"
+      ]
+    },
+    "gallery.wall_38": {
+      "id": "gallery.wall_38",
+      "label": "wall 38",
+      "kind": "wall",
+      "room": "gallery",
+      "position": [
+        1.027295,
+        0.821836,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.643673,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "gallery",
+        "utility"
+      ]
+    },
+    "gallery.wall_39": {
+      "id": "gallery.wall_39",
+      "label": "wall 39",
+      "kind": "wall",
+      "room": "gallery",
+      "position": [
+        1.027295,
+        4.211911,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 1.849132,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "gallery",
+        "linen"
+      ]
+    },
+    "gallery.wall_40": {
+      "id": "gallery.wall_40",
+      "label": "wall 40",
+      "kind": "wall",
+      "room": "gallery",
+      "position": [
+        2.054591,
+        6.677421,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.054591,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "gallery",
+        "study"
+      ]
+    },
+    "entry.wall_41": {
+      "id": "entry.wall_41",
+      "label": "wall 41",
+      "kind": "wall",
+      "room": "entry",
+      "position": [
+        3.081886,
+        -4.109182,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.054591,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "entry"
+      ]
+    },
+    "gallery.wall_42": {
+      "id": "gallery.wall_42",
+      "label": "wall 42",
+      "kind": "wall",
+      "room": "gallery",
+      "position": [
+        3.081886,
+        -1.540943,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.081886,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 0.9245659167346327,
+        "offset": 0.30818863891154424,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "gallery",
+        "powder"
+      ]
+    },
+    "powder.wall_43": {
+      "id": "powder.wall_43",
+      "label": "wall 43",
+      "kind": "wall",
+      "room": "powder",
+      "position": [
+        4.109182,
+        -3.081886,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.054591,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "powder"
+      ]
+    },
+    "gallery.wall_44": {
+      "id": "gallery.wall_44",
+      "label": "wall 44",
+      "kind": "wall",
+      "room": "gallery",
+      "position": [
+        3.081886,
+        2.054591,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.109182,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 1.8491318334692655,
+        "offset": 0.5136477315192404,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "gallery",
+        "kitchen"
+      ]
+    },
+    "kitchen.wall_45": {
+      "id": "kitchen.wall_45",
+      "label": "wall 45",
+      "kind": "wall",
+      "room": "kitchen",
+      "position": [
+        4.109182,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.054591,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "kitchen",
+        "powder"
+      ]
+    },
+    "gallery.wall_46": {
+      "id": "gallery.wall_46",
+      "label": "wall 46",
+      "kind": "wall",
+      "room": "gallery",
+      "position": [
+        3.081886,
+        5.393301,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 2.568239,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "door",
+        "gap": 1.489578421405797,
+        "offset": 0.15409431945577248,
+        "sill": 0,
+        "head": 2.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "gallery",
+        "living"
+      ]
+    },
+    "living.wall_47": {
+      "id": "living.wall_47",
+      "label": "wall 47",
+      "kind": "wall",
+      "room": "living",
+      "position": [
+        3.081886,
+        8.988835,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 4.62283,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "living",
+        "study"
+      ]
+    },
+    "living.wall_48": {
+      "id": "living.wall_48",
+      "label": "wall 48",
+      "kind": "wall",
+      "room": "living",
+      "position": [
+        5.906949,
+        11.30025,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 5.650125,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "window",
+        "gap": 4.674194356825087,
+        "offset": 0.0,
+        "sill": 0.35,
+        "head": 2.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "living"
+      ]
+    },
+    "living.window": {
+      "id": "living.window",
+      "label": "window",
+      "kind": "window",
+      "room": "living",
+      "position": [
+        5.906949,
+        11.30025,
+        0.35
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.674194,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.sheer": {
+      "id": "living.sheer",
+      "label": "sheer",
+      "kind": "curtain",
+      "room": "living",
+      "position": [
+        5.906949,
+        11.115337,
+        0.12
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.900199,
+        "h": 2.82,
+        "openness": 0.7,
+        "sheer": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.drape": {
+      "id": "living.drape",
+      "label": "drape",
+      "kind": "curtain",
+      "room": "living",
+      "position": [
+        5.906949,
+        11.002334,
+        0.12
+      ],
+      "rotation": 180.0,
+      "params": {
+        "w": 4.982383,
+        "h": 2.82,
+        "openness": 0.9,
+        "sheer": false
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "powder.wall_49": {
+      "id": "powder.wall_49",
+      "label": "wall 49",
+      "kind": "wall",
+      "room": "powder",
+      "position": [
+        5.136477,
+        -1.540943,
+        0
+      ],
+      "rotation": 90.0,
+      "params": {
+        "w": 3.081886,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "powder"
+      ]
+    },
+    "kitchen.wall_50": {
+      "id": "kitchen.wall_50",
+      "label": "wall 50",
+      "kind": "wall",
+      "room": "kitchen",
+      "position": [
+        6.266502,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 2.26005,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "kitchen"
+      ]
+    },
+    "dining.wall_51": {
+      "id": "dining.wall_51",
+      "label": "wall 51",
+      "kind": "wall",
+      "room": "dining",
+      "position": [
+        9.862036,
+        0.0,
+        0
+      ],
+      "rotation": 0.0,
+      "params": {
+        "w": 4.931018,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "solid"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "dining"
+      ]
+    },
+    "living.wall_52": {
+      "id": "living.wall_52",
+      "label": "wall 52",
+      "kind": "wall",
+      "room": "living",
+      "position": [
+        10.016131,
+        8.218364,
+        0
+      ],
+      "rotation": -67.38013505195957,
+      "params": {
+        "w": 6.677421,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "window",
+        "gap": 4.674194356825087,
+        "offset": 0.0,
+        "sill": 0.35,
+        "head": 2.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "living"
+      ]
+    },
+    "living.window_2": {
+      "id": "living.window_2",
+      "label": "window 2",
+      "kind": "window",
+      "room": "living",
+      "position": [
+        10.016131,
+        8.218364,
+        0.35
+      ],
+      "rotation": 112.61986494804043,
+      "params": {
+        "w": 4.674194,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.sheer_2": {
+      "id": "living.sheer_2",
+      "label": "sheer 2",
+      "kind": "curtain",
+      "room": "living",
+      "position": [
+        9.845442,
+        8.147243,
+        0.12
+      ],
+      "rotation": 112.61986494804043,
+      "params": {
+        "w": 4.900199,
+        "h": 2.82,
+        "openness": 0.7,
+        "sheer": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.drape_2": {
+      "id": "living.drape_2",
+      "label": "drape 2",
+      "kind": "curtain",
+      "room": "living",
+      "position": [
+        9.741132,
+        8.103781,
+        0.12
+      ],
+      "rotation": 112.61986494804043,
+      "params": {
+        "w": 4.982383,
+        "h": 2.82,
+        "openness": 0.9,
+        "sheer": false
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.wall_53": {
+      "id": "living.wall_53",
+      "label": "wall 53",
+      "kind": "wall",
+      "room": "living",
+      "position": [
+        11.40298,
+        4.62283,
+        0
+      ],
+      "rotation": -78.69006752597983,
+      "params": {
+        "w": 1.04764,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "window",
+        "gap": 0.5339921909324692,
+        "offset": 0.0,
+        "sill": 0.35,
+        "head": 2.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "living"
+      ]
+    },
+    "living.window_3": {
+      "id": "living.window_3",
+      "label": "window 3",
+      "kind": "window",
+      "room": "living",
+      "position": [
+        11.40298,
+        4.62283,
+        0.35
+      ],
+      "rotation": 101.30993247402017,
+      "params": {
+        "w": 0.533992,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.sheer_3": {
+      "id": "living.sheer_3",
+      "label": "sheer 3",
+      "kind": "curtain",
+      "room": "living",
+      "position": [
+        11.221657,
+        4.586565,
+        0.12
+      ],
+      "rotation": 101.30993247402017,
+      "params": {
+        "w": 0.759997,
+        "h": 2.82,
+        "openness": 0.7,
+        "sheer": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.drape_3": {
+      "id": "living.drape_3",
+      "label": "drape 3",
+      "kind": "curtain",
+      "room": "living",
+      "position": [
+        11.110849,
+        4.564404,
+        0.12
+      ],
+      "rotation": 101.30993247402017,
+      "params": {
+        "w": 0.842181,
+        "h": 2.82,
+        "openness": 0.9,
+        "sheer": false
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.wall_54": {
+      "id": "dining.wall_54",
+      "label": "wall 54",
+      "kind": "wall",
+      "room": "dining",
+      "position": [
+        11.916627,
+        2.054591,
+        0
+      ],
+      "rotation": -78.69006752597979,
+      "params": {
+        "w": 4.19056,
+        "h": 3.05,
+        "thickness": 0.14,
+        "opening": "window",
+        "gap": 3.676911958287599,
+        "offset": 0.0,
+        "sill": 0.35,
+        "head": 2.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "adjacent_rooms": [
+        "dining"
+      ]
+    },
+    "dining.window": {
+      "id": "dining.window",
+      "label": "window",
+      "kind": "window",
+      "room": "dining",
+      "position": [
+        11.916627,
+        2.054591,
+        0.35
+      ],
+      "rotation": 101.30993247402021,
+      "params": {
+        "w": 3.676912,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.sheer": {
+      "id": "dining.sheer",
+      "label": "sheer",
+      "kind": "curtain",
+      "room": "dining",
+      "position": [
+        11.735305,
+        2.018326,
+        0.12
+      ],
+      "rotation": 101.30993247402021,
+      "params": {
+        "w": 3.902917,
+        "h": 2.82,
+        "openness": 0.7,
+        "sheer": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.drape": {
+      "id": "dining.drape",
+      "label": "drape",
+      "kind": "curtain",
+      "room": "dining",
+      "position": [
+        11.624497,
+        1.996165,
+        0.12
+      ],
+      "rotation": 101.30993247402021,
+      "params": {
+        "w": 3.985101,
+        "h": 2.82,
+        "openness": 0.9,
+        "sheer": false
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "kitchen.back_cabinets": {
+      "id": "kitchen.back_cabinets",
+      "label": "back cabinets",
+      "kind": "cabinet",
+      "room": "kitchen",
+      "position": [
+        4.982383,
+        0.390372,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.670968,
+        "d": 0.616377,
+        "h": 0.9
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "kitchen.upper_cabinets": {
+      "id": "kitchen.upper_cabinets",
+      "label": "upper cabinets",
+      "kind": "cabinet",
+      "room": "kitchen",
+      "position": [
+        4.982383,
+        0.297916,
+        1.8
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.670968,
+        "d": 0.390372,
+        "h": 0.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "kitchen.island": {
+      "id": "kitchen.island",
+      "label": "island",
+      "kind": "island",
+      "room": "kitchen",
+      "position": [
+        5.290572,
+        2.414144,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.027295,
+        "d": 2.054591,
+        "h": 0.94
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "kitchen.fridge": {
+      "id": "kitchen.fridge",
+      "label": "fridge",
+      "kind": "appliance",
+      "room": "kitchen",
+      "position": [
+        6.88288,
+        0.513648,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.719107,
+        "d": 0.667742,
+        "h": 2.2,
+        "model": "fridge"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "kitchen.cooktop": {
+      "id": "kitchen.cooktop",
+      "label": "cooktop",
+      "kind": "appliance",
+      "room": "kitchen",
+      "position": [
+        4.5201,
+        0.410918,
+        0.95
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.719107,
+        "d": 0.472556,
+        "h": 0.035,
+        "model": "cooktop"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "kitchen.oven": {
+      "id": "kitchen.oven",
+      "label": "oven",
+      "kind": "appliance",
+      "room": "kitchen",
+      "position": [
+        4.5201,
+        0.719107,
+        0.25
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.616377,
+        "d": 0.035955,
+        "h": 0.48,
+        "model": "oven"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "kitchen.undercabinet_light": {
+      "id": "kitchen.undercabinet_light",
+      "label": "undercabinet light",
+      "kind": "cove",
+      "room": "kitchen",
+      "position": [
+        4.982383,
+        0.616377,
+        1.72
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.516874,
+        "power": 30,
+        "temperature": 3500,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.table": {
+      "id": "dining.table",
+      "label": "table",
+      "kind": "table",
+      "room": "dining",
+      "position": [
+        9.605213,
+        2.516874,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.07866,
+        "d": 2.208685,
+        "h": 0.76,
+        "glass": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.chair_1": {
+      "id": "dining.chair_1",
+      "label": "chair 1",
+      "kind": "chair",
+      "room": "dining",
+      "position": [
+        8.937471,
+        1.417668,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.493102,
+        "d": 0.534194,
+        "h": 0.87
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.chair_2": {
+      "id": "dining.chair_2",
+      "label": "chair 2",
+      "kind": "chair",
+      "room": "dining",
+      "position": [
+        10.170225,
+        1.417668,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.493102,
+        "d": 0.534194,
+        "h": 0.87
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.chair_3": {
+      "id": "dining.chair_3",
+      "label": "chair 3",
+      "kind": "chair",
+      "room": "dining",
+      "position": [
+        8.937471,
+        3.61608,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.493102,
+        "d": 0.534194,
+        "h": 0.87
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.chair_4": {
+      "id": "dining.chair_4",
+      "label": "chair 4",
+      "kind": "chair",
+      "room": "dining",
+      "position": [
+        10.170225,
+        3.61608,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.493102,
+        "d": 0.534194,
+        "h": 0.87
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.chair_5": {
+      "id": "dining.chair_5",
+      "label": "chair 5",
+      "kind": "chair",
+      "room": "dining",
+      "position": [
+        7.96154,
+        2.516874,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.493102,
+        "d": 0.534194,
+        "h": 0.87
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.chair_6": {
+      "id": "dining.chair_6",
+      "label": "chair 6",
+      "kind": "chair",
+      "room": "dining",
+      "position": [
+        11.248885,
+        2.516874,
+        0
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.493102,
+        "d": 0.534194,
+        "h": 0.87
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.sideboard": {
+      "id": "dining.sideboard",
+      "label": "sideboard",
+      "kind": "cabinet",
+      "room": "dining",
+      "position": [
+        9.502483,
+        0.369826,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.465509,
+        "d": 0.493102,
+        "h": 0.8
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.picture_1": {
+      "id": "dining.picture_1",
+      "label": "picture 1",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        8.732011,
+        0.10273,
+        1.7
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.55474,
+        "h": 0.78,
+        "image": "botanical"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.picture_2": {
+      "id": "dining.picture_2",
+      "label": "picture 2",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        9.471664,
+        0.10273,
+        1.7
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.55474,
+        "h": 0.78,
+        "image": "botanical"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.picture_3": {
+      "id": "dining.picture_3",
+      "label": "picture 3",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        10.211317,
+        0.10273,
+        1.7
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.55474,
+        "h": 0.78,
+        "image": "botanical"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.rug": {
+      "id": "living.rug",
+      "label": "rug",
+      "kind": "rug",
+      "room": "living",
+      "position": [
+        6.523326,
+        7.807446,
+        0.025
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 4.5201,
+        "d": 4.62283
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.sofa": {
+      "id": "living.sofa",
+      "label": "sofa",
+      "kind": "sofa",
+      "room": "living",
+      "position": [
+        4.571465,
+        8.115634,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 3.235981,
+        "d": 1.027295,
+        "h": 0.83
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.coffee_table": {
+      "id": "living.coffee_table",
+      "label": "coffee table",
+      "kind": "table",
+      "room": "living",
+      "position": [
+        6.471961,
+        7.910175,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.386849,
+        "d": 0.873201,
+        "h": 0.36
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.media_console": {
+      "id": "living.media_console",
+      "label": "media console",
+      "kind": "cabinet",
+      "room": "living",
+      "position": [
+        8.783376,
+        5.290572,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.568239,
+        "d": 0.431464,
+        "h": 0.48
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.screen": {
+      "id": "living.screen",
+      "label": "screen",
+      "kind": "appliance",
+      "room": "living",
+      "position": [
+        8.783376,
+        5.085113,
+        0.72
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 1.695038,
+        "d": 0.051365,
+        "h": 0.92,
+        "model": "screen"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.lounge_chair": {
+      "id": "living.lounge_chair",
+      "label": "软包休闲椅",
+      "kind": "chair",
+      "room": "living",
+      "position": [
+        5.752855,
+        10.11886,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.904020007473863,
+        "d": 0.9245659167346327,
+        "h": 0.92
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "lounge",
+      "semantic_group": "seating"
+    },
+    "living.lounge_chair_2": {
+      "id": "living.lounge_chair_2",
+      "label": "软包休闲椅",
+      "kind": "chair",
+      "room": "living",
+      "position": [
+        7.807446,
+        9.759307,
+        0
+      ],
+      "rotation": -25,
+      "params": {
+        "w": 0.904020007473863,
+        "d": 0.9245659167346327,
+        "h": 0.92
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "lounge",
+      "semantic_group": "seating"
+    },
+    "living.picture": {
+      "id": "living.picture",
+      "label": "picture",
+      "kind": "art",
+      "room": "living",
+      "position": [
+        3.4003479826573715,
+        8.218364,
+        1.7
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.849132,
+        "h": 0.95,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.plant": {
+      "id": "living.plant",
+      "label": "plant",
+      "kind": "plant",
+      "room": "living",
+      "position": [
+        10.272955,
+        5.290572,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "h": 1.45
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom.bed": {
+      "id": "bedroom.bed",
+      "label": "bed",
+      "kind": "bed",
+      "room": "bedroom",
+      "position": [
+        -8.732011,
+        8.680647,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.003226,
+        "d": 2.208685,
+        "h": 0.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "tailored_bed"
+    },
+    "bedroom.bedside_1": {
+      "id": "bedroom.bedside_1",
+      "label": "bedside 1",
+      "kind": "cabinet",
+      "room": "bedroom",
+      "position": [
+        -10.144543,
+        7.807446,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.565013,
+        "d": 0.493102,
+        "h": 0.48
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom.bedside_2": {
+      "id": "bedroom.bedside_2",
+      "label": "bedside 2",
+      "kind": "cabinet",
+      "room": "bedroom",
+      "position": [
+        -7.31948,
+        7.807446,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.565013,
+        "d": 0.493102,
+        "h": 0.48
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom.rug": {
+      "id": "bedroom.rug",
+      "label": "rug",
+      "kind": "rug",
+      "room": "bedroom",
+      "position": [
+        -8.732011,
+        8.680647,
+        0.02
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.390075,
+        "d": 3.287345
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom2.bed": {
+      "id": "bedroom2.bed",
+      "label": "bed",
+      "kind": "bed",
+      "room": "bedroom2",
+      "position": [
+        -3.852358,
+        8.680647,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 1.695038,
+        "d": 2.208685,
+        "h": 0.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "tailored_bed"
+    },
+    "bedroom2.bedside_1": {
+      "id": "bedroom2.bedside_1",
+      "label": "bedside 1",
+      "kind": "cabinet",
+      "room": "bedroom2",
+      "position": [
+        -5.110795,
+        7.807446,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.565013,
+        "d": 0.493102,
+        "h": 0.48
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom2.bedside_2": {
+      "id": "bedroom2.bedside_2",
+      "label": "bedside 2",
+      "kind": "cabinet",
+      "room": "bedroom2",
+      "position": [
+        -2.593921,
+        7.807446,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.565013,
+        "d": 0.493102,
+        "h": 0.48
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom2.rug": {
+      "id": "bedroom2.rug",
+      "label": "rug",
+      "kind": "rug",
+      "room": "bedroom2",
+      "position": [
+        -3.852358,
+        8.680647,
+        0.02
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.390075,
+        "d": 3.287345
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.bed": {
+      "id": "study.bed",
+      "label": "bed",
+      "kind": "bed",
+      "room": "study",
+      "position": [
+        0.256824,
+        8.680647,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 1.540943,
+        "d": 2.208685,
+        "h": 0.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "tailored_bed"
+    },
+    "study.bedside_1": {
+      "id": "study.bedside_1",
+      "label": "bedside 1",
+      "kind": "cabinet",
+      "room": "study",
+      "position": [
+        -0.924566,
+        7.807446,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.565013,
+        "d": 0.493102,
+        "h": 0.48
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.bedside_2": {
+      "id": "study.bedside_2",
+      "label": "bedside 2",
+      "kind": "cabinet",
+      "room": "study",
+      "position": [
+        1.438214,
+        7.807446,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.565013,
+        "d": 0.493102,
+        "h": 0.48
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.rug": {
+      "id": "study.rug",
+      "label": "rug",
+      "kind": "rug",
+      "room": "study",
+      "position": [
+        0.256824,
+        8.680647,
+        0.02
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 3.390075,
+        "d": 3.287345
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom.picture": {
+      "id": "bedroom.picture",
+      "label": "picture",
+      "kind": "art",
+      "room": "bedroom",
+      "position": [
+        -11.197521,
+        8.218364,
+        1.7
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.335484,
+        "h": 0.8,
+        "image": "coast"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom2.wardrobe": {
+      "id": "bedroom2.wardrobe",
+      "label": "wardrobe",
+      "kind": "cabinet",
+      "room": "bedroom2",
+      "position": [
+        -5.70149,
+        8.526552,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 2.15732,
+        "d": 0.565013,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.desk": {
+      "id": "study.desk",
+      "label": "desk",
+      "kind": "table",
+      "room": "study",
+      "position": [
+        2.465509,
+        8.526552,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.849132,
+        "d": 0.667742,
+        "h": 0.75
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.chair": {
+      "id": "study.chair",
+      "label": "chair",
+      "kind": "chair",
+      "room": "study",
+      "position": [
+        1.695038,
+        8.526552,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.534194,
+        "d": 0.575285,
+        "h": 0.86
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.books": {
+      "id": "study.books",
+      "label": "books",
+      "kind": "books",
+      "room": "study",
+      "position": [
+        2.465509,
+        8.526552,
+        0.8
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.513648
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.picture": {
+      "id": "study.picture",
+      "label": "picture",
+      "kind": "art",
+      "room": "study",
+      "position": [
+        2.979157,
+        8.526552,
+        1.7
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 1.232755,
+        "h": 0.72,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.bookcase": {
+      "id": "study.bookcase",
+      "label": "bookcase",
+      "kind": "cabinet",
+      "room": "study",
+      "position": [
+        -1.212209,
+        9.759307,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.540943,
+        "d": 0.410918,
+        "h": 2.2,
+        "shelves": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dressing.wardrobe": {
+      "id": "dressing.wardrobe",
+      "label": "wardrobe",
+      "kind": "cabinet",
+      "room": "dressing",
+      "position": [
+        -10.837967,
+        4.931018,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 2.670968,
+        "d": 0.616377,
+        "h": 2.6
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dressing.wardrobe_2": {
+      "id": "dressing.wardrobe_2",
+      "label": "wardrobe 2",
+      "kind": "cabinet",
+      "room": "dressing",
+      "position": [
+        -9.091565,
+        6.287048,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 2.568239,
+        "d": 0.595831,
+        "h": 2.6
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dressing.bench": {
+      "id": "dressing.bench",
+      "label": "bench",
+      "kind": "sofa",
+      "room": "dressing",
+      "position": [
+        -8.937471,
+        4.725559,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.335484,
+        "d": 0.565013,
+        "h": 0.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom.vanity": {
+      "id": "bathroom.vanity",
+      "label": "vanity",
+      "kind": "basin",
+      "room": "bathroom",
+      "position": [
+        -10.837967,
+        1.540943,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.695038
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom.mirror": {
+      "id": "bathroom.mirror",
+      "label": "mirror",
+      "kind": "mirror",
+      "room": "bathroom",
+      "position": [
+        -11.176975,
+        1.540943,
+        1.7
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 1.592308,
+        "h": 0.95
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom.shower": {
+      "id": "bathroom.shower",
+      "label": "shower",
+      "kind": "shower",
+      "room": "bathroom",
+      "position": [
+        -8.423823,
+        0.873201,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.540943,
+        "d": 1.540943
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom.toilet": {
+      "id": "bathroom.toilet",
+      "label": "toilet",
+      "kind": "toilet",
+      "room": "bathroom",
+      "position": [
+        -8.937471,
+        2.722333,
+        0
+      ],
+      "rotation": 0,
+      "params": {},
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom2.shower": {
+      "id": "bathroom2.shower",
+      "label": "shower",
+      "kind": "shower",
+      "room": "bathroom2",
+      "position": [
+        -5.567941,
+        3.934542,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.975931,
+        "d": 1.027295
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom2.vanity": {
+      "id": "bathroom2.vanity",
+      "label": "vanity",
+      "kind": "basin",
+      "room": "bathroom2",
+      "position": [
+        -3.698264,
+        4.211911,
+        0
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.821836
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom2.mirror": {
+      "id": "bathroom2.mirror",
+      "label": "mirror",
+      "kind": "mirror",
+      "room": "bathroom2",
+      "position": [
+        -3.410621,
+        4.211911,
+        1.7
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.770472,
+        "h": 0.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom2.toilet": {
+      "id": "bathroom2.toilet",
+      "label": "toilet",
+      "kind": "toilet",
+      "room": "bathroom2",
+      "position": [
+        -4.499554,
+        3.71881,
+        0
+      ],
+      "rotation": 180,
+      "params": {},
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom3.shower": {
+      "id": "bathroom3.shower",
+      "label": "shower",
+      "kind": "shower",
+      "room": "bathroom3",
+      "position": [
+        -2.691514,
+        3.934542,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.975931,
+        "d": 1.027295
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom3.vanity": {
+      "id": "bathroom3.vanity",
+      "label": "vanity",
+      "kind": "basin",
+      "room": "bathroom3",
+      "position": [
+        -0.821836,
+        4.211911,
+        0
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.821836
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom3.mirror": {
+      "id": "bathroom3.mirror",
+      "label": "mirror",
+      "kind": "mirror",
+      "room": "bathroom3",
+      "position": [
+        -0.534194,
+        4.211911,
+        1.7
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.770472,
+        "h": 0.85
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom3.toilet": {
+      "id": "bathroom3.toilet",
+      "label": "toilet",
+      "kind": "toilet",
+      "room": "bathroom3",
+      "position": [
+        -1.623127,
+        3.71881,
+        0
+      ],
+      "rotation": 180,
+      "params": {},
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "powder.vanity": {
+      "id": "powder.vanity",
+      "label": "vanity",
+      "kind": "basin",
+      "room": "powder",
+      "position": [
+        4.725559,
+        -2.105956,
+        0
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.821836
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "powder.mirror": {
+      "id": "powder.mirror",
+      "label": "mirror",
+      "kind": "mirror",
+      "room": "powder",
+      "position": [
+        5.002929,
+        -2.105956,
+        1.65
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.770472,
+        "h": 0.9
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "powder.toilet": {
+      "id": "powder.toilet",
+      "label": "toilet",
+      "kind": "toilet",
+      "room": "powder",
+      "position": [
+        4.211911,
+        -0.565013,
+        0
+      ],
+      "rotation": 0,
+      "params": {},
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "laundry.washer": {
+      "id": "laundry.washer",
+      "label": "洗衣机",
+      "kind": "appliance",
+      "room": "laundry",
+      "position": [
+        -6.420597,
+        0.493102,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.667742,
+        "d": 0.667742,
+        "h": 0.85,
+        "model": "oven"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "laundry_appliance",
+      "semantic_group": "laundry"
+    },
+    "laundry.dryer": {
+      "id": "laundry.dryer",
+      "label": "烘干机",
+      "kind": "appliance",
+      "room": "laundry",
+      "position": [
+        -5.547396,
+        0.493102,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.667742,
+        "d": 0.667742,
+        "h": 0.85,
+        "model": "oven"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "laundry_appliance",
+      "semantic_group": "laundry"
+    },
+    "storage.storage": {
+      "id": "storage.storage",
+      "label": "storage",
+      "kind": "cabinet",
+      "room": "storage",
+      "position": [
+        -3.184616,
+        0.359553,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.208685,
+        "d": 0.462283,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "utility.storage": {
+      "id": "utility.storage",
+      "label": "storage",
+      "kind": "cabinet",
+      "room": "utility",
+      "position": [
+        -0.410918,
+        0.359553,
+        0
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.26005,
+        "d": 0.462283,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "linen.storage": {
+      "id": "linen.storage",
+      "label": "storage",
+      "kind": "cabinet",
+      "room": "linen",
+      "position": [
+        0.308189,
+        4.807743,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.873201,
+        "d": 0.462283,
+        "h": 2.5
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "entry.shoe_cabinet": {
+      "id": "entry.shoe_cabinet",
+      "label": "shoe cabinet",
+      "kind": "cabinet",
+      "room": "entry",
+      "position": [
+        2.794244,
+        -4.160547,
+        0
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 1.386849,
+        "d": 0.328735,
+        "h": 0.95
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "entry.mirror": {
+      "id": "entry.mirror",
+      "label": "mirror",
+      "kind": "mirror",
+      "room": "entry",
+      "position": [
+        2.547693,
+        -4.160547,
+        1.6
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.616377,
+        "h": 1.1
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "entry.rug": {
+      "id": "entry.rug",
+      "label": "rug",
+      "kind": "rug",
+      "room": "entry",
+      "position": [
+        1.951861,
+        -4.109182,
+        0.02
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 1.284119,
+        "d": 1.540943
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "gallery.picture_1": {
+      "id": "gallery.picture_1",
+      "label": "picture 1",
+      "kind": "art",
+      "room": "gallery",
+      "position": [
+        1.130025,
+        -2.054591,
+        1.7
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.873201,
+        "h": 1.15,
+        "image": "coast"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "gallery.picture_2": {
+      "id": "gallery.picture_2",
+      "label": "picture 2",
+      "kind": "art",
+      "room": "gallery",
+      "position": [
+        1.130025,
+        -0.616377,
+        1.7
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.873201,
+        "h": 1.15,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "gallery.picture_3": {
+      "id": "gallery.picture_3",
+      "label": "picture 3",
+      "kind": "art",
+      "room": "gallery",
+      "position": [
+        1.130025,
+        0.821836,
+        1.7
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.873201,
+        "h": 1.15,
+        "image": "coast"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "entry.cove_back": {
+      "id": "entry.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "entry",
+      "position": [
+        2.05459,
+        -4.97211,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 1.695038,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "gallery.cove_back": {
+      "id": "gallery.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "gallery",
+      "position": [
+        1.150571,
+        1.540943,
+        2.88
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 5.650125,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.cove_back": {
+      "id": "living.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "living",
+      "position": [
+        7.293798,
+        4.273549,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 5.650125,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "kitchen.cove_back": {
+      "id": "kitchen.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "kitchen",
+      "position": [
+        5.239206,
+        0.164367,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 3.955088,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dining.cove_back": {
+      "id": "dining.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "dining",
+      "position": [
+        9.862037,
+        0.164367,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 4.571466,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom.cove_back": {
+      "id": "bedroom.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "bedroom",
+      "position": [
+        -8.732012,
+        6.841788,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 4.776924,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bedroom2.cove_back": {
+      "id": "bedroom2.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "bedroom2",
+      "position": [
+        -3.852358,
+        6.841788,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 4.263277,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "study.cove_back": {
+      "id": "study.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "study",
+      "position": [
+        0.770471,
+        6.841788,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 4.263276,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "private_hall.cove_back": {
+      "id": "private_hall.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "private_hall",
+      "position": [
+        -3.081886,
+        5.300845,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 5.650125,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "service_hall.cove_back": {
+      "id": "service_hall.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "service_hall",
+      "position": [
+        -3.081886,
+        1.80804,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 5.650125,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom.cove_back": {
+      "id": "bathroom.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "bathroom",
+      "position": [
+        -9.245659,
+        0.164367,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 3.749629,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dressing.cove_back": {
+      "id": "dressing.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "dressing",
+      "position": [
+        -9.245659,
+        3.451713,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 3.749629,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom2.cove_back": {
+      "id": "bathroom2.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "bathroom2",
+      "position": [
+        -4.725559,
+        3.451713,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.516875,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom3.cove_back": {
+      "id": "bathroom3.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "bathroom3",
+      "position": [
+        -1.849132,
+        3.451713,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.516874,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "linen.cove_back": {
+      "id": "linen.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "linen",
+      "position": [
+        0.308189,
+        3.451713,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 1.07866,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "laundry.cove_back": {
+      "id": "laundry.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "laundry",
+      "position": [
+        -5.855584,
+        0.164367,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.311415,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "storage.cove_back": {
+      "id": "storage.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "storage",
+      "position": [
+        -3.184616,
+        0.164367,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.311415,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "utility.cove_back": {
+      "id": "utility.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "utility",
+      "position": [
+        -0.410918,
+        0.164367,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.516874,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "powder.cove_back": {
+      "id": "powder.cove_back",
+      "label": "cove back",
+      "kind": "cove",
+      "room": "powder",
+      "position": [
+        4.109182,
+        -2.917519,
+        2.88
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 1.695038,
+        "power": 55,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.cove_side": {
+      "id": "living.cove_side",
+      "label": "cove side",
+      "kind": "cove",
+      "room": "living",
+      "position": [
+        3.246254,
+        8.629282,
+        2.88
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 4.314641,
+        "power": 50,
+        "temperature": 3000,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "gallery.skirting_light": {
+      "id": "gallery.skirting_light",
+      "label": "skirting light",
+      "kind": "cove",
+      "room": "gallery",
+      "position": [
+        1.140298,
+        0.513648,
+        0.14
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 5.650125,
+        "power": 14,
+        "temperature": 2700,
+        "enabled": true
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.outside": {
+      "id": "living.outside",
+      "label": "outside",
+      "kind": "landscape",
+      "room": "living",
+      "position": [
+        0.0,
+        22.6005,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 36.982637
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.oak_wall_panel": {
+      "id": "living.oak_wall_panel",
+      "label": "客厅木饰面壁板",
+      "kind": "cabinet",
+      "room": "living",
+      "position": [
+        3.256527,
+        8.526552,
+        0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 3.698264,
+        "d": 0.164367,
+        "h": 2.7
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "wall_panel",
+      "semantic_group": "joinery"
+    },
+    "living.reading_books": {
+      "id": "living.reading_books",
+      "label": "茶几阅读书籍",
+      "kind": "books",
+      "room": "living",
+      "position": [
+        6.215138,
+        7.85881,
+        0.42
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.493102
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "stack",
+      "semantic_group": "books"
+    },
+    "living.tea_service": {
+      "id": "living.tea_service",
+      "label": "茶盘与杯壶",
+      "kind": "art",
+      "room": "living",
+      "position": [
+        6.903426,
+        7.910175,
+        0.42
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.513648,
+        "h": 0.25,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "tea_service",
+      "semantic_group": "tableware"
+    },
+    "living.throw": {
+      "id": "living.throw",
+      "label": "沙发搭毯",
+      "kind": "rug",
+      "room": "living",
+      "position": [
+        4.879653,
+        8.783376,
+        0.53
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.80129,
+        "d": 0.883474
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "throw",
+      "semantic_group": "textiles",
+      "support_entity": "living.sofa",
+      "drape_profile": {
+        "axis": "y",
+        "flat_min": -0.18545886108845588,
+        "flat_max": 1,
+        "radius": 0.035,
+        "role": "accent"
+      }
+    },
+    "living.side_table": {
+      "id": "living.side_table",
+      "label": "side table",
+      "kind": "table",
+      "room": "living",
+      "position": [
+        4.602284,
+        5.958314,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.575285,
+        "d": 0.575285,
+        "h": 0.52
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "living.vase": {
+      "id": "living.vase",
+      "label": "边几花器与枝花",
+      "kind": "plant",
+      "room": "living",
+      "position": [
+        4.602284,
+        5.958314,
+        0.56
+      ],
+      "rotation": 0,
+      "params": {
+        "h": 0.54
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "flowers",
+      "semantic_group": "botanical"
+    },
+    "dining.place_setting_1": {
+      "id": "dining.place_setting_1",
+      "label": "餐位 1 / 盘杯餐巾与餐具",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        8.937471,
+        2.15732,
+        0.8
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.272233,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "table_setting",
+      "semantic_group": "tableware"
+    },
+    "dining.place_setting_2": {
+      "id": "dining.place_setting_2",
+      "label": "餐位 2 / 盘杯餐巾与餐具",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        10.170225,
+        2.15732,
+        0.8
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.272233,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "table_setting",
+      "semantic_group": "tableware"
+    },
+    "dining.place_setting_3": {
+      "id": "dining.place_setting_3",
+      "label": "餐位 3 / 盘杯餐巾与餐具",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        8.937471,
+        2.876427,
+        0.8
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.272233,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "table_setting",
+      "semantic_group": "tableware"
+    },
+    "dining.place_setting_4": {
+      "id": "dining.place_setting_4",
+      "label": "餐位 4 / 盘杯餐巾与餐具",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        10.170225,
+        2.876427,
+        0.8
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 0.272233,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "table_setting",
+      "semantic_group": "tableware"
+    },
+    "dining.place_setting_5": {
+      "id": "dining.place_setting_5",
+      "label": "餐位 5 / 盘杯餐巾与餐具",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        8.680647,
+        2.516874,
+        0.8
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.272233,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "table_setting",
+      "semantic_group": "tableware"
+    },
+    "dining.place_setting_6": {
+      "id": "dining.place_setting_6",
+      "label": "餐位 6 / 盘杯餐巾与餐具",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        10.529778,
+        2.516874,
+        0.8
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.272233,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "table_setting",
+      "semantic_group": "tableware"
+    },
+    "dining.centerpiece": {
+      "id": "dining.centerpiece",
+      "label": "餐桌低花器",
+      "kind": "plant",
+      "room": "dining",
+      "position": [
+        9.605213,
+        2.516874,
+        0.8
+      ],
+      "rotation": 0,
+      "params": {
+        "h": 0.46
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "flowers",
+      "semantic_group": "botanical"
+    },
+    "dining.ceramic_vase": {
+      "id": "dining.ceramic_vase",
+      "label": "餐边柜陶瓶",
+      "kind": "art",
+      "room": "dining",
+      "position": [
+        10.067496,
+        0.390372,
+        0.85
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.226005,
+        "h": 0.36,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "ceramic_vessel",
+      "semantic_group": "ceramics"
+    },
+    "dining.sideboard_books": {
+      "id": "dining.sideboard_books",
+      "label": "餐边柜艺术书",
+      "kind": "books",
+      "room": "dining",
+      "position": [
+        8.834741,
+        0.390372,
+        0.85
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.534194
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "stack",
+      "semantic_group": "books"
+    },
+    "kitchen.herbs": {
+      "id": "kitchen.herbs",
+      "label": "料理台香草花器",
+      "kind": "plant",
+      "room": "kitchen",
+      "position": [
+        3.883177,
+        0.410918,
+        0.96
+      ],
+      "rotation": 0,
+      "params": {
+        "h": 0.38
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "flowers",
+      "semantic_group": "botanical"
+    },
+    "kitchen.canisters": {
+      "id": "kitchen.canisters",
+      "label": "料理台收纳瓶罐",
+      "kind": "art",
+      "room": "kitchen",
+      "position": [
+        5.804219,
+        0.410918,
+        0.96
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.431464,
+        "h": 0.24,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "toiletries",
+      "semantic_group": "counter_storage"
+    },
+    "bedroom.coverlet": {
+      "id": "bedroom.coverlet",
+      "label": "床尾织物搭毯",
+      "kind": "rug",
+      "room": "bedroom",
+      "position": [
+        -8.732011,
+        9.327843,
+        0.67
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.496328,
+        "d": 0.616377
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "throw",
+      "semantic_group": "textiles",
+      "support_entity": "bedroom.bed",
+      "drape_profile": {
+        "axis": "x",
+        "flat_min": -1.0091130000000001,
+        "flat_max": 1.0091130000000001,
+        "radius": 0.025,
+        "role": "accent"
+      }
+    },
+    "bedroom.bedside_books": {
+      "id": "bedroom.bedside_books",
+      "label": "床头阅读书籍",
+      "kind": "books",
+      "room": "bedroom",
+      "position": [
+        -10.139406,
+        7.807446,
+        0.52
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.308189
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "stack",
+      "semantic_group": "books"
+    },
+    "bedroom2.coverlet": {
+      "id": "bedroom2.coverlet",
+      "label": "床尾织物搭毯",
+      "kind": "rug",
+      "room": "bedroom2",
+      "position": [
+        -3.852358,
+        9.327843,
+        0.67
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.18814,
+        "d": 0.616377
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "throw",
+      "semantic_group": "textiles",
+      "support_entity": "bedroom2.bed",
+      "drape_profile": {
+        "axis": "x",
+        "flat_min": -0.855019,
+        "flat_max": 0.855019,
+        "radius": 0.025,
+        "role": "accent"
+      }
+    },
+    "bedroom2.bedside_books": {
+      "id": "bedroom2.bedside_books",
+      "label": "床头阅读书籍",
+      "kind": "books",
+      "room": "bedroom2",
+      "position": [
+        -5.115931,
+        7.807446,
+        0.52
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.308189
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "stack",
+      "semantic_group": "books"
+    },
+    "study.coverlet": {
+      "id": "study.coverlet",
+      "label": "床尾织物搭毯",
+      "kind": "rug",
+      "room": "study",
+      "position": [
+        0.256824,
+        9.327843,
+        0.67
+      ],
+      "rotation": 180,
+      "params": {
+        "w": 2.034045,
+        "d": 0.616377
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "throw",
+      "semantic_group": "textiles",
+      "support_entity": "study.bed",
+      "drape_profile": {
+        "axis": "x",
+        "flat_min": -0.7779714999999999,
+        "flat_max": 0.7779714999999999,
+        "radius": 0.025,
+        "role": "accent"
+      }
+    },
+    "study.bedside_books": {
+      "id": "study.bedside_books",
+      "label": "床头阅读书籍",
+      "kind": "books",
+      "room": "study",
+      "position": [
+        -0.924566,
+        7.807446,
+        0.52
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.308189
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "stack",
+      "semantic_group": "books"
+    },
+    "study.desk_vessel": {
+      "id": "study.desk_vessel",
+      "label": "书桌笔器",
+      "kind": "art",
+      "room": "study",
+      "position": [
+        2.465509,
+        9.14293,
+        0.8
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.164367,
+        "h": 0.19,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "ceramic_vessel",
+      "semantic_group": "ceramics"
+    },
+    "entry.key_tray": {
+      "id": "entry.key_tray",
+      "label": "入户钥匙托盘",
+      "kind": "art",
+      "room": "entry",
+      "position": [
+        2.794244,
+        -4.160547,
+        1.0
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.308189,
+        "h": 0.16,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "key_tray",
+      "semantic_group": "arrival"
+    },
+    "gallery.end_plant": {
+      "id": "gallery.end_plant",
+      "label": "画廊转角枝花",
+      "kind": "plant",
+      "room": "gallery",
+      "position": [
+        2.619603,
+        4.057817,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "h": 1.15
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "flowers",
+      "semantic_group": "botanical"
+    },
+    "bathroom.towels": {
+      "id": "bathroom.towels",
+      "label": "叠放手巾",
+      "kind": "rug",
+      "room": "bathroom",
+      "position": [
+        -10.837967,
+        1.951861,
+        0.91
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.369826,
+        "d": 0.308189
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "folded_towels",
+      "semantic_group": "bath_linen"
+    },
+    "bathroom.care_set": {
+      "id": "bathroom.care_set",
+      "label": "洗护瓶组",
+      "kind": "art",
+      "room": "bathroom",
+      "position": [
+        -10.837967,
+        1.07866,
+        1.28
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.34928,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "toiletries",
+      "semantic_group": "bath_accessories"
+    },
+    "bathroom.care_shelf": {
+      "id": "bathroom.care_shelf",
+      "label": "洗护壁龛搁板",
+      "kind": "cabinet",
+      "room": "bathroom",
+      "position": [
+        -10.837967,
+        1.07866,
+        1.02
+      ],
+      "rotation": 90,
+      "params": {
+        "w": 0.493102,
+        "d": 0.236278,
+        "h": 0.2
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom2.towels": {
+      "id": "bathroom2.towels",
+      "label": "叠放手巾",
+      "kind": "rug",
+      "room": "bathroom2",
+      "position": [
+        -3.698264,
+        4.211911,
+        0.91
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.369826,
+        "d": 0.308189
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "folded_towels",
+      "semantic_group": "bath_linen"
+    },
+    "bathroom2.care_set": {
+      "id": "bathroom2.care_set",
+      "label": "洗护瓶组",
+      "kind": "art",
+      "room": "bathroom2",
+      "position": [
+        -3.698264,
+        4.592011,
+        1.28
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.34928,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "toiletries",
+      "semantic_group": "bath_accessories"
+    },
+    "bathroom2.care_shelf": {
+      "id": "bathroom2.care_shelf",
+      "label": "洗护壁龛搁板",
+      "kind": "cabinet",
+      "room": "bathroom2",
+      "position": [
+        -3.698264,
+        4.592011,
+        1.02
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.493102,
+        "d": 0.236278,
+        "h": 0.2
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "bathroom3.towels": {
+      "id": "bathroom3.towels",
+      "label": "叠放手巾",
+      "kind": "rug",
+      "room": "bathroom3",
+      "position": [
+        -0.821836,
+        4.211911,
+        0.91
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.369826,
+        "d": 0.308189
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "folded_towels",
+      "semantic_group": "bath_linen"
+    },
+    "bathroom3.care_set": {
+      "id": "bathroom3.care_set",
+      "label": "洗护瓶组",
+      "kind": "art",
+      "room": "bathroom3",
+      "position": [
+        -0.821836,
+        4.592011,
+        1.28
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.34928,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "toiletries",
+      "semantic_group": "bath_accessories"
+    },
+    "bathroom3.care_shelf": {
+      "id": "bathroom3.care_shelf",
+      "label": "洗护壁龛搁板",
+      "kind": "cabinet",
+      "room": "bathroom3",
+      "position": [
+        -0.821836,
+        4.592011,
+        1.02
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.493102,
+        "d": 0.236278,
+        "h": 0.2
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "powder.towels": {
+      "id": "powder.towels",
+      "label": "叠放手巾",
+      "kind": "rug",
+      "room": "powder",
+      "position": [
+        4.725559,
+        -2.105956,
+        0.91
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.369826,
+        "d": 0.308189
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "folded_towels",
+      "semantic_group": "bath_linen"
+    },
+    "powder.care_set": {
+      "id": "powder.care_set",
+      "label": "洗护瓶组",
+      "kind": "art",
+      "room": "powder",
+      "position": [
+        4.725559,
+        -1.725856,
+        1.28
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.34928,
+        "h": 0.23,
+        "image": "abstract"
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "toiletries",
+      "semantic_group": "bath_accessories"
+    },
+    "powder.care_shelf": {
+      "id": "powder.care_shelf",
+      "label": "洗护壁龛搁板",
+      "kind": "cabinet",
+      "room": "powder",
+      "position": [
+        4.725559,
+        -1.725856,
+        1.02
+      ],
+      "rotation": -90,
+      "params": {
+        "w": 0.493102,
+        "d": 0.236278,
+        "h": 0.2
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      }
+    },
+    "dressing.folded_linen": {
+      "id": "dressing.folded_linen",
+      "label": "衣帽间换洗织物",
+      "kind": "rug",
+      "room": "dressing",
+      "position": [
+        -8.937471,
+        4.725559,
+        0.6
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.667742,
+        "d": 0.34928
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "folded_towels",
+      "semantic_group": "textiles"
+    },
+    "laundry.basket": {
+      "id": "laundry.basket",
+      "label": "洗衣篮",
+      "kind": "cabinet",
+      "room": "laundry",
+      "position": [
+        -4.910472,
+        0.513648,
+        0
+      ],
+      "rotation": 0,
+      "params": {
+        "w": 0.493102,
+        "d": 0.462283,
+        "h": 0.48
+      },
+      "overrides": {},
+      "visible": true,
+      "provenance": {
+        "origin": "reference_layout_design_adaptation",
+        "scale": "design_dimensions",
+        "geometry": "parametric"
+      },
+      "detail": "basket",
+      "semantic_group": "laundry"
+    }
+  },
+  "layout": {
+    "design_envelope_m2": 267,
+    "outline": [
+      [
+        -11.30025,
+        0.0
+      ],
+      [
+        1.027295,
+        0.0
+      ],
+      [
+        1.027295,
+        -5.136477
+      ],
+      [
+        3.081886,
+        -5.136477
+      ],
+      [
+        3.081886,
+        -3.081886
+      ],
+      [
+        5.136477,
+        -3.081886
+      ],
+      [
+        5.136477,
+        0.0
+      ],
+      [
+        12.327546,
+        0.0
+      ],
+      [
+        11.505709,
+        4.109182
+      ],
+      [
+        11.30025,
+        5.136477
+      ],
+      [
+        8.732011,
+        11.30025
+      ],
+      [
+        -11.30025,
+        11.30025
+      ]
+    ],
+    "portals": [
+      {
+        "rooms": [
+          "bathroom",
+          "dressing"
+        ],
+        "center": [
+          -7.910175,
+          3.287345
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "bathroom.wall_03",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "laundry"
+        ],
+        "center": [
+          -5.958314,
+          1.643673
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "service_hall.wall_10",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "dressing"
+        ],
+        "center": [
+          -7.191068,
+          4.211911
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "service_hall.wall_11",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "private_hall",
+          "service_hall"
+        ],
+        "center": [
+          -6.677421,
+          5.136477
+        ],
+        "width": 1.0272954630384807,
+        "kind": "open",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "bedroom",
+          "private_hall"
+        ],
+        "center": [
+          -6.677421,
+          6.677421
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "bedroom.wall_13",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "private_hall",
+          "bathroom2"
+        ],
+        "center": [
+          -4.828289,
+          5.136477
+        ],
+        "width": 0.8218363704307846,
+        "kind": "door",
+        "wall": "private_hall.wall_16",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "bedroom2",
+          "private_hall"
+        ],
+        "center": [
+          -5.033748,
+          6.677421
+        ],
+        "width": 0.9759306898865566,
+        "kind": "door",
+        "wall": "bedroom2.wall_18",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "storage"
+        ],
+        "center": [
+          -3.184616,
+          1.643673
+        ],
+        "width": 0.8732011435827086,
+        "kind": "door",
+        "wall": "service_hall.wall_22",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "private_hall",
+          "bathroom3"
+        ],
+        "center": [
+          -2.465509,
+          5.136477
+        ],
+        "width": 0.8218363704307846,
+        "kind": "door",
+        "wall": "private_hall.wall_25",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "utility"
+        ],
+        "center": [
+          -0.359553,
+          1.643673
+        ],
+        "width": 0.8732011435827086,
+        "kind": "door",
+        "wall": "service_hall.wall_28",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "study",
+          "private_hall"
+        ],
+        "center": [
+          0.308189,
+          6.677421
+        ],
+        "width": 0.9759306898865566,
+        "kind": "door",
+        "wall": "study.wall_30",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "service_hall",
+          "linen"
+        ],
+        "center": [
+          0.308189,
+          3.287345
+        ],
+        "width": 0.8218363704307846,
+        "kind": "door",
+        "wall": "service_hall.wall_33",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "entry",
+          "outside"
+        ],
+        "center": [
+          1.027295,
+          -4.109182
+        ],
+        "width": 1.0272954630384807,
+        "kind": "door",
+        "wall": "entry.wall_35",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "entry",
+          "gallery"
+        ],
+        "center": [
+          2.054591,
+          -3.081886
+        ],
+        "width": 2.0545909260769615,
+        "kind": "open",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "service_hall"
+        ],
+        "center": [
+          1.027295,
+          2.465509
+        ],
+        "width": 1.6436727408615692,
+        "kind": "open",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "private_hall"
+        ],
+        "center": [
+          1.027295,
+          5.906949
+        ],
+        "width": 1.540943194557721,
+        "kind": "open",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "powder"
+        ],
+        "center": [
+          3.081886,
+          -1.232755
+        ],
+        "width": 0.9245659167346327,
+        "kind": "door",
+        "wall": "gallery.wall_42",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "kitchen"
+        ],
+        "center": [
+          3.081886,
+          2.568239
+        ],
+        "width": 1.8491318334692655,
+        "kind": "door",
+        "wall": "gallery.wall_44",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "gallery",
+          "living"
+        ],
+        "center": [
+          3.081886,
+          5.547396
+        ],
+        "width": 1.489578421405797,
+        "kind": "door",
+        "wall": "gallery.wall_46",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "living",
+          "kitchen"
+        ],
+        "center": [
+          5.239207,
+          4.109182
+        ],
+        "width": 4.314640944761619,
+        "kind": "open",
+        "axis": 0.0
+      },
+      {
+        "rooms": [
+          "kitchen",
+          "dining"
+        ],
+        "center": [
+          7.396527,
+          2.054591
+        ],
+        "width": 4.109181852153923,
+        "kind": "open",
+        "axis": 90.0
+      },
+      {
+        "rooms": [
+          "living",
+          "dining"
+        ],
+        "center": [
+          9.451118,
+          4.109182
+        ],
+        "width": 4.109181852153922,
+        "kind": "open",
+        "axis": 0.0
+      }
+    ],
+    "bedroom_rooms": [
+      "bedroom",
+      "bedroom2",
+      "study"
+    ],
+    "full_bathrooms": [
+      "bathroom",
+      "bathroom2",
+      "bathroom3"
+    ],
+    "powder_room": "powder",
+    "scale_factor": 1.0272954630384807,
+    "units": "m",
+    "north": "+Y"
+  }
+}

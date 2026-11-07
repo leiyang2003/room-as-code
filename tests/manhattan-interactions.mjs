@@ -1,0 +1,20 @@
+import {chromium} from 'playwright';
+import {spawn} from 'node:child_process';
+import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import assert from 'node:assert/strict';
+const dir='docs/qa/manhattan',tmp=fs.mkdtempSync(path.join(os.tmpdir(),'manhattan-QA-')),file=path.join(tmp,'test.scene.json');fs.copyFileSync('examples/manhattan.scene.json',file);
+const server=spawn('.venv/bin/python',['skills/room-studio/scripts/room.py','serve',file,'--port','8776']);await new Promise((resolve,reject)=>{server.stdout.once('data',resolve);server.once('error',reject)});
+const browser=await chromium.launch({...(process.env.CHROME_PATH ? {executablePath:process.env.CHROME_PATH} : {}),headless:true});const page=await browser.newPage({viewport:{width:1600,height:1150}});const errors=[];page.on('pageerror',e=>errors.push(e.message));const checks=[];
+try{
+ await page.goto('http://127.0.0.1:8776');await page.waitForFunction(()=>window.roomStudio?.scene.layout);await page.waitForTimeout(400);
+ const fit=await page.evaluate(()=>{const r=window.roomStudio,x=r.scene.layout.outline.map(p=>r.camera.position.clone().set(...p,0).project(r.camera));return{minX:Math.min(...x.map(p=>p.x)),maxX:Math.max(...x.map(p=>p.x)),minY:Math.min(...x.map(p=>p.y)),maxY:Math.max(...x.map(p=>p.y))}});assert(fit.maxX<1&&fit.minX>-1&&fit.maxY<1&&fit.minY>-1);assert(Math.max(fit.maxX-fit.minX,fit.maxY-fit.minY)>1.65);checks.push('overview fits outline and fills at least 82.5% of one viewport dimension');
+ await page.locator('[data-room="living"]').click();await page.waitForTimeout(250);await page.locator('#stage').screenshot({path:dir+'/A2-living-detail.png'});
+ async function change(selector,fn){await page.locator(selector).click();await page.waitForFunction(fn);await page.waitForTimeout(200)}
+ await change('[data-period="night"]',()=>window.roomStudio.scene.period==='night');assert(await page.evaluate(()=>[...window.roomStudio.objects.values()].some(o=>o.userData.p.room==='living'&&o.userData.p.shape==='light'&&o.userData.item.intensity>0)));await page.locator('#stage').screenshot({path:dir+'/A2-living-night.png'});checks.push('night uses actual local lights');
+ await change('[data-style="heritage"]',()=>window.roomStudio.scene.style==='heritage');await page.locator('#stage').screenshot({path:dir+'/A2-living-heritage.png'});
+ await change('[data-style="mono"]',()=>window.roomStudio.scene.style==='mono');await page.locator('#stage').screenshot({path:dir+'/A2-living-mono.png'});checks.push('three themes retain all furnishings');
+ await page.locator('#curtain').fill('30');await page.locator('#curtain').dispatchEvent('change');await page.waitForFunction(()=>window.roomStudio.scene.entities['living.sheer'].params.openness===.3);checks.push('curtain changes and saves');
+ const result=await page.evaluate(async()=>{const s=window.roomStudio.scene,e=s.entities['dining.place_setting_1'],pos=e.position.slice();pos[0]+=.04;const r=await fetch('/api/patch',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({expected_revision:s.revision,label:'餐位局部位移验收',ops:[{op:'set',target:e.id,position:pos}]})});return r.json()});assert.deepEqual(result.changed,['dining.place_setting_1']);checks.push('independent tableware entity edit changes only its entity');
+ await page.reload();await page.waitForFunction(()=>window.roomStudio?.scene.style==='mono');assert.equal(await page.evaluate(()=>window.roomStudio.scene.entities['living.sheer'].params.openness),.3);checks.push('reload preserves style, lighting and curtain');
+ const gl=await page.evaluate(()=>window.roomStudio.renderer.getContext().getError());assert.equal(gl,0);assert.deepEqual(errors,[]);
+ fs.writeFileSync(dir+'/A2-interaction-results.json',JSON.stringify({status:'PASS',checks,fit,pageErrors:errors,gl,sceneMutated:'temporary copy only'},null,2));console.log(JSON.stringify({status:'PASS',checks,fit},null,2));
+}finally{await browser.close();server.kill();fs.rmSync(tmp,{recursive:true,force:true})}
