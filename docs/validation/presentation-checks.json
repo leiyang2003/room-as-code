@@ -62,5 +62,43 @@
         "sha256": "7adbcc0bf51d4f7cf3b58e083bf9479dc1e66e2d4abc9c2e19727aeafbf46754"
       }
     }
+  },
+  "samples_full_quality": {
+    "status": "PASS",
+    "renderProfile": "full-quality",
+    "checks": [
+      "unknown IDs and filesystem paths rejected",
+      "Japanese default with 15 room views and three garden shortcuts",
+      "shoji geometry changes only the Japanese file",
+      "Manhattan curtains retained; editing/history isolated across samples",
+      "switch back and reload preserve the selected sample and saved edits",
+      "roof toggle shows actual Japanese roof geometry",
+      "both sample controls fit 390px mobile width",
+      "actual WebGL2 with no page exceptions or GL errors"
+    ],
+    "gl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "error": 0
+    },
+    "pageErrors": []
+  },
+  "samples_local_ci_profile": {
+    "status": "PASS",
+    "renderProfile": "software CI: quarter pixel ratio, shadow maps disabled, 90s action budget",
+    "checks": [
+      "unknown IDs and filesystem paths rejected",
+      "Japanese default with 15 room views and three garden shortcuts",
+      "shoji geometry changes only the Japanese file",
+      "Manhattan curtains retained; editing/history isolated across samples",
+      "switch back and reload preserve the selected sample and saved edits",
+      "roof toggle shows actual Japanese roof geometry",
+      "both sample controls fit 390px mobile width",
+      "actual WebGL2 with no page exceptions or GL errors"
+    ],
+    "gl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "error": 0
+    },
+    "pageErrors": []
   }
 }

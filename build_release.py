@@ -45,7 +45,7 @@ def sources():
                  'images/manhattan-living-night.png','images/manhattan-overview-day.png',
                  'validation/final-native-results.json','validation/final-visual-results.json',
                  'validation/codex-edits.json','validation/claude-edits.json',
-                 'validation/publication-checks.json','validation/industrial-native-results.json',
+                 'validation/publication-checks.json','validation/industrial-native-results.json','validation/presentation-checks.json',
                  'images/industrial-metal-preview.jpg'):
         p=DOCS/name
         if p.exists():files['docs/'+name]=p.read_bytes()
