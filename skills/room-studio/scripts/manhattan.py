@@ -49,7 +49,7 @@ def residence(kit):
             'style':None,'polygon':pts,'zone':zone,'area_design_m2':round(area(pts),3)}
     def add(rid,name,kind,x,y,z=0,rotation=0,**params):
         eid=rid+'.'+name
-        for key in ('w','d'): 
+        for key in ('w','d'):
             if key in params:params[key]=round(params[key]*scale,6)
         e={'id':eid,'label':name.replace('_',' '),'kind':kind,'room':rid,'position':xy([x,y])+[z],
             'rotation':rotation,'params':params,'overrides':{},'visible':True,'provenance':{'origin':'reference_layout_design_adaptation','scale':'design_dimensions','geometry':'parametric'}}

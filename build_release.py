@@ -16,7 +16,7 @@ def sha(data):return hashlib.sha256(data).hexdigest()
 
 def sources():
     files={}
-    for name in ('README.md','LICENSE','THIRD_PARTY_NOTICES.md','install_skill.py','build_release.py','package.json','package-lock.json','.gitignore'):
+    for name in ('README.md','LICENSE','THIRD_PARTY_NOTICES.md','install_skill.py','build_release.py','package.json','package-lock.json','.gitignore','.gitattributes'):
         p=ROOT/name
         if p.exists():files[name]=p.read_bytes()
     for folder in ('skills','.claude-plugin','.github','web','tests'):

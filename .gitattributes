@@ -1,0 +1,2 @@
+# Preserve bundled shader source formatting produced by esbuild / Three.js.
+skills/room-studio/assets/viewer/app.js -whitespace
