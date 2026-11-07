@@ -16,7 +16,7 @@ def sha(data):return hashlib.sha256(data).hexdigest()
 
 def sources():
     files={}
-    for name in ('preview_samples.py','README.md','LICENSE','THIRD_PARTY_NOTICES.md','install_skill.py','build_release.py','package.json','package-lock.json','.gitignore','.gitattributes'):
+    for name in ('preview_samples.py','README.md','README.zh-CN.md','LICENSE','THIRD_PARTY_NOTICES.md','install_skill.py','build_release.py','package.json','package-lock.json','.gitignore','.gitattributes'):
         p=ROOT/name
         if p.exists():files[name]=p.read_bytes()
     for folder in ('skills','.claude-plugin','.github','web','tests'):
@@ -36,7 +36,9 @@ def sources():
     for name in ('japanese-three-gardens.scene.json','samples.json'):
         files['examples/'+name]=(ROOT/'examples'/name).read_bytes()
     # Explicit public documentation allowlist; never package generated QA logs.
-    for name in ('VALIDATION.md','tools/build_project_guide.py','Room_Studio_Project_Guide_EN.md','Room_Studio_Project_Guide_EN.html','Room_Studio_Project_Guide_EN.pdf'):
+    for name in ('VALIDATION.md','PROJECT_DETAILS.md','REPOSITORY_PRESENTATION.md','index.html','site.css','site.js',
+                 'media/README.md','media/provenance.json','media/room-as-code.mp4','media/film-poster.jpg','media/build-a-room.gif',
+                 'tools/build_project_guide.py','Room_Studio_Project_Guide_EN.md','Room_Studio_Project_Guide_EN.html','Room_Studio_Project_Guide_EN.pdf'):
         p=DOCS/name
         if p.exists():files['docs/'+name]=p.read_bytes()
     for name in ('images/japanese-engawa.png','images/japanese-overview.png','images/japanese-courtyard.png','validation/samples-checks.json','images/manhattan-bedroom-day.png','images/manhattan-living-day.png',
@@ -86,6 +88,9 @@ def build():
         jp=subprocess.run([sys.executable,str(helper),'compile',str(package/'examples/japanese-three-gardens.scene.json')],check=True,capture_output=True,text=True)
         assert len(json.loads(jp.stdout)['parts'])==3049
         assert (project/'.agents/skills/room-studio/assets/viewer/app.js').stat().st_size>100000
+        assert (project/'.agents/skills/room-studio/assets/viewer/tokens.css').is_file()
+        assert (package/'docs/media/room-as-code.mp4').is_file()
+        assert (package/'docs/index.html').is_file() and (package/'README.zh-CN.md').is_file()
         subprocess.run([sys.executable,str(package/'install_skill.py'),'--host','claude','--project',str(project)],check=True,capture_output=True)
         assert (project/'.claude/skills/room-studio/SKILL.md').is_file()
         standalone_check=tmp/'standalone';standalone_check.mkdir()

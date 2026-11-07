@@ -1,158 +1,103 @@
-# Room as Code
+<p align="center"><b>English</b> · <a href="README.zh-CN.md">中文</a></p>
 
-**Keep a room as editable data. Change it in conversation. Preview continuously. Render when ready.**
+<h1 align="center">Room as Code</h1>
 
-Room as Code is a local residential 3D authoring prototype for Codex and Claude Code. A persistent scene file holds stable object IDs, dimensions, materials and edit history. Your agent turns a request into a revision-checked patch; local tools validate and save it, and the browser updates from the same file.
+<p align="center"><b>Edit a room with your voice. Keep the model.</b><br>Shape a residential 3D scene in conversation. Preview locally. Keep refining.</p>
 
-The public project is **Room as Code**. Its compatible skill, CLI helper and Claude plugin retain the name **`room-studio`**.
+<p align="center"><a href="docs/media/room-as-code.mp4">▶ Watch the 65-second film</a> · <a href="#get-started">Get started</a> · <a href="docs/PROJECT_DETAILS.md">Technical guide</a></p>
 
-![Living room, native Blender day render](docs/images/manhattan-living-day.png)
+[![A room builds up from an empty plan, layer by layer](docs/media/build-a-room.gif)](docs/media/room-as-code.mp4)
 
-[Read the illustrated project guide](docs/Room_Studio_Project_Guide_EN.html) · [Download the PDF](docs/Room_Studio_Project_Guide_EN.pdf)
+<p align="center"><sub>For Codex and Claude Code · Local preview · Editable Blender + GLB · MIT</sub></p>
 
-## Why a room as code?
+## Say it. See it. Keep going.
 
-- **Persistent scene data:** resume with the same scene, object identities and history.
-- **Scoped edits:** widen an island, move a sofa or recolor a frame while preserving protected objects and existing overrides.
-- **Atomic transactions:** patches check the current revision and return actual changed fields. Undo and redo survive a restart.
-- **Visual iteration:** the bundled WebGL preview follows saved changes. Warm, Industrial Metal and Heritage themes, day/night and outdoor environment are independent controls.
-- **Rendering as a separate step:** export editable Blender and GLB files; request a full PNG render after editing. Render provenance detects stale images.
+“Extend the island forty centimetres. Move it thirty centimetres inward. Darken the top. Keep the table and wall cabinets.”
 
-This is an **early 0.1.0 prototype**, with two furnished residential samples—Manhattan and a Japanese three-garden house—plus a smaller component-grid fixture. Photos can inform an agent-authored scene; there is no automatic photo reconstruction algorithm.
+Then change your mind:
 
-## Quick start
+“Keep that position. Shorten it ten centimetres. Lighten the top. Make the base charcoal.”
 
-Use Python 3.10+ and a browser with WebGL2. No Python packages or npm install are needed for the bundled preview. Blender 4.2+ is required for native export and rendering.
+Room as Code keeps a room as **editable scene data**: stable object IDs, dimensions, material overrides and edit history. Your assistant turns a request into a revision-checked patch. The browser previews the same saved scene; the next edit starts where the last one left off.
+
+Use text, or **voice input supported by your host assistant**. The local viewer has no separate chat model, model API or built-in speech recognition.
+
+**[Watch or download the complete film →](docs/media/room-as-code.mp4)** It combines actual model edits and native renders with photo references and labeled AI visualization. Commands use illustrative narration through an assistant; some model details are custom scene work. [Film provenance and formats](docs/media/README.md).
+
+## Two homes to start from
+
+| Manhattan apartment | Japanese three-garden house |
+|---|---|
+| ![Manhattan living room, native Blender daylight render](docs/images/manhattan-living-day.png) | ![Engawa and garden, actual WebGL preview](docs/images/japanese-engawa.png) |
+| Nineteen modeled spaces, an open kitchen and living room, three bedrooms and supporting rooms. | Three open-to-sky gardens, tatami rooms, sliding screens and an engawa corridor. |
+
+Both are furnished, editable design examples. They are reference-informed adaptations, with authored dimensions rather than measured surveys. For another home, work with your assistant to author or adapt a scene from photos and requirements. **This is not an automatic photo-reconstruction algorithm.**
+
+## What stays with you
+
+| You want to… | What Room as Code keeps |
+|---|---|
+| Continue a room tomorrow | A persistent scene file with stable object identities |
+| Change one thing | Scoped patches with protected objects and explicit dimensions |
+| Undo a decision | Saved edit history, undo and redo across restarts |
+| Try a different atmosphere | Independent themes, day/night and outdoor environment controls |
+| Take the model elsewhere | Editable `.blend` and `.glb` exports |
+
+Native procedural materials stay editable in Blender. GLB uses constant PBR colors and scalar properties; procedural textures are not baked. Browser lighting and reflections approximate the native result.
+
+## Get started
+
+Python 3.10+ and a WebGL2 browser are enough for the bundled preview. No Python packages, npm install or model key are needed to explore the examples.
 
 ```sh
 git clone https://github.com/leiyang2003/room-as-code.git
 cd room-as-code
-python3 skills/room-studio/scripts/room.py init my-house.scene.json
-python3 skills/room-studio/scripts/room.py serve my-house.scene.json --port 8765
-```
-
-Open the loopback URL printed by the server. `init` creates the bundled apartment, not a reconstruction of your home. Stop the server with Ctrl+C. For another home, let the host agent author or adapt its data using your photos, dimensions and requirements. See [photo authoring](skills/room-studio/references/photo-authoring.md).
-
-## Browse both residential samples
-
-```sh
 python3 preview_samples.py --port 8765
 ```
 
-Open the printed loopback URL. The **住宅样例 / SAMPLE** selector switches between **Manhattan** and **三庭 · 静居 / NIWA TO MA**. Each launch creates a new `runs/` directory with editable copies; original examples stay intact. Edits, undo/redo and reloads belong to the selected sample. Share a local `?sample=manhattan` or `?sample=japanese` URL to choose the initial view. Stop the server with Ctrl+C.
+Open the loopback URL printed by the server. The sample selector switches between Manhattan and the Japanese three-garden house. Each launch makes fresh working copies in `runs/`; the originals stay intact. Stop the server with Ctrl+C.
 
-The Japanese sample preserves **three open-to-sky gardens and an engawa corridor**. It contains 12 indoor spaces, 3 gardens, 241 editable entities and 3,049 compiled parts (3,033 mesh parts and 16 lights). Its 221.51 m² indoor design area is based on the reference listing; room dimensions, roofs and furnishings are authored estimates. Tatami, shoji/fusuma, low furniture, a hinoki bath, planting and roofs remain parametric. The opening slider controls real screen geometry; garden buttons jump to the three saved views.
+### Use it with your assistant
 
-![Three-garden Japanese residence, browser preview](docs/images/japanese-overview.png)
-
-![Engawa and courtyard, browser preview](docs/images/japanese-engawa.png)
-
-These Japanese images are **interactive browser captures**, while the Manhattan images are native Blender renders. The Japanese scene also supports native export:
-
-```sh
-python3 skills/room-studio/scripts/room.py blender examples/japanese-three-gardens.scene.json --out output/three-gardens.blend --room engawa
-```
-
-For an existing registry, use `room.py serve <scene> --samples <registry.json> --port 8765`. Registry paths resolve relative to its JSON file and are an explicit local allowlist; the browser accepts sample IDs, never filesystem paths. Directly serving a registry edits the referenced files, so use `preview_samples.py` for fresh working copies.
-
-## Install the conversational skill
-
-From this checkout, install into your working project:
+Install the conversational skill into your working project:
 
 ```sh
 python3 install_skill.py --host codex --project /path/to/your-project
 python3 install_skill.py --host claude --project /path/to/your-project
 ```
 
-Codex receives `.agents/skills/room-studio/`; Claude Code receives `.claude/skills/room-studio/`. Existing installations are preserved, and `--link` is available for development. Keep your scene outside the installed skill directory.
+Invoke `$room-studio` in Codex or `/room-studio` in Claude Code. Your host supplies language understanding, voice input where available, authentication and any model access. The skill, CLI helper and Claude plugin retain the compatible name **`room-studio`**.
 
-Invoke `$room-studio` in Codex or `/room-studio` in Claude Code. For example:
+> Inspect my-house.scene.json. Make the kitchen island 20 cm wider. Keep the dining table and every other object unchanged. Save the edit and check the result.
 
-> Inspect my-house.scene.json. Move the living-room sofa 30 cm along world +X and rotate it another 15 degrees. Keep its fabric override and every other object unchanged. Save the edit and check the result.
-
-> Make the kitchen island 20 cm wider, keep the sink centered, and protect the dining table.
-
-The model runs in the host agent. The viewer has no independent chat model or model API. Host access, authentication and any model charges are separate from this repository. Resolve ambiguous directions against the actual scene before editing.
-
-Alternatively load this checkout as a local Claude plugin with `claude --plugin-dir /absolute/path/to/room-as-code`. The plugin namespace shown by the host may differ from a directly installed skill.
-
-## Inspect, undo and export
+To create a single working scene instead:
 
 ```sh
-python3 skills/room-studio/scripts/room.py inspect my-house.scene.json
-python3 skills/room-studio/scripts/room.py undo my-house.scene.json
-python3 skills/room-studio/scripts/room.py redo my-house.scene.json
+python3 skills/room-studio/scripts/room.py init my-house.scene.json
+python3 skills/room-studio/scripts/room.py serve my-house.scene.json --port 8765
+```
 
-# Check Blender discovery; set BLENDER to its executable if needed.
+`init` creates the bundled apartment. See [photo authoring](skills/room-studio/references/photo-authoring.md) for another home.
+
+### Export when ready
+
+Blender 4.2+ is required for native export and rendering. It is discovered locally, not installed automatically.
+
+```sh
 python3 skills/room-studio/scripts/room.py doctor
-
-# Export without rendering: produces .blend, .glb and validation JSON.
 python3 skills/room-studio/scripts/room.py blender my-house.scene.json --out output/house.blend
-
-# Explicit final render: also synchronizes the native export.
-python3 skills/room-studio/scripts/room.py render my-house.scene.json --out output/house.blend --image output/living.png --room living
-python3 skills/room-studio/scripts/room.py render-status my-house.scene.json output/living.png
 ```
 
-Blender is discovered locally and is not installed automatically. `doctor` checks native capabilities and reports an error when Blender is absent; editing and browser preview can still run without it.
+Request a full render as a separate step. Saved render provenance detects when an image has become stale. See [inspect, undo, rendering and development](docs/PROJECT_DETAILS.md) and [native material behavior](skills/room-studio/references/native-materials.md).
 
-Rendering uses PNG. The `.render.json` sidecar binds the image to scene content and renderer version. Status is `CURRENT`, `STALE` or `MISSING`; a later edit can make a saved image stale. Undoing to identical content can make it current again at a newer revision.
+## Take a closer look
 
-For exact patch operations, see [operations.md](skills/room-studio/references/operations.md). Native procedural wood, floor, fabric, stone, brushed steel, blackened steel and concrete materials remain editable in Blender. **GLB uses constant PBR colors and scalar properties; procedural textures are not baked.** See [native material behavior](skills/room-studio/references/native-materials.md).
+- [Project and film page](docs/index.html) — portable HTML with the full film, two homes, day/night comparison and setup commands. Run `python3 -m http.server 8000` in the repository, then open `http://localhost:8000/docs/`.
+- [Illustrated project guide](docs/Room_Studio_Project_Guide_EN.html) · [PDF edition](docs/Room_Studio_Project_Guide_EN.pdf).
+- [Full technical guide](docs/PROJECT_DETAILS.md) · [patch operations](skills/room-studio/references/operations.md) · [validation evidence](docs/VALIDATION.md).
 
-## Industrial Metal theme
+## Scope and license
 
-The previous Monochrome preset is now **Industrial Metal**: brushed-steel cabinetry, blackened-steel frames, concrete surfaces and graphite fabrics. This changes physical material recipes as well as colors. Layout, explicit color overrides, curtains and lighting settings are preserved. Older saved `mono` values remain compatible; new edits use `industrial`.
+This is an **early 0.1.0 residential design prototype**. Existing objects can be resized, moved, restyled and edited with undo/redo. New furniture families or complex custom geometry need generator work. Props are independently positioned; moving their supports requires checking them. Arbitrary external Blender changes are detected rather than silently merged.
 
-Choose **工业金属** in the preview or ask your agent to apply the `industrial` style. A fresh industrial example is available as `examples/manhattan-industrial.scene.json`. [See the live-preview capture](docs/images/industrial-metal-preview.jpg).
-
-Material recipe version 3 also covers the native Blender surfaces and GLB PBR fallback. This update does not automatically render images. The illustrated guide and warm-theme renders remain useful examples; v0.1.0 release downloads preserve their original baseline.
-
-## Example and scope
-
-![Apartment overview, native Blender render](docs/images/manhattan-overview-day.png)
-
-The apartment demonstration has 19 modeled spaces, 251 entities and 2,189 native meshes. Its approximate 267 m² design envelope and circulation are a parametric adaptation informed by a published Manhattan apartment plan. Furniture, finishes, heights and other missing dimensions are authored design assumptions. Source and rights are identified in [third-party notices](THIRD_PARTY_NOTICES.md); the reference PDF and private photos are excluded.
-
-![Living room at night](docs/images/manhattan-living-night.png)
-
-![Bedroom, native Blender day render](docs/images/manhattan-bedroom-day.png)
-
-Current limits:
-
-- Arbitrary homes need agent-authored data and generator work; the demo is not a general reconstruction benchmark.
-- Patches edit existing entities, parameters, transforms, colors, visibility, themes, period and environment. New furniture families or complex geometry require code changes.
-- Props are independently positioned; moving supporting furniture requires checking them.
-- Curtains and throws are parametric geometry, not physical cloth simulation. Browser lighting and reflections approximate the native result.
-- Detected external edits to managed Blender geometry/materials stop synchronization. Arbitrary hand edits are not automatically merged.
-- This is a design prototype, not a surveyed, construction, manufacturing or photorealistic production model.
-
-## Development and validation
-
-```sh
-python3 -m unittest discover -s tests -v
-npm ci
-npm run build
-npx playwright install chromium
-npm run test:browser
-node tests/samples-browser.mjs
-python3 build_release.py
-```
-
-Regenerate the illustrated guide with `uv run --with weasyprint --with markdown --with pypdf python docs/tools/build_project_guide.py` (WeasyPrint also needs its platform libraries).
-
-Node and npm are needed only to rebuild the frontend or run browser tests. Set `CHROME_PATH` to reuse an installed Chrome executable instead of Playwright Chromium. Browser checks write QA artifacts to ignored `docs/qa/`.
-
-Optional checks require Blender or configured host CLIs:
-
-```sh
-blender --background --factory-startup --python-exit-code 1 --python tests/final_native.py
-python3 tests/host_edits.py --host codex --output docs/qa/codex-edits.json
-python3 tests/host_edits.py --host claude --output docs/qa/claude-edits.json
-```
-
-Live host checks invoke your configured agent and can use paid model access. Their `.local.log` files remain private and are ignored. Host checks, browser checks, unit tests and Blender integration checks establish different things. See [validation evidence](docs/VALIDATION.md) for recorded results and scope.
-
-## License
-
-Original code and documentation are MIT licensed. Three.js is bundled with its MIT notice; Blender is a separately installed dependency. See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+It is not a surveyed BIM, manufacturing or construction model. Original code and documentation are [MIT licensed](LICENSE); image sources, reference rights and bundled dependencies are in [third-party notices](THIRD_PARTY_NOTICES.md). The film has [separate media terms](docs/media/README.md).

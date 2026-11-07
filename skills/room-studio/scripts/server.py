@@ -37,7 +37,7 @@ def serve(path,port,manifest=None):
                 except (ValueError,KeyError) as e:self.send(400,json.dumps({'error':str(e)}).encode())
                 return
             name=self.path.split('?')[0].lstrip('/') or 'index.html'
-            if name not in ('index.html','app.js','app.css'):self.send(404,b'Not found','text/plain');return
+            if name not in ('index.html','app.js','app.css','tokens.css'):self.send(404,b'Not found','text/plain');return
             file=assets/name
             if not file.exists():self.send(404,b'Build viewer first','text/plain');return
             self.send(200,file.read_bytes(),{'html':'text/html; charset=utf-8','js':'text/javascript','css':'text/css'}[file.suffix[1:]])

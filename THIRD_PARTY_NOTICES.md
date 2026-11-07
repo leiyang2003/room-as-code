@@ -1,5 +1,9 @@
 # Third-party notices
 
+## Promotional film
+
+The project film, poster and opening GIF are in `docs/media/`. The film includes supplied reference photographs and clearly labeled AI visualization in addition to project-authored model capture and renders. Publishing the finished film does not include or relicense the source photographs under the code's MIT license. See [film provenance and media terms](docs/media/README.md). No reference character artwork, marks or product code from Web Companion or One-Trillion Persona is included in this presentation refresh.
+
 ## Apartment layout reference
 
 The Manhattan demonstration is a manually authored parametric design adaptation informed by the published plan for 35 Hudson Yards, Residence 02, floors 75–82. It is not an official model or an exact measured reproduction. The reference plan identifies Related Sales / Corcoran Sunshine and 35 Hudson Yards. Those names, marks and the original plan remain the property of their respective owners; this project's MIT license does not license those third-party materials. No affiliation or endorsement is implied.

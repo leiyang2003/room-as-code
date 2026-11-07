@@ -1,0 +1,26 @@
+{
+  "approved_source_name": "Room-as-Code-Ad-65s-v3-final.mp4",
+  "approved_source_sha256": "9adc489afa5c4ecd5dd48c5b2168f06b084ba74e7050352366b30244a1a41db7",
+  "duration_seconds": 65,
+  "frames": 1560,
+  "fps": 24,
+  "width": 1600,
+  "height": 900,
+  "audio_hz": 48000,
+  "publication": "user explicitly requested video in the GitHub repository",
+  "web_encode": "same full edit and soundtrack, H264/AAC, CRF22, source container metadata removed",
+  "files": {
+    "room-as-code.mp4": {
+      "bytes": 18337658,
+      "sha256": "5c4890b91a629f8a7cd66bcc63e384e41007e1597eea379cc6b04b30427f8b31"
+    },
+    "film-poster.jpg": {
+      "bytes": 107047,
+      "sha256": "6d062507c6350c03983a2b91f669a7787a5f12f91d6e4bc62935486fccb06c75"
+    },
+    "build-a-room.gif": {
+      "bytes": 3910158,
+      "sha256": "7adbcc0bf51d4f7cf3b58e083bf9479dc1e66e2d4abc9c2e19727aeafbf46754"
+    }
+  }
+}
